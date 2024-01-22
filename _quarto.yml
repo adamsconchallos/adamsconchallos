@@ -2,10 +2,9 @@
 
 # website settings
 website:
-  title: "Adams Ceballos-Concha"                                # Your name
-  description: "Adams is an applied marine & aquaculture economist"   # A brief slogan (optional)
+  title: "Adams Ceballos-Concha"                               
+  description: "Adams is an applied marine & aquaculture economist."
   image: img/my_image1.jpg
-  
   favicon: img/favicon.png
   
   # start of the navigation bar at the top of the website

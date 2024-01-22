@@ -39,7 +39,8 @@ website:
   search: 
     location: navbar
     type: textbox
-    page-footer:
+    
+  page-footer:
     left: |
       <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Adams Ceballos-Concha</span>
       <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>      

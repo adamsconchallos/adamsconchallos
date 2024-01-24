@@ -37,27 +37,27 @@ My research explores the dynamics of marine resource industries, particularly aq
 :::
 
 
-## Working papers
+<!-- ## Working papers -->
 
-:::{#working-papers}
-:::
-
-
-## Book chapters
-
-:::{#book-chapters}
-:::
+<!-- :::{#working-papers} -->
+<!-- ::: -->
 
 
-## Reviews
+<!-- ## Book chapters -->
 
-:::{#reviews}
-:::
+<!-- :::{#book-chapters} -->
+<!-- ::: -->
 
 
-## Dormant working papers
+<!-- ## Reviews -->
 
-:::{#working-papers}
-:::
+<!-- :::{#reviews} -->
+<!-- ::: -->
+
+
+<!-- ## Dormant working papers -->
+
+<!-- :::{#working-papers} -->
+<!-- ::: -->
 
 

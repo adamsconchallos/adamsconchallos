@@ -16,8 +16,8 @@ website:
     left:
       - text: "Research"
         href: research/index.qmd
-      - text: "CV"
-        href: cv/index.qmd
+      # - text: "CV"
+      #   href: cv/index.qmd
     
     # your social media handles
     right:

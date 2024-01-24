@@ -37,7 +37,7 @@ pub-info:
   reference: >-
     <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong>, <a>Jorge Dresdner</a>, and <a>Miguel Quiroga</a>, “Does the location of salmon farms contribute to the reduction of poverty in remote coastal areas? An impact assessment using a Chilean case study,” <em>Food Policy</em> 75 (February 2018): 68-79, doi: <a href="https://doi.org/10.1016/j.foodpol.2018.01.009"><code>10.1016/j.foodpol.2018.01.009</code></a>
   extra: >-
-    Presented at the annual meeting of the International Studies Association (ISA), San Francisco, California, April 2018; and the annual meeting of ISA, Toronto, Canada, March 2019
+    Presented at the IX Annual Meeting of the Regional Studies Chilean Society in 2017, held in Chillán, Chile. Additionally, it was presented at the 2nd Annual Transdisciplinary Conference: "Sustainable Development in Chile & Latin America: Where is the Missing Link?" in July, 2018 held in Nottingham, England.
 doi: 10.1177/0899764020971045
 haiku: 
   - Capital intensive salmon aquaculture reduces poverty in remote coastal areas in Chile.
@@ -45,7 +45,7 @@ haiku:
   - Two thirds of rural poverty reduction is explained by the impact of salmon farming in the period.
 ---
 
-![Preregistered](preregistered_large_color.png) &emsp; ![Open data](data_large_color.png) &emsp; ![Open](materials_large_color.png)
+<!-- ![Preregistered](preregistered_large_color.png) &emsp; ![Open data](data_large_color.png) &emsp; ![Open](materials_large_color.png) -->
 
 ## Important links
 
@@ -66,9 +66,19 @@ We test if the establishment of salmon farms in remote coastal areas had a signi
 
 ## Important figures
 
-Figures 2 & 3: Difference in likelihood of donation across crackdown and no crackdown groups, conditioned by other experimental frames + difference in amount donated across crackdown and no crackdown groups, conditioned by other experimental frames
+Figure 2: The impact pathways of aquaculture on poverty reduction. Source: Modified from Toufique and Belton (2014).
+![Figure 2: The impact pathways of aquaculture on poverty reduction. Source: Modified from Toufique and Belton (2014).](fig2.jpg)
 
-![Figures 2 & 3: Difference in likelihood of donation across crackdown and no crackdown groups, conditioned by other experimental frames + difference in amount donated across crackdown and no crackdown groups, conditioned by other experimental frames](ngos-philanthropy_figs23.png)
+The study employed two control locality types. Control 1 consisted of rural localities without any salmon concessions before 2002, used to evaluate the impact of new farm installations. Control 2 involved localities with salmon concessions before and after 1992. This second control is established for the possibility that some localities of Control 1 are not good controls because some may have characteristics that do not permit the installation of salmon farms.
+
+ - WOAR: regressions without additional regresors
+ - WAR: regressions with additional regressors
+ - GEN: genetic matching
+
+Figure 4 & 5: Estimated average treatment on the treated at different distances for different models (WOAR, WAR, GEN). Control 1 & Control 2, respectively. The shaded areas represent the 95% confidence interval.
+![Figure 4: Estimated average treatment on the treated at different distances for different models (WOAR, WAR, GEN). Control 1. The shaded areas represent the 95% confidence interval.](fig4.jpg)
+![Figure5: Estimated average treatment on the treated at different distances for different models (WOAR, WAR, GEN). Control 2. The shaded areas represent the 95% confidence interval.](fig5.jpg)
+
 
 
 ## Citation

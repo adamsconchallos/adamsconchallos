@@ -27,7 +27,7 @@ include-back-link: false
 toc-location: right
 ---
 
-My research spans public policy, nonprofit management, political science, and international relations. I study human rights and international nonprofit management and I focus on authoritarian regulation of civil society and international NGO responses to administrative crackdown. I also research causal inference methods, particularly using panel data. {{< ai blank-just-to-add-ai-dependency-to-this-page >}}
+My research explores the dynamics of marine resource industries, particularly aquaculture and fisheries. I investigate how property rights structure affects industry composition, water quality, local governance, and environmental/social outcomes. My research aims to inform policies for sustainable marine resource management, considering the growing reliance on oceans for food and energy. {{< ai blank-just-to-add-ai-dependency-to-this-page >}}
 
 
 

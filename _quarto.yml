@@ -6,6 +6,8 @@ website:
   description: "Adams is an applied marine & aquaculture economist."
   image: img/my_image1.jpg
   favicon: img/favicon.png
+  site-url: "https://www.andrewheiss.com"
+  repo-url: "https://github.com/adamsconchallos/adamsconchallos"
   
   # start of the navigation bar at the top of the website
   navbar:

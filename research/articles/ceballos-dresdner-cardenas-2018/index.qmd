@@ -1,0 +1,98 @@
+---
+title: "Does the location of salmon farms contribute to the reduction of poverty in remote coastal areas? An impact assessment using a Chilean case study"
+date: 2018-01-25
+author:
+  - name: Adams Ceballos
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+    affiliation: University of Florida
+  - name: Jorge David Dresdner-Cid
+    affiliation: Universidad de Concepcion
+  - name: Miguel Angel Quiroga-Suazo
+    affiliation: Universidad de Concepcion
+categories: 
+  - Poverty
+  - Salmon
+  - Aquaculture
+  - Small area estimation
+  - Impact assessment
+pub-info:
+  links:
+    - name: Preprint
+      url: ceballos-2018.pdf
+      icon: fa-solid fa-file-pdf
+      local: true
+    - name: Final version
+      url: https://doi.org/10.1016/j.foodpol.2018.01.009
+      icon: fa-solid fa-scroll
+    # - name: Code
+    #   url: https://github.com/andrewheiss/ngo-crackdowns-philanthropy
+    #   icon: fa-brands fa-github
+    # - name: Data
+    #   url: https://github.com/andrewheiss/ngo-crackdowns-philanthropy/tree/master/data
+    #   icon: fa-solid fa-table
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1016/j.foodpol.2018.01.009
+      icon: ai ai-zotero
+  reference: >-
+    <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong>, <a>Jorge Dresdner</a>, and <a>Miguel Quiroga</a>, “Does the location of salmon farms contribute to the reduction of poverty in remote coastal areas? An impact assessment using a Chilean case study,” <em>Food Policy</em> 75 (February 2018): 68-79, doi: <a href="https://doi.org/10.1016/j.foodpol.2018.01.009"><code>10.1016/j.foodpol.2018.01.009</code></a>
+  extra: >-
+    Presented at the annual meeting of the International Studies Association (ISA), San Francisco, California, April 2018; and the annual meeting of ISA, Toronto, Canada, March 2019
+doi: 10.1177/0899764020971045
+haiku: 
+  - Capital intensive salmon aquaculture reduces poverty in remote coastal areas in Chile.
+  - Geographic distance between salmon farm and residency affects impact on poverty.
+  - Two thirds of rural poverty reduction is explained by the impact of salmon farming in the period.
+---
+
+![Preregistered](preregistered_large_color.png) &emsp; ![Open data](data_large_color.png) &emsp; ![Open](materials_large_color.png)
+
+## Important links
+
+- [Paper (preprint)](ceballos-2018.pdf)
+<!-- - [Supplement (preprint)](chaudhry-heiss-ngos-philanthropy-supplement.pdf) -->
+<!-- - [Statistical analysis notebook](https://stats.andrewheiss.com/ngo-crackdowns-philanthropy/) -->
+<!-- - [GitHub repository](https://github.com/andrewheiss/ngo-crackdowns-philanthropy) -->
+<!-- - [Experiment preregistration](https://osf.io/dx973/register/565fb3678c5e4a66b5582f67) -->
+
+## Media coverage
+
+- ["Los Lagos: Estudio afirma que salmonicultura redujo pobreza en áreas costeras remotas,"](https://www.salmonexpert.cl/comunidad/los-lagos-estudio-afirma-que-salmonicultura-redujo-pobreza-en-areas-costeras-remotas/1263992) *Salmonexpert*, April 18, 2018
+
+## Abstract
+
+We test if the establishment of salmon farms in remote coastal areas had a significant impact on poverty reduction in the period 1992–2002 in Los Lagos Region, Chile. We employ impact assessment techniques using as control group people residing in geographic areas where no salmon farms were established during the period studied. Poverty incidence is estimated using small-area models at the household level that combines socioeconomic surveys with census data. Our results show that poverty decreased considerably more in localities where salmon farms were installed than in localities without salmon farms. We identify the distances between localities and salmon farms where this impact was significant. Our findings contribute to the debate on the socioeconomic effects of aquaculture for capital-intensive, international market-oriented industries.
+
+
+## Important figures
+
+Figures 2 & 3: Difference in likelihood of donation across crackdown and no crackdown groups, conditioned by other experimental frames + difference in amount donated across crackdown and no crackdown groups, conditioned by other experimental frames
+
+![Figures 2 & 3: Difference in likelihood of donation across crackdown and no crackdown groups, conditioned by other experimental frames + difference in amount donated across crackdown and no crackdown groups, conditioned by other experimental frames](ngos-philanthropy_figs23.png)
+
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1177/0899764020971045">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+
+@article{ceballos_does_2018,
+	title = {Does the location of salmon farms contribute to the reduction of poverty in remote coastal areas? {An} impact assessment using a {Chilean} case study},
+	volume = {75},
+	issn = {0306-9192},
+	doi = {10.1016/j.foodpol.2018.01.009},
+	language = {English},
+	journal = {FOOD POLICY},
+	author = {Ceballos, Adams and David Dresdner-Cid, Jorge and Angel Quiroga-Suazo, Miguel},
+	month = feb,
+	year = {2018},
+	note = {Place: THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, OXON, ENGLAND
+Publisher: ELSEVIER SCI LTD
+Type: Article},
+	keywords = {Aquaculture, Impact assessment, Poverty, Salmon, Small area estimation},
+	pages = {68--79},
+}
+```

@@ -80,3 +80,5 @@ render:
     - "*.qmd"
     - "*.md"
     - "!etc/"
+resources:
+  - CNAME

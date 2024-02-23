@@ -6,8 +6,6 @@ website:
   description: "Adams is an applied marine & aquaculture economist."
   image: img/my_image1.jpg
   favicon: img/favicon.png
-  site-url: "https://www.adamsceballos.com"
-  repo-url: "https://github.com/adamsconchallos/adamsconchallos"
   
   # start of the navigation bar at the top of the website
   navbar:
@@ -16,10 +14,12 @@ website:
     
     # your sub-pages
     left:
-      - text: "Research"
-        href: research/index.qmd
-      # - text: "CV"
-      #   href: cv/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Photography"
+        href: photography/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
     
     # your social media handles
     right:
@@ -75,12 +75,3 @@ format:
     fig-cap-location: margin
     reference-location: margin
     footnotes-hover: true
-    
-# Metadata stuff
-pagetitle: "{{< meta title >}} | Adams Ceballos-Concha"
-author-meta: "Adams Ceballos"
-
-render:
-    - "*.qmd"
-    - "*.md"
-    - "!etc/"

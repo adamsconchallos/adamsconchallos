@@ -1,7 +1,7 @@
 ---
 title: "Hello world of blogging"
 date: 2024-01-12
-description: "A dummy blog page"
+description: "Mi primer post"
 image: "img/card.png"
 twitter-card:
   image: "img/card.png"
@@ -9,7 +9,18 @@ open-graph:
   image: "img/card.png"
 categories:
   - blog
+  - spanish
 ---
 
 
-Estoy tratando de empezar a escribir de forma consistente. He leido que empezar un blog es una buena forma de hacerlo.
+¿Por qué empezar un blog en medio del doctorado? Son varias las razones que me empujan a hacerlo. En realidad, diría que principalmente son tres. 
+Hace tiempo que tengo una necesidad de escribir, de expresarme. No tengo claro de dónde viene el querer expresarme a través de la escritura. Sin embargo, puedo decir que escribir me ayuda a organizar las ideas de forma lógica, a reflexionar. También me ayuda a prestar atención (en una reunión o clase, me sirve mucho escribir lo que mi interlocutor dice, sin importar si después puedo leer aquello).
+
+Creo que me va a ayudar a escribir mejor y más rápido. Acabo de leer un artículo del The Economist en el que listan una serie de libros que podrían ayudar a escribir mejor. Voy a leerlos y postear lo que voy entendiendo de aquello (aunque están en inglés, asumo que también aquellas reglas sirven al español). Mi idea es ser proficiente escribiendo en inglés y español. Al final de cuentas, mi advisor dice que escribir es uno de los mayores activos de un investigador.
+
+Por ahí leí que el escribir sobre cosas permite aprender en profundidad. No tengo la fuente, pero no tengo dudas de que esto es verdad (al menos para mí). Cuando escribo algo con la intención enseñar o dejar escrito los pasos que seguí en un determinado proceso, mi entendimiento de la cosa es mucho mayor. Algo tiene que pasar con las neuronas y la materia gris. Al final es como ese dicho: si quieres aprender algo, tienes que enseñarlo.
+
+Con todo, sé que quizás alguien podría decir que esto del blog es una carga innecesaria a una ya ajetreada agenda doctoral. Lo único que puedo responder a eso es: voy a tratar. No me voy a matar escribiendo todas las semanas extensos tratados sobre la patita trasera izquierda de la mosca.  
+
+Voy a postear contenido diverso, en inglés y español. Desde opiniones y puntos de vista personales, resúmenes de artículos o libros que me parezcan interesantes a tutoriales de alguna cosa que haya descubierto en el mundo de R y Quarto.
+

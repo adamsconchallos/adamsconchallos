@@ -1,0 +1,63 @@
+---
+title: "Research"
+listing:
+  - id: articles
+    contents: "articles/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+    categories: true
+  # - id: working-papers
+  #   contents: "working-papers/*/index.qmd"
+  #   sort: "date desc"
+  #   template: ../html/research/listing.ejs
+  # - id: book-chapters
+  #   contents: "chapters/*/index.qmd"
+  #   sort: "date desc"
+  #   template: ../html/research/listing.ejs
+  # - id: reviews
+  #   contents: "reviews/*/index.qmd"
+  #   sort: "date desc"
+  #   template: ../html/research/listing.ejs
+  # - id: dormant-working-papers
+  #   contents: "working-papers/*/index.qmd"
+  #   sort: "date desc"
+  #   template: ../html/research/listing.ejs
+page-layout: full
+include-back-link: false
+toc-location: right
+---
+
+My research explores the dynamics of marine resource industries, particularly aquaculture and fisheries. I investigate how property rights structure affects industry composition, water quality, local governance, and environmental/social outcomes. My research aims to inform policies for sustainable marine resource management, considering the growing reliance on oceans for food and energy. {{< ai blank-just-to-add-ai-dependency-to-this-page >}}
+
+
+
+## Journal articles
+
+:::{#articles}
+:::
+
+
+<!-- ## Working papers -->
+
+<!-- :::{#working-papers} -->
+<!-- ::: -->
+
+
+<!-- ## Book chapters -->
+
+<!-- :::{#book-chapters} -->
+<!-- ::: -->
+
+
+<!-- ## Reviews -->
+
+<!-- :::{#reviews} -->
+<!-- ::: -->
+
+
+<!-- ## Dormant working papers -->
+
+<!-- :::{#working-papers} -->
+<!-- ::: -->
+
+

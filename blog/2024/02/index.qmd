@@ -1,0 +1,15 @@
+---
+title: "Hello world of blogging"
+date: 2024-01-12
+description: "A dummy blog page"
+image: "img/card.png"
+twitter-card:
+  image: "img/card.png"
+open-graph:
+  image: "img/card.png"
+categories:
+  - blog
+---
+
+
+Estoy tratando de empezar a escribir de forma consistente. He leido que empezar un blog es una buena forma de hacerlo.

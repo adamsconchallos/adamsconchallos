@@ -1,0 +1,25 @@
+# Date format
+date-format: "dddd, MMMM D, YYYY"
+
+# Enable banner style title blocks
+title-block-banner: "#170C3A"
+
+
+# Default for table of contents
+toc: true
+toc-title: Contents
+toc-location: left
+
+freeze: true
+
+# Default knitr options
+execute:
+  echo: true
+  message: true
+  warning: true
+
+# Default author
+author:
+  - name: Adams Ceballos-Concha
+    url: https://adamsceballos.com/
+    orcid: 0000-0003-3822-8791

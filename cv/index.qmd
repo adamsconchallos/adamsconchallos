@@ -30,16 +30,68 @@ cv:
 }
 ```
 
-```{=html}
-<p class="text-center">
-  <a class="btn btn-primary btn-lg cv-download" href="`r rmarkdown::metadata$cv$pdf`" target="_blank">
-    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download current CV
-  </a>
-</p>
-<div class="embed-container">
-  <iframe src="`r rmarkdown::metadata$cv$pdf`#toolbar=0" style="border: 0.5px;width: 100%;"></iframe>
-</div>
-```
 
 
+---
+title: "About Me"
+format:
+  html:
+    css: styles.css  # Link to the custom CSS file
+---
+
+# Adams Ceballos, Ph.D.
+
+University of Florida, Dept. of Food and Resource Economics  
+Box 110240, Gainesville, FL  
+[aceballos@ufl.edu](mailto:aceballos@ufl.edu)  
+[@adamsconchallos](https://twitter.com/adamsconchallos)  
+
+---
+
+## Education
+- **2021 – Current**: Ph.D., Food and Resource Economics, University of Florida  
+  *Dissertation: Coupled Human-Natural Systems: Economic and Ecological Interactions in Fisheries and Aquaculture.*
+
+- **2014 – 2017**: M.Sc. Natural Resources and Environmental Economics, Universidad de Concepción  
+  *Thesis: Does the Location of Salmon Farms Contribute to the Reduction of Rural Poverty?*
+
+- **2006 – 2011**: B.S. Economics, Universidad de Concepción  
+  *Thesis: Impact Analysis of the Penal Law Reform in Chile.*
+
+---
+
+## Employment History
+- **2021 – Current**: Graduate Research Assistant, University of Florida  
+- **2017 – 2021**: Research Assistant, Interdisciplinary Center for Aquaculture Research, Chile  
+- **2018 – 2019**: Coordinator-Researcher, Interdisciplinary Center for Aquaculture Research, Chile  
+- **2011 – 2014**: HR and Finance Manager, Crisol LC, Chile  
+
+---
+
+## Teaching Experience
+- **Graduate Level**  
+  - *Resilient Architecture Management and Risk Reduction Master's Program*  
+    Course: Techniques for Risk Analysis and Management (Cost-Benefit Analysis)  
+  - *Applied Economics & Natural Resources Master's Program*  
+    Course: Introduction to Microeconomics  
+- **Undergraduate Level**  
+  Courses: Econometrics, Environmental Economics, Natural Resource Economics, Introduction to Economics, Macroeconomics  
+
+---
+
+## Publications
+1. *Salmon aquaculture in Chile: Production growth and socioeconomic impacts* (2025). Reviews in Aquaculture.  
+2. *Aquaculture: The missing contributor in the food security agenda* (2022). Global Food Security.  
+3. *Impact assessment of salmon farming on income distribution in remote coastal areas: The Chilean case* (2021). Food Policy.  
+
+---
+
+## Skills
+- **Languages**: English, Spanish  
+- **Coding**: R, Python, SQL, QGIS, LaTeX  
+- **Web Development**: HTML, CSS, JavaScript, Quarto  
+
+---
+
+References available upon request.
 

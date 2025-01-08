@@ -43,7 +43,7 @@ links:
 
 ::: {.g-col-12 .g-col-sm-8}
 
-I'm a Ph.D. student and research assistant. My research focuses on marine and aquaculture economics, exploring the nexus between institutions and marine ecosystems. My work investigates the impact of property rights on marine industry dynamics, the role of transnational firms in environmental and local governance outcomes, and the effects of industry ownership on community well-being. This question is increasingly critical as reliance on ocean resources escalates.
+I'm a Postdoctoral associate at. My research focuses on marine and aquaculture economics, exploring the nexus between institutions and marine ecosystems. My work investigates the impact of property rights on marine industry dynamics, the role of transnational firms in environmental and local governance outcomes, and the effects of industry ownership on community well-being. This question is increasingly critical as reliance on ocean resources escalates.
 
 In addition to my doctoral studies, I have taught microeconomics, economics, econometrics, and environmental economics at various academic levels across multiple universities. I have also served as a research assistant and team coordinator at the Interdisciplinary Center for Aquaculture Research (INCAR), focusing on sustainable aquaculture strategies in Chile.
 

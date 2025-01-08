@@ -6,6 +6,8 @@ website:
   favicon: img/favicon.png
   site-url: "https://www.adamsceballos.com"
   repo-url: "https://github.com/adamsconchallos/adamsconchallos"
+  google-analytics:
+    tracking-id: "G-FM1V02TFTZ"
   
   # start of the navigation bar at the top of the website
   navbar:

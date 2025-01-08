@@ -1,55 +1,12 @@
 ---
-layout: page
-title: Curriculum vitae
-excerpt: My current CV
-execute:
-  freeze: true  # never re-render during project render
-engine: knitr 
-resources:
-  - "cv.pdf"
-cv:
-  pdf: "cv.pdf"
+title: About me
+date: 2025-01-07
 ---
 
-```{css echo=FALSE}
-.embed-container {
-    position: relative;
-    padding-bottom: 129%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-```
-
-
-
----
-title: "About Me"
-format:
-  html:
-    css: styles.css  # Link to the custom CSS file
----
-
-# Adams Ceballos, Ph.D.
-
-University of Florida, Dept. of Food and Resource Economics  
-Box 110240, Gainesville, FL  
-[aceballos@ufl.edu](mailto:aceballos@ufl.edu)  
-[@adamsconchallos](https://twitter.com/adamsconchallos)  
-
----
+I am a Postdoctoral Associate at the University of Florida's [Institute of Food and Agricultural Sciences](https://ifas.ufl.edu/about-us/)
 
 ## Education
-- **2021 – Current**: Ph.D., Food and Resource Economics, University of Florida  
+- **2021 – 2024**: Ph.D., Food and Resource Economics, University of Florida  
   *Dissertation: Coupled Human-Natural Systems: Economic and Ecological Interactions in Fisheries and Aquaculture.*
 
 - **2014 – 2017**: M.Sc. Natural Resources and Environmental Economics, Universidad de Concepción  
@@ -61,7 +18,8 @@ Box 110240, Gainesville, FL
 ---
 
 ## Employment History
-- **2021 – Current**: Graduate Research Assistant, University of Florida  
+- **2025 – current**: Postdoctoral associate, Institute of Food and Agricultural Sciences (IFAS), University of Florida 
+- **2021 – 2024**: Graduate Research Assistant, University of Florida  
 - **2017 – 2021**: Research Assistant, Interdisciplinary Center for Aquaculture Research, Chile  
 - **2018 – 2019**: Coordinator-Researcher, Interdisciplinary Center for Aquaculture Research, Chile  
 - **2011 – 2014**: HR and Finance Manager, Crisol LC, Chile  
@@ -79,10 +37,10 @@ Box 110240, Gainesville, FL
 
 ---
 
-## Publications
-1. *Salmon aquaculture in Chile: Production growth and socioeconomic impacts* (2025). Reviews in Aquaculture.  
-2. *Aquaculture: The missing contributor in the food security agenda* (2022). Global Food Security.  
-3. *Impact assessment of salmon farming on income distribution in remote coastal areas: The Chilean case* (2021). Food Policy.  
+## Networks and Honors
+- **2023–2024**: Graduate Student Representative, **FRE IDEA (Inclusion, Diversity, Equity, and Access) Committee**.
+- **2023–2024**: Academic Vice President, **Food and resource economics Graduate Student Organization**.
+- **December 2018**: Co-founder Member, **Socioecological Network of Co-creation for Latin America (RESACA)**.
 
 ---
 

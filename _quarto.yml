@@ -18,6 +18,8 @@ website:
         href: research/index.qmd
       - text: "Blog"
         file: blog/index.qmd
+      - text: "About me"
+        file: cv/index.qmd
     
     # your social media handles
     right:

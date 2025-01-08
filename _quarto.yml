@@ -83,4 +83,4 @@ render:
     - "*.md"
     - "!etc/"
 resources:
-  - CNAME
+    - CNAME

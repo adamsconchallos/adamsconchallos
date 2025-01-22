@@ -68,6 +68,34 @@ ul.task-list li input[type="checkbox"] {
 }</script><script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts_2025 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-website','listing-project','listing-execute','listing-format','listing-pagetitle','listing-author-meta','listing-render','listing-resources','listing-_quarto-vars','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-freeze','listing-author','listing-title','listing-date','listing-description','listing-image','listing-twitter-card','listing-open-graph','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-website","listing-project","listing-execute","listing-format","listing-pagetitle","listing-author-meta","listing-render","listing-resources","listing-_quarto-vars","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-freeze","listing-author","listing-title","listing-date","listing-description","listing-image","listing-twitter-card","listing-open-graph","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts_2025'] = new List('listing-posts_2025', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-posts_2024 .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -210,9 +238,10 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Year</h2>
    
   <ul>
-<li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2024</a></li>
+<li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2025</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2024</a></li>
   </ul></nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog">blog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spanish">spanish <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="blog">blog <span class="quarto-category-count">(2)</span></div><div class="category" data-category="derechos de propiedad">derechos de propiedad <span class="quarto-category-count">(1)</span></div><div class="category" data-category="economía">economía <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sostenibilidad">sostenibilidad <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spanish">spanish <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content"><div class="cell">
 <style type="text/css">
@@ -221,7 +250,60 @@ window.Quarto = {
 }
 </style>
 </div>
-<section id="section" class="level2"><h2 class="anchored" data-anchor-id="section">2024</h2>
+<section id="section" class="level2"><h2 class="anchored" data-anchor-id="section">2025</h2>
+<div id="listing-posts_2025" class="quarto-listing quarto-listing-container-custom">
+<div class="list blog">
+    
+    <div class="blog-entry" data-index="0" data-categories="blog,spanish,economía,sostenibilidad,derechos de propiedad" data-listing-date-sort="1737522000000" data-listing-file-modified-sort="1737584786625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1805">
+        <div class="metadata">          
+            <p class="date listing-date">January 22, 2025</p>
+        </div>
+        <div class="body">
+            <p class="title listing-title"><a href="../blog/2025/01/index.html">La tragedia de las camas desordenadas: entendiendo los derechos de propiedad</a></p>
+
+            
+            <div class="post-categories listing-categories">
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('blog'); return false;">
+                    blog
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('spanish'); return false;">
+                    spanish
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('economía'); return false;">
+                    economía
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('sostenibilidad'); return false;">
+                    sostenibilidad
+                </div>
+                
+                <div class="post-category listing-category" onclick="window.quartoListingCategory('derechos de propiedad'); return false;">
+                    derechos de propiedad
+                </div>
+                
+            </div>
+            
+
+            <p class="description listing-description">Cómo los derechos de propiedad ayudan a resolver problemas cotidianos y externalidades, desde camas desordenadas hasta sostenibilidad económica y ecológica.</p>
+            
+            
+        </div>
+        
+        <div class="thumbnail">
+            <img src="../blog/2025/01/img/card.png" alt="La tragedia de las camas desordenadas: entendiendo los derechos de propiedad" title="La tragedia de las camas desordenadas: entendiendo los derechos de propiedad">
+</div>
+        
+    </div>
+    
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section><section id="section-1" class="level2"><h2 class="anchored" data-anchor-id="section-1">2024</h2>
 <div id="listing-posts_2024" class="quarto-listing quarto-listing-container-custom">
 <div class="list blog">
     

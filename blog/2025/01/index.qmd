@@ -1,0 +1,155 @@
+---
+title: "La tragedia de las camas desordenadas: entendiendo los derechos de propiedad"
+date: 2025-01-22
+description: "Cómo los derechos de propiedad ayudan a resolver problemas cotidianos y externalidades, desde camas desordenadas hasta sostenibilidad económica y ecológica."
+image: "img/card.png"
+twitter-card:
+  image: "img/card.png"
+open-graph:
+  image: "img/card.png"
+categories:
+  - blog
+  - spanish
+  - economía
+  - sostenibilidad
+  - derechos de propiedad
+execute:
+  echo: false
+format:
+  html:
+    resources: "*.csv"
+    css: modal.css
+    code-tools: false
+---
+
+:::{.callout-tip}
+## TL;DR
+Los derechos de propiedad ayudan a **internalizar externalidades**, es decir, asignar costos y beneficios a quienes los generan. En un espacio compartido sin camas asignadas, el desorden persiste porque nadie tiene incentivos para mantener el orden. Al asignar camas privadas, cada persona se hace responsable de su espacio, resolviendo un **problema pequeño**. Como señaló Elinor Ostrom, los sistemas exitosos son aquellos en los que las reglas son flexibles, se adaptan a las circunstancias y están diseñadas por los propios usuarios, quienes mejor entienden las necesidades locales.
+
+**No todos los problemas son iguales**: Algunos problemas, como la privacidad, son de escala **mediana** y requieren cooperación; otros, como la gestión de espacios comunes, son de escala **grande** y necesitan reglas colectivas. Un sistema se vuelve más **sostenible**, tanto económica como ecológicamente, cuando las personas **se benefician de su productividad y asumen los costos de sus errores**, en lugar de trasladarlos a sus vecinos. Este equilibrio fomenta incentivos para un uso responsable y eficiente de los recursos.
+
+:::
+
+Una de las razones fundamentales por las que existen los derechos de propiedad es para internalizar las <a href="#" data-micromodal-trigger="mymodal" tabindex="0">externalidades</a>. Pero ¿qué significa esto? Voy a explicarlo con un ejemplo cotidiano, haciendo algunos supuestos simples para ilustrar cómo funciona esta lógica.
+
+![](tragediadelascamas.png){fig-align="center"}
+
+### Un Espacio Común sin Propiedad
+
+#### Los supuestos
+- Imagina que vives en un espacio compartido con otras 10 personas. 
+- No hay paredes ni camas asignadas: cualquiera puede dormir en cualquier cama. 
+- A todos les gusta dormir en camas ordenadas y en un lugar limpio, pero no todos están dispuestos a tomarse el trabajo de limpiar y ordenar. 
+- Tú eres una de esas personas a las que les importa el orden. Apenas te levantas, haces tu cama y limpias tu espacio porque te molesta el desorden.
+
+¿Qué pasa en este escenario? Como todos prefieren un lugar limpio, alguien más usará tu cama porque está ordenada y es cómoda. Tú haces el esfuerzo, pero otros disfrutan de tu trabajo sin contribuir. Por tanto, terminarás haciendo tú cama nuevamente antes de dormir. En este espacio común, no hay incentivos para que todos mantengan el orden porque cualquiera puede aprovecharse del trabajo de otros.
+
+### Cómo los Derechos de Propiedad Resuelven el Problema
+
+Supongamos que entre todos deciden asignar una cama a cada persona como su propiedad (y que tienen los mecanismos para hacer cumplir esa norma), el problema cambia. Ahora, cada individuo es responsable de mantener su cama ordenada. Si decides no hacer tu cama, eres tú quien duerme en el desorden. Si la mantienes limpia, eres tú quien disfruta del beneficio. Este sistema internaliza las externalidades porque cada persona soporta los costos y disfruta los beneficios de sus propias decisiones.
+
+En este ejemplo, los derechos de propiedad solucionan el problema del orden al dar el derecho a cada persona a excluir del beneficio de una cama ordenada a otros. En este sentido, la asignación de derechos provee de los incentivos (a aquellos que les gusta el orden) de ordenar sus camas porque pueden disfrutar de ellas. 
+
+### ¿Cómo Surge la Asignación de Derechos de Propiedad?
+
+La asignación de derechos de propiedad no es algo que ocurre por casualidad. Según <a href="#" data-micromodal-trigger="mymodal1" tabindex="0">Schmidtz, D., & Willott, E. (2003)</a>, la tendencia hacia la privatización surge como una respuesta a la interacción entre fuerzas ecológicas y económicas. Estas fuerzas generan la necesidad de organizar los recursos cuando los problemas compartidos, como las externalidades, se vuelven demasiado evidentes para ignorarlos.
+
+Imagina nuevamente el espacio común con 10 personas. Al principio, el desorden puede parecer tolerable; quizás no a todos les molesta que las camas estén desordenadas o que el lugar esté sucio. Sin embargo, llega un punto en el que la acumulación de conflictos y el caos cotidiano hacen que el desorden sea insoportable (el sistema excedió su <a href="#" data-micromodal-trigger="mymodal2" tabindex="0">capacidad de carga</a>). En ese momento, se genera la motivación y la fuerza necesarias para crear acuerdos que asignen responsabilidades claras, como la propiedad de las camas.
+
+### No todos los problemas ocurren en la misma escala, algunos problemas son más locales que otros.
+
+Es importante notar que en el ejemplo del espacio compartido, el problema que se resolvió fue el **orden de las camas**, no otros problemas como la limpieza del espacio inmediato, el ruido, los olores, la intimidad (aunque, quizá, ya se haya solucionado el uso y limpieza del baño). Según Schmidtz y Willott (2003), cuando cambia la escala del problema, también deben cambiar las soluciones para que sean factibles y efectivas.
+
+Por ejemplo, si los usuarios del espacio deciden construir paredes para asegurar privacidad y orden en cada habitación, estarán resolviendo problemas de escala **pequeña o mediana**, como la organización personal o la reducción de conflictos entre vecinos inmediatos. Sin embargo, estos acuerdos no eliminan la necesidad de gestionar un **espacio común** para acceder a la calle o para otras actividades compartidas. Este espacio común genera problemas de **escala mayor**, que requieren acuerdos más amplios y soluciones colectivas.
+
+La clave está en reconocer que no todos los problemas tienen la misma escala ni se resuelven con la misma estrategia. Los **problemas pequeños**, como el orden de las camas, pueden resolverse con derechos de propiedad individuales. Los **problemas medianos**, como la privacidad dentro de las habitaciones, requieren cooperación entre vecinos inmediatos. Finalmente, los **problemas grandes**, como la gestión de espacios comunes, necesitan reglas o instituciones que permitan la coordinación de todo el grupo. Así, las soluciones deben adaptarse a la escala y la naturaleza de cada problema.
+
+::: {.callout-caution collapse="true"}
+## Tipos de problemas
+| **Tipo de Problema** | **Definición**                                                                 | **Características Clave**                                                                                  | **Ejemplo**                                                                                 |
+|-----------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Problema Pequeño**  | Un problema cuyo impacto está limitado a una sola parcela o espacio.          | - Los efectos son locales y afectan a los usuarios del espacio.<br>- Genera externalidades fáciles de remediar con derechos de propiedad | - El desorden en la cama afecta únicamente al usuario que duerme en ella. <br>- La solución al desorden general pasa por asignar camas a cada persona                   |
+| **Problema Mediano**  | Un problema cuyo impacto afecta a los vecinos inmediatos o un grupo pequeño.  | - Genera externalidades que afectan a un grupo identificado de vecinos.<br>- Requiere cooperación entre partes cercanas. | - El uso compartido de un recurso como el agua subterránea que afecta a los pozos vecinos.  |
+| **Problema Grande**   | Un problema cuyo impacto es amplio, afectando a una comunidad extensa o dispersa. | - Los efectos son generalizados y difíciles de rastrear.<br>- Requiere soluciones a mayor escala, como reglas públicas o instituciones. | - La contaminación del aire por vehículos que afecta a toda la comunidad o región. <br> - Pesca en aguas internacionales         |
+:::
+
+La **privatización no es la única solución a la tragedia de los comunes**; Schmidtz, D., & Willott, E. (2003) exponen que la Edad Media, sistemas que combinaban propiedad privada y comunal lograron gestionar recursos sosteniblemente. Los campesinos tenían derechos exclusivos sobre franjas de tierra para cultivo durante la temporada, pero después de la cosecha, la tierra se usaba en común para el pastoreo, aprovechando economías de escala en cercado y manejo de rebaños. Reglas como limitar el número de animales según la capacidad de las parcelas ("stinting") prevenían la sobreexplotación y aseguraban la sostenibilidad.
+
+En nuestro problema de las camas, asignar camas privadas resuelve el problema del desorden personal, mientras que mantener espacios comunes permite aprovechar economías de escala, como áreas compartidas para moverse o convivir.
+
+
+<!-- here's the link that opens it. it can be anywhere!
+     it matches to the modal's id, #mymodal -->
+
+
+
+
+<!-- the rest of this stuff is for the popup! -->
+
+```{ojs}
+//| include: false
+
+micro = require("micromodal@0.4.10");
+
+micro.init({
+  awaitOpenAnimation: true,
+  awaitCloseAnimation: true
+});
+```
+
+<!-- and here's the popup itself! -->
+
+:::::: {#mymodal .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title"}
+
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+
+<header>
+## Externalidades {#mymodal-title}
+</header>
+
+::: {#modal-1-content}
+Las externalidades, también conocidas como efectos externos o spillovers, son costos o beneficios que afectan a personas que no participaron en la decisión que los generó. Por ejemplo, imagina que vives en un departamento con paredes delgadas y tu vecino adquiere un equipo de alta fidelidad. Para estrenarlo, organiza una fiesta ruidosa que interrumpe tu descanso. Aunque no tuviste control alguno sobre esa decisión, debes soportar las consecuencias, como la falta de sueño que afecta tu desempeño al día siguiente. Este concepto también aplica en otros casos, como cuando tus vecinos deciden tener un bebé y el llanto afecta tu tranquilidad sin que puedas intervenir en esa elección o la contaminación ambiental o la pesca en aguas internacionales o ...
+:::
+
+::::
+:::::
+::::::
+
+:::::: {#mymodal1 .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title"}
+
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+
+<header>
+## Schmidtz, D., & Willott, E. (2003)
+</header>
+
+::: {#modal-1-content}
+Schmidtz, D., & Willott, E. (2003). Reinventing the Commons: An African Case Study Symposium: Environmental Ethics and Policy: Bringing Philosophy down to Earth: Panels: Synergy or Conflict: The Roles of Ethics, Economics, and Science in Environmental Policy Decisions. U.C. Davis Law Review, 37(1), 203–232.
+:::
+
+::::
+:::::
+::::::
+
+:::::: {#mymodal2 .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title"}
+
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+
+<header>
+## Capacidad de carga
+</header>
+
+::: {#modal-1-content}
+El concepto de capacidad de carga es un poco problemático. Es cierto que apunta a algo real, esto es, existen límites para la capacidad que los ecosistemas pueden soportar. Por otro lado, dichos límites no son fijos. Entonces, la capacidad de carga es algo que fluye dado que depende de muchas otras variables.
+:::
+
+::::
+:::::
+::::::
+

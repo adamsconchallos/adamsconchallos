@@ -158,7 +158,7 @@
     "href": "blog/index.html#section",
     "title": "Blog",
     "section": "2025",
-    "text": "2025\n\n\n    \n    \n                  \n            January 22, 2025\n        \n        \n            La tragedia de las camas desordenadas: entendiendo los derechos de propiedad\n\n            \n            \n                \n                \n                    blog\n                \n                \n                \n                    spanish\n                \n                \n                \n                    economía\n                \n                \n                \n                    sostenibilidad\n                \n                \n                \n                    derechos de propiedad\n                \n                \n            \n            \n\n            Cómo los derechos de propiedad ayudan a resolver problemas cotidianos y externalidades, desde camas desordenadas hasta sostenibilidad económica y ecológica.\n            \n            \n        \n        \n        \n            \n\n        \n    \n    \n\n\nNo matching items"
+    "text": "2025\n\n\n    \n    \n                  \n            January 22, 2025\n        \n        \n            La tragedia de las camas desordenadas: entendiendo los derechos de propiedad\n\n            \n            \n                \n                \n                    blog\n                \n                \n                \n                    spanish\n                \n                \n                \n                    economics\n                \n                \n                \n                    sustainability\n                \n                \n                \n                    property rights\n                \n                \n            \n            \n\n            Cómo los derechos de propiedad ayudan a resolver problemas cotidianos y externalidades, desde camas desordenadas hasta sostenibilidad económica y ecológica.\n            \n            \n        \n        \n        \n            \n\n        \n    \n    \n\n\nNo matching items"
   },
   {
     "objectID": "blog/index.html#section-1",
@@ -168,18 +168,11 @@
     "text": "2024\n\n\n    \n    \n                  \n            January 12, 2024\n        \n        \n            Hello world of blogging\n\n            \n            \n                \n                \n                    blog\n                \n                \n                \n                    spanish\n                \n                \n            \n            \n\n            Mi primer post\n            \n            \n        \n        \n        \n            \n\n        \n    \n    \n\n\nNo matching items"
   },
   {
-    "objectID": "blog/2024/02/index.html",
-    "href": "blog/2024/02/index.html",
-    "title": "Hello world of blogging",
-    "section": "",
-    "text": "¿Por qué empezar un blog en medio del doctorado? Son varias las razones que me empujan a hacerlo. En realidad, diría que principalmente son tres. Hace tiempo que tengo una necesidad de escribir, de expresarme. No tengo claro de dónde viene el querer expresarme a través de la escritura. Sin embargo, puedo decir que escribir me ayuda a organizar las ideas de forma lógica, a reflexionar. También me ayuda a prestar atención (en una reunión o clase, me sirve mucho escribir lo que mi interlocutor dice, sin importar si después puedo leer aquello).\nCreo que me va a ayudar a escribir mejor y más rápido. Acabo de leer un artículo del The Economist en el que listan una serie de libros que podrían ayudar a escribir mejor. Voy a leerlos y postear lo que voy entendiendo de aquello (aunque están en inglés, asumo que también aquellas reglas sirven al español). Mi idea es ser proficiente escribiendo en inglés y español. Al final de cuentas, mi advisor dice que escribir es uno de los mayores activos de un investigador.\nPor ahí leí que el escribir sobre cosas permite aprender en profundidad. No tengo la fuente, pero no tengo dudas de que esto es verdad (al menos para mí). Cuando escribo algo con la intención enseñar o dejar escrito los pasos que seguí en un determinado proceso, mi entendimiento de la cosa es mucho mayor. Algo tiene que pasar con las neuronas y la materia gris. Al final es como ese dicho: si quieres aprender algo, tienes que enseñarlo.\nCon todo, sé que quizás alguien podría decir que esto del blog es una carga innecesaria a una ya ajetreada agenda doctoral. Lo único que puedo responder a eso es: voy a tratar. No me voy a matar escribiendo todas las semanas extensos tratados sobre la patita trasera izquierda de la mosca.\nVoy a postear contenido diverso, en inglés y español. Desde opiniones y puntos de vista personales, resúmenes de artículos o libros que me parezcan interesantes a tutoriales de alguna cosa que haya descubierto en el mundo de R y Quarto."
-  },
-  {
     "objectID": "blog/2025/01/index.html",
     "href": "blog/2025/01/index.html",
     "title": "La tragedia de las camas desordenadas: entendiendo los derechos de propiedad",
     "section": "",
-    "text": "TL;DR\n\n\n\nLos derechos de propiedad ayudan a internalizar externalidades, es decir, asignar costos y beneficios a quienes los generan. En un espacio compartido sin camas asignadas, el desorden persiste porque nadie tiene incentivos para mantener el orden. Al asignar camas privadas, cada persona se hace responsable de su espacio, resolviendo un problema pequeño. Como señaló Elinor Ostrom, los sistemas exitosos son aquellos en los que las reglas son flexibles, se adaptan a las circunstancias y están diseñadas por los propios usuarios, quienes mejor entienden las necesidades locales.\nNo todos los problemas son iguales: Algunos problemas, como la privacidad, son de escala mediana y requieren cooperación; otros, como la gestión de espacios comunes, son de escala grande y necesitan reglas colectivas. Un sistema se vuelve más sostenible, tanto económica como ecológicamente, cuando las personas se benefician de su productividad y asumen los costos de sus errores, en lugar de trasladarlos a sus vecinos. Este equilibrio fomenta incentivos para un uso responsable y eficiente de los recursos.\nUna de las razones fundamentales por las que existen los derechos de propiedad es para internalizar las externalidades. Pero ¿qué significa esto? Voy a explicarlo con un ejemplo cotidiano, haciendo algunos supuestos simples para ilustrar cómo funciona esta lógica."
+    "text": "Important\n\n\n\nThe english version here\nUna de las razones fundamentales por las que existen los derechos de propiedad es para internalizar las externalidades. Pero ¿qué significa esto? Voy a explicarlo con un ejemplo cotidiano, haciendo algunos supuestos simples para ilustrar cómo funciona esta lógica."
   },
   {
     "objectID": "blog/2025/01/index.html#mymodal-title",
@@ -201,6 +194,41 @@
     "title": "La tragedia de las camas desordenadas: entendiendo los derechos de propiedad",
     "section": "Capacidad de carga",
     "text": "Capacidad de carga"
+  },
+  {
+    "objectID": "blog/2024/02/index.html",
+    "href": "blog/2024/02/index.html",
+    "title": "Hello world of blogging",
+    "section": "",
+    "text": "¿Por qué empezar un blog en medio del doctorado? Son varias las razones que me empujan a hacerlo. En realidad, diría que principalmente son tres. Hace tiempo que tengo una necesidad de escribir, de expresarme. No tengo claro de dónde viene el querer expresarme a través de la escritura. Sin embargo, puedo decir que escribir me ayuda a organizar las ideas de forma lógica, a reflexionar. También me ayuda a prestar atención (en una reunión o clase, me sirve mucho escribir lo que mi interlocutor dice, sin importar si después puedo leer aquello).\nCreo que me va a ayudar a escribir mejor y más rápido. Acabo de leer un artículo del The Economist en el que listan una serie de libros que podrían ayudar a escribir mejor. Voy a leerlos y postear lo que voy entendiendo de aquello (aunque están en inglés, asumo que también aquellas reglas sirven al español). Mi idea es ser proficiente escribiendo en inglés y español. Al final de cuentas, mi advisor dice que escribir es uno de los mayores activos de un investigador.\nPor ahí leí que el escribir sobre cosas permite aprender en profundidad. No tengo la fuente, pero no tengo dudas de que esto es verdad (al menos para mí). Cuando escribo algo con la intención enseñar o dejar escrito los pasos que seguí en un determinado proceso, mi entendimiento de la cosa es mucho mayor. Algo tiene que pasar con las neuronas y la materia gris. Al final es como ese dicho: si quieres aprender algo, tienes que enseñarlo.\nCon todo, sé que quizás alguien podría decir que esto del blog es una carga innecesaria a una ya ajetreada agenda doctoral. Lo único que puedo responder a eso es: voy a tratar. No me voy a matar escribiendo todas las semanas extensos tratados sobre la patita trasera izquierda de la mosca.\nVoy a postear contenido diverso, en inglés y español. Desde opiniones y puntos de vista personales, resúmenes de artículos o libros que me parezcan interesantes a tutoriales de alguna cosa que haya descubierto en el mundo de R y Quarto."
+  },
+  {
+    "objectID": "blog/2025/01/index_en.html",
+    "href": "blog/2025/01/index_en.html",
+    "title": "The tragedy of unmade beds: understanding property rights",
+    "section": "",
+    "text": "Important\n\n\n\nLa version en español aquí\nOne of the fundamental reasons property rights exist is to internalize externalities. But what does this mean? Let me explain with an everyday example, using some simple assumptions to illustrate how this logic works."
+  },
+  {
+    "objectID": "blog/2025/01/index_en.html#mymodal-title",
+    "href": "blog/2025/01/index_en.html#mymodal-title",
+    "title": "The tragedy of unmade beds: understanding property rights",
+    "section": "Externalities",
+    "text": "Externalities"
+  },
+  {
+    "objectID": "blog/2025/01/index_en.html#schmidtz-d.-willott-e.-2003",
+    "href": "blog/2025/01/index_en.html#schmidtz-d.-willott-e.-2003",
+    "title": "The tragedy of unmade beds: understanding property rights",
+    "section": "Schmidtz, D., & Willott, E. (2003)",
+    "text": "Schmidtz, D., & Willott, E. (2003)"
+  },
+  {
+    "objectID": "blog/2025/01/index_en.html#carrying-capacity",
+    "href": "blog/2025/01/index_en.html#carrying-capacity",
+    "title": "The tragedy of unmade beds: understanding property rights",
+    "section": "Carrying Capacity",
+    "text": "Carrying Capacity"
   },
   {
     "objectID": "cv/index.html",

@@ -10,9 +10,9 @@ open-graph:
 categories:
   - blog
   - spanish
-  - economía
-  - sostenibilidad
-  - derechos de propiedad
+  - economics
+  - sustainability
+  - property rights
 execute:
   echo: false
 format:
@@ -21,6 +21,9 @@ format:
     css: modal.css
     code-tools: false
 ---
+:::{.callout-important}
+The english version [here](index_en.qmd)
+:::
 
 :::{.callout-tip}
 ## TL;DR

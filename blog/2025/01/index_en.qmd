@@ -1,0 +1,161 @@
+---
+title: "The tragedy of unmade beds: understanding property rights"
+date: 2025-01-22
+description: "How property rights help solve everyday problems and externalities, from unmade beds to economic and ecological sustainability."
+image: "img/card.png"
+twitter-card:
+  image: "img/card.png"
+open-graph:
+  image: "img/card.png"
+categories:
+  - blog
+  - english
+  - economics
+  - sustainability
+  - property rights
+execute:
+  echo: false
+format:
+  html:
+    resources: "*.csv"
+    css: modal.css
+    code-tools: false
+---
+
+:::{.callout-important}
+La version en español [aquí](index.qmd)
+:::
+
+:::{.callout-tip}
+## TL;DR
+Property rights help to **internalize externalities**, that is, to assign costs and benefits to those who generate them. In a shared space without assigned beds, disorder persists because no one has an incentive to maintain order. Each person becomes responsible for their space by assigning private beds solving a **small problem**. As Elinor Ostrom pointed out, successful systems are those where rules are flexible, adapt to circumstances, and are designed by the users themselves, who best understand local needs.
+
+**Not all problems are the same**: Some problems, like privacy, are of a **medium scale** and require cooperation; others, like managing common spaces, are of a **large scale** and need collective rules. A system becomes more **sustainable**, both economically and ecologically, when people **benefit from their productivity and bear the costs of their mistakes**, instead of shifting them onto their neighbors. This balance fosters incentives for feasible and efficient resource use.
+:::
+
+One of the fundamental reasons property rights exist is to internalize <a href="#" data-micromodal-trigger="mymodal" tabindex="0">externalities</a>. But what does this mean? Let me explain with an everyday example, using some simple assumptions to illustrate how this logic works.
+
+![](tragediadelascamas.png){fig-align="center"}
+
+### A common space without ownership
+
+#### The assumptions
+- Imagine you live in a shared space with 10 other people.  
+- No walls or assigned beds exist: anyone can sleep in any bed.  
+- Everyone likes sleeping in tidy beds and clean spaces, but not everyone is willing to take the time to clean and tidy up.  
+- You are one of those people who care about order. As soon as you wake up, you make your bed and clean your space because disorder bothers you.  
+
+What happens in this scenario? Since everyone prefers a clean space, someone else will use your bed because it's tidy and comfortable. You put in the effort, but others enjoy the benefits of your work without contributing. As a result, you'll make your bed again before going to sleep. In this common space, everyone has no incentives to maintain order because anyone can take advantage of others' efforts.
+
+### How property rights solve the problem
+
+Suppose everyone agrees to assign one bed to each person as their property (and they have the means to enforce this rule). The problem changes. Now, each individual is responsible for keeping their bed tidy. If you decide not to tidy up your bed, you are the one who sleeps in the mess. If you keep it clean, you are the one who enjoys the benefit. This system internalizes externalities because each person bears the costs and enjoys the benefits of their own decisions.
+
+In this example, property rights solve the problem of order by giving each person the right to exclude others from the benefit of a tidy bed. In this sense, the assignment of rights provides the incentives (for those who value order) to make their beds because they can enjoy them.
+
+### How does the assignment of property rights arise?
+
+The assignment of property rights is not something that happens by chance. According to <a href= "#" data-micromodal-trigger= "mymodal1" tabindex= "0">Schmidtz, D., & Willott, E. (2003)</a>, the trend toward privatization arises as a response to the interaction between ecological and economic forces. These forces create the need to organize resources when shared problems, such as externalities, become too evident to ignore.
+
+Imagine the shared space with 10 people again. At first, the disorder might seem tolerable; perhaps not everyone minds that the beds are unmade or the space is messy. However, a point comes when the accumulation of conflicts and everyday chaos makes the disorder unbearable (the system has exceeded its <a href= "#" data-micromodal-trigger= "mymodal2" tabindex= "0">carrying capacity</a>). At that moment, the motivation and the necessary force emerge to create agreements that assign clear responsibilities, such as the ownership of the beds.
+
+### Not all problems occur at the same scale: some are more local than others
+
+It is important to note that in the example of the shared space, the problem solved was the **order of the beds**, not other issues like cleaning the immediate space, noise, odors, or privacy (although perhaps the use and cleaning of the bathroom were resolved as well). According to Schmidtz and Willott (2003), when the scale of a problem changes, the solutions must also change to be feasible and effective.
+
+For example, suppose the space users decide to build walls to ensure privacy and order in each room. In that case, they are addressing problems of a **small or medium scale**, such as personal organization or reducing conflicts between immediate neighbors. However, these agreements do not eliminate the need to manage a **shared space** to access the street or other collective activities. This shared space generates **large-scale problems**, which require broader agreements and collective solutions.
+
+The key is recognizing that not all problems occur at the same scale or can be solved with the same strategy. **Small problems**, such as making beds, can be solved with individual property rights. **Medium problems**, such as room privacy, require cooperation among immediate neighbors. Finally, **large problems**, such as managing shared spaces, need rules or institutions that enable coordination for the entire group. Thus, solutions must adapt to the scale and nature of each problem.
+
+
+::: {.callout-caution collapse="true"}
+## Types of Problems
+| **Type of Problem**   | **Definition**                                                             | **Key Characteristics**                                                                                  | **Example**                                                                                 |
+|-----------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Small Problem**     | A problem whose impact is limited to a single parcel or space.            | - The effects are local and affect the users of the space.<br>- Creates externalities that can be easily remedied with property rights. | - Bed disorder affects only the user sleeping in it.<br>- The solution to general disorder involves assigning beds to each person. |
+| **Medium Problem**    | A problem whose impact affects immediate neighbors or a small group.      | - Creates externalities that affect an identified group of neighbors.<br>- Requires cooperation among nearby parties. | - Shared use of a resource like groundwater that affects neighboring wells.                |
+| **Large Problem**     | A problem whose impact is broad, affecting an extensive or dispersed community. | - The effects are widespread and difficult to trace.<br>- Requires larger-scale solutions, such as public rules or institutions. | - Air pollution from vehicles affecting the entire community or region.<br>- Fishing in international waters.                   |
+
+:::
+
+**Privatization is not the only solution to the tragedy of the commons**; Schmidtz, D., & Willott, E. (2003) explain that systems combining private and communal ownership managed resources sustainably during the Middle Ages. Peasants had exclusive rights to strips of land for cultivation during the season. Still, after the harvest, the land was used communally for grazing, leveraging economies of scale in fencing and herd management. Rules such as limiting the number of animals based on the parcels' carrying capacity ("stinting") prevented overexploitation and ensured sustainability.
+
+In our bed problem, assigning private beds solves the issue of personal disorder, while maintaining shared spaces allows for economies of scale, such as shared areas for movement or socializing.
+
+
+<!-- here's the link that opens it. it can be anywhere!
+     it matches to the modal's id, #mymodal -->
+
+
+
+
+<!-- the rest of this stuff is for the popup! -->
+
+```{ojs}
+//| include: false
+
+micro = require("micromodal@0.4.10");
+
+micro.init({
+  awaitOpenAnimation: true,
+  awaitCloseAnimation: true
+});
+```
+
+<!-- and here's the popup itself! -->
+
+:::::: {#mymodal .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title"}
+
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+
+<header>
+## Externalities {#mymodal-title}
+</header>
+
+::: {#modal-1-content}
+Externalities, also known as external effects or spillovers, are costs or benefits that affect people who did not participate in the decision that generated them. For example, imagine you live in an apartment with thin walls, and your neighbor acquires a high-fidelity sound system. To celebrate, they throw a noisy party that disrupts your rest. Although you had no control over that decision, you bear the consequences, such as losing sleep, which impacts your performance the next day. This concept also applies in other cases, such as when your neighbors decide to have a baby, and the crying affects your peace without you having any say in their choice, or cases like environmental pollution or fishing in international waters...
+:::
+
+::::
+:::::
+::::::
+
+:::::: {#mymodal1 .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title"}
+
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+
+<header>
+## Schmidtz, D., & Willott, E. (2003)
+</header>
+
+::: {#modal-1-content}
+Schmidtz, D., & Willott, E. (2003). Reinventing the Commons: An African Case Study Symposium: Environmental Ethics and Policy: Bringing Philosophy Down to Earth: Panels: Synergy or Conflict: The Roles of Ethics, Economics, and Science in Environmental Policy Decisions. U.C. Davis Law Review, 37(1), 203–232.
+:::
+
+::::
+:::::
+::::::
+
+:::::: {#mymodal2 .modal .micromodal-slide aria-hidden="true"}
+::::: {.modal__overlay tabindex="-1" data-micromodal-close="true"}
+:::: {.modal__container role="dialog" aria-modal="true" aria-labelledby="mymodal-title"}
+
+<button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+
+<header>
+## Carrying Capacity
+</header>
+
+::: {#modal-1-content}
+The concept of carrying capacity is somewhat problematic. It is true that it points to something real — that there are limits to the capacity ecosystems can support. On the other hand, these limits are not fixed. Therefore, carrying capacity is something fluid as it depends on many other variables.
+:::
+
+::::
+:::::
+::::::
+
+

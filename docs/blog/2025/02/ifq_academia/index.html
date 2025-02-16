@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Adams Ceballos">
+<meta name="description" content="How the ‘publish or perish’ culture in academia creates negative externalities by prioritizing quantity over quality, leading to systemic inefficiencies in knowledge production and dissemination. This piece examines overpublishing as a common-pool resource problem and its implications for scientific progress.">
 
-<title>About me | Adams Ceballos-Concha – Adams Ceballos-Concha</title>
+<title>Individual Fishing Quotas and Academic Overpublishing | Adams Ceballos-Concha – Adams Ceballos-Concha</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +22,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../img/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../img/favicon.png" rel="icon" type="image/png">
+<script src="../../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,19 +106,28 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 </style>
 
 
+<link rel="stylesheet" href="modal.css">
+<meta property="og:title" content="Individual Fishing Quotas and Academic Overpublishing | Adams Ceballos-Concha">
+<meta property="og:description" content="How the ‘publish or perish’ culture in academia creates negative externalities by prioritizing quantity over quality, leading to systemic inefficiencies in knowledge production and dissemination. This piece examines overpublishing as a common-pool resource problem and its implications for scientific progress.">
+<meta property="og:image" content="https://www.adamsceballos.com/blog/2025/02/ifq_academia/img/card.png">
+<meta property="og:site_name" content="Adams Ceballos-Concha">
+<meta name="twitter:title" content="Individual Fishing Quotas and Academic Overpublishing | Adams Ceballos-Concha">
+<meta name="twitter:description" content="How the ‘publish or perish’ culture in academia creates negative externalities by prioritizing quantity over quality, leading to systemic inefficiencies in knowledge production and dissemination. This piece examines overpublishing as a common-pool resource problem and its implications for scientific progress.">
+<meta name="twitter:image" content="https://www.adamsceballos.com/blog/2025/02/ifq_academia/img/card.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../img/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Adams Ceballos-Concha</span>
     </a>
   </div>
@@ -108,15 +138,15 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
+    <a class="nav-link" href="../../../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../cv/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../../cv/index.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
 </ul>
@@ -144,11 +174,22 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">About me</h1>
-                      </div>
+      <h1 class="title">Individual Fishing Quotas and Academic Overpublishing</h1>
+                  <div>
+        <div class="description">
+          How the ‘publish or perish’ culture in academia creates negative externalities by prioritizing quantity over quality, leading to systemic inefficiencies in knowledge production and dissemination. This piece examines overpublishing as a common-pool resource problem and its implications for scientific progress.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">blog</div>
+                <div class="quarto-category">english</div>
+                <div class="quarto-category">externalities</div>
+                <div class="quarto-category">CPR</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -164,7 +205,7 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">Tuesday, January 7, 2025</p>
+        <p class="date">Saturday, February 15, 2025</p>
       </div>
     </div>
     
@@ -174,19 +215,22 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#employment-history" id="toc-employment-history" class="nav-link" data-scroll-target="#employment-history">Employment History</a></li>
-  <li><a href="#teaching-experience" id="toc-teaching-experience" class="nav-link" data-scroll-target="#teaching-experience">Teaching Experience</a></li>
-  <li><a href="#networks-and-honors" id="toc-networks-and-honors" class="nav-link" data-scroll-target="#networks-and-honors">Networks and Honors</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#overpublishing-in-academia" id="toc-overpublishing-in-academia" class="nav-link active" data-scroll-target="#overpublishing-in-academia">Overpublishing in academia</a></li>
+  <li><a href="#the-publish-or-perish-model" id="toc-the-publish-or-perish-model" class="nav-link" data-scroll-target="#the-publish-or-perish-model">The publish-or-perish model</a></li>
+  <li><a href="#the-externalities-of-overpublishing" id="toc-the-externalities-of-overpublishing" class="nav-link" data-scroll-target="#the-externalities-of-overpublishing">The externalities of overpublishing</a></li>
+  <li><a href="#scholarly-attention-as-a-cpr" id="toc-scholarly-attention-as-a-cpr" class="nav-link" data-scroll-target="#scholarly-attention-as-a-cpr">Scholarly attention as a CPR</a></li>
+  <li><a href="#what-if-we-introduced-individual-research-quotas" id="toc-what-if-we-introduced-individual-research-quotas" class="nav-link" data-scroll-target="#what-if-we-introduced-individual-research-quotas">What if we introduced Individual Research Quotas?</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -195,75 +239,153 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 
 
 
-<p>I am a Postdoctoral Associate at the University of Florida’s <a href="https://ifas.ufl.edu/about-us/">Institute of Food and Agricultural Sciences</a></p>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<ul>
-<li><p><strong>2021 – 2024</strong>: Ph.D., Food and Resource Economics, University of Florida<br>
-<em>Dissertation: Coupled Human-Natural Systems: Economic and Ecological Interactions in Fisheries and Aquaculture.</em></p></li>
-<li><p><strong>2014 – 2017</strong>: M.Sc. Natural Resources and Environmental Economics, Universidad de Concepción<br>
-<em>Thesis: Does the Location of Salmon Farms Contribute to the Reduction of Rural Poverty?</em></p></li>
-<li><p><strong>2006 – 2011</strong>: B.S. Economics, Universidad de Concepción<br>
-<em>Thesis: Impact Analysis of the Penal Law Reform in Chile.</em></p></li>
-</ul>
-<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+TL;DR
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>While the “publish or perish” culture helps individual academics advance their careers through frequent publishing, it creates negative externalities by depleting crucial common-pool resources - especially scholarly attention and peer review capacity. The flood of publications overwhelms the academic ecosystem, making it harder to identify valuable contributions and maintain research quality. This suggests the need for systemic solutions, possibly including novel approaches like Individual Research Quotas, though implementing such measures requires carefully balancing research quality with equitable access to academic publishing.</p>
+</div>
+</div>
+<section id="overpublishing-in-academia" class="level2">
+<h2 class="anchored" data-anchor-id="overpublishing-in-academia">Overpublishing in academia</h2>
+<p>I have often felt overwhelmed by the rapid pace of publications in certain fields. As many academics are well aware, there is a reason for this: overpublishing.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is overpublishing?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Overpublishing occurs when researchers, driven by the pressures of the “publish or perish” culture, prioritize quantity over quality in their scholarly outputs. This often involves fragmenting research into smaller, publishable units (“salami slicing”) or producing studies with limited scientific contribution simply to maintain a steady publication record.</p>
+</div>
+</div>
+<p>While this strategy may benefit individual researchers seeking career advancement, it comes at a cost.</p>
+<p>In this post, I will argue that overpublishing generates <a href="../../../../blog/2025/01/index_en.html">negative externalities</a> that distort the research ecosystem <span class="citation" data-cites="QualityVsQuantity2025 Overpublishing2023">(<a href="#ref-QualityVsQuantity2025" role="doc-biblioref">Bellemare 2025</a>; <a href="#ref-Overpublishing2023" role="doc-biblioref">Akbashev and Kalinin 2023</a>)</span>. Moreover, I will explore how this phenomenon resembles a common-pool resource (CPR) problem, where unrestricted access leads to congestion and inefficiencies. So bear with me as we unpack this issue.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="overpublishing.webp" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
 </section>
-<section id="employment-history" class="level2">
-<h2 class="anchored" data-anchor-id="employment-history">Employment History</h2>
+<section id="the-publish-or-perish-model" class="level2">
+<h2 class="anchored" data-anchor-id="the-publish-or-perish-model">The publish-or-perish model</h2>
+<p>The publish-or-perish system emerged from a productivity-based evaluation model, where academic success became increasingly tied to publication volume rather than research quality or impact <span class="citation" data-cites="derondPublishPerishBane2005">(<a href="#ref-derondPublishPerishBane2005" role="doc-biblioref">De Rond and Miller 2005</a>)</span>. This shift has fundamentally altered faculty behavior, making career survival more dependent on frequent publication than on substantive intellectual contributions. However, the implications of this system are multifaceted.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Does publishing more improve impact?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="citation" data-cites="QualityVsQuantity2025">Bellemare (<a href="#ref-QualityVsQuantity2025" role="doc-biblioref">2025</a>)</span> suggests that frequent publishing can enhance scholarly impact through two key mechanisms:</p>
 <ul>
-<li><strong>2025 – current</strong>: Postdoctoral associate, Institute of Food and Agricultural Sciences (IFAS), University of Florida</li>
-<li><strong>2021 – 2024</strong>: Graduate Research Assistant, University of Florida<br>
-</li>
-<li><strong>2017 – 2021</strong>: Research Assistant, Interdisciplinary Center for Aquaculture Research, Chile<br>
-</li>
-<li><strong>2018 – 2019</strong>: Coordinator-Researcher, Interdisciplinary Center for Aquaculture Research, Chile<br>
-</li>
-<li><strong>2011 – 2014</strong>: HR and Finance Manager, Crisol LC, Chile</li>
+<li>Probabilistic effects: The more one publishes, the higher the chance of producing a highly cited paper.</li>
+<li>Citation spillovers: Authors who publish frequently tend to be cited more across their body of work.</li>
 </ul>
-<hr>
+<p>While high-output researchers are more likely to produce highly cited work, this does not necessarily translate into optimal outcomes for the broader academic community.</p>
+</div>
+</div>
+<p>Evidence indicates that high-output researchers are more likely to produce highly cited work, suggesting that productivity and impact can be complementary rather than mutually exclusive <span class="citation" data-cites="sandstrom2016">(<a href="#ref-sandstrom2016" role="doc-biblioref">Sandström and Besselaar 2016</a>)</span>.</p>
 </section>
-<section id="teaching-experience" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-experience">Teaching Experience</h2>
+<section id="the-externalities-of-overpublishing" class="level2">
+<h2 class="anchored" data-anchor-id="the-externalities-of-overpublishing">The externalities of overpublishing</h2>
+<p>The publish-or-perish model incentivizes maximizing publication counts at the expense of research depth and cumulative knowledge-building. This creates an overpublication externality, where an expanding volume of fragmented, low-impact studies:</p>
 <ul>
-<li><strong>Graduate Level</strong>
-<ul>
-<li><em>Resilient Architecture Management and Risk Reduction Master’s Program</em><br>
-Course: Techniques for Risk Analysis and Management (Cost-Benefit Analysis)<br>
-</li>
-<li><em>Applied Economics &amp; Natural Resources Master’s Program</em><br>
-Course: Introduction to Microeconomics<br>
-</li>
-</ul></li>
-<li><strong>Undergraduate Level</strong><br>
-Courses: Econometrics, Environmental Economics, Natural Resource Economics, Introduction to Economics, Macroeconomics</li>
+<li>Overwhelms scholarly attention.</li>
+<li>Creates informational congestion, making it harder to identify and build upon significant contributions.</li>
+<li>Weakens peer review and exacerbates literature saturation.</li>
 </ul>
-<hr>
+<p>At the systemic level, an academic landscape optimized for volume rather than intellectual rigor stifles transformative discovery, fuels burnout and redundancy, and fragments disciplines <span class="citation" data-cites="derondPublishPerishBane2005 Overpublishing2023">(<a href="#ref-derondPublishPerishBane2005" role="doc-biblioref">De Rond and Miller 2005</a>; <a href="#ref-Overpublishing2023" role="doc-biblioref">Akbashev and Kalinin 2023</a>)</span>. In this way, the drive for publication distorts knowledge production and degrades the mechanisms meant to ensure its quality.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+A collective action problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>While high publication output is individually rational, it generates collective inefficiencies that undermine long-term scientific progress. This is the hallmark of a common-pool resource problem, where unrestricted access leads to overuse and depletion.</p>
+</div>
+</div>
 </section>
-<section id="networks-and-honors" class="level2">
-<h2 class="anchored" data-anchor-id="networks-and-honors">Networks and Honors</h2>
-<ul>
-<li><strong>2023–2024</strong>: Graduate Student Representative, <strong>FRE IDEA (Inclusion, Diversity, Equity, and Access) Committee</strong>.</li>
-<li><strong>2023–2024</strong>: Academic Vice President, <strong>Food and Resource Economics Graduate Student Organization</strong>.</li>
-<li><strong>December 2018</strong>: Co-founder Member, <strong>Socioecological Network of Co-creation for Latin America (RESACA)</strong>.</li>
-</ul>
-<hr>
+<section id="scholarly-attention-as-a-cpr" class="level2">
+<h2 class="anchored" data-anchor-id="scholarly-attention-as-a-cpr">Scholarly attention as a CPR</h2>
+<p>Overpublishing clearly functions as a negative externality within the academic ecosystem, and it does so in large part by overtaxing a critical common-pool resource: scholarly attention.</p>
+<p>Although various CPRs (e.g., peer reviewer availability, editorial capacity, research funding, and public trust) are affected by excessive publication, the most directly strained resource is the finite time and attention of the research community. When researchers collectively produce an overabundance of fragmented or low-impact studies, it becomes increasingly difficult for audiences to identify, absorb, and build upon important work. This congestion diminishes overall research quality and hinders cumulative scientific progress, underscoring the need to view overpublishing through the lens of CPR depletion.</p>
 </section>
-<section id="skills" class="level2">
-<h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<ul>
-<li><strong>Languages</strong>: English, Spanish<br>
-</li>
-<li><strong>Coding</strong>: R, Python, SQL, QGIS, LaTeX<br>
-</li>
-<li><strong>Web Development</strong>: HTML, CSS, JavaScript, Quarto</li>
-</ul>
-<hr>
-<p>References available upon request.</p>
+<section id="what-if-we-introduced-individual-research-quotas" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-we-introduced-individual-research-quotas">What if we introduced Individual Research Quotas?</h2>
+<p>Given this framework, what if we designed a system akin to Individual Fishing Quotas (IFQs)… an Individual Research Quota (IRQ)?</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What do IFQs do in fisheries?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>IFQs slow the race to fish, reduce overcapitalization, improve safety, and extend fishing seasons by recognizing that access to a resource is not unlimited <span class="citation" data-cites="birkenbach2017">(<a href="#ref-birkenbach2017" role="doc-biblioref">Birkenbach, Kaczan, and Smith 2017</a>)</span>.</p>
+</div>
+</div>
+<p>What if we applied the same principle to academic publishing? What if publication were not an unrestricted right but a regulated privilege, allocated deliberately to prevent the exhaustion of scholarly attention, peer review capacity, and editorial resources? Could such a system shift incentives away from sheer volume and toward deeper, more meaningful contributions?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="irq_research.webp" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Yet, the real challenge is not just whether such a system could curb overpublishing, but how it could do so without reinforcing academic elitism or concentrating research power in the hands of a few.</p>
+<p>Would an IRQ system democratize knowledge production, or would it risk restricting access even further? If we can regulate fisheries to ensure sustainability, can we regulate knowledge production in a way that preserves both quality and equity?</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>IRQ is just one of many possible policy solutions. There are likely many other approaches that could emerge within this framework. IRQ is on top of my head by professional deformation.</p>
+</div>
+</div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Overpublishing2023" class="csl-entry" role="listitem">
+Akbashev, Andrew R., and Sergei V. Kalinin. 2023. <span>“Tackling Overpublishing by Moving to Open-Ended Papers.”</span> <em>Nature Materials</em> 22 (3): 270–71. <a href="https://doi.org/10.1038/s41563-023-01489-1">https://doi.org/10.1038/s41563-023-01489-1</a>.
+</div>
+<div id="ref-QualityVsQuantity2025" class="csl-entry" role="listitem">
+Bellemare, Marc F. 2025. <span>“Quality Vs. <span>Quantity</span> in <span>Publishing</span>.”</span> <a href="https://marcfbellemare.com/wordpress/14440">https://marcfbellemare.com/wordpress/14440</a>.
+</div>
+<div id="ref-birkenbach2017" class="csl-entry" role="listitem">
+Birkenbach, Anna M., David J. Kaczan, and Martin D. Smith. 2017. <span>“Catch Shares Slow the Race to Fish.”</span> <em>Nature</em> 544 (7649): 223–26. <a href="https://doi.org/10.1038/nature21728">https://doi.org/10.1038/nature21728</a>.
+</div>
+<div id="ref-derondPublishPerishBane2005" class="csl-entry" role="listitem">
+De Rond, Mark, and Alan N. Miller. 2005. <span>“Publish or <span>Perish</span>: <span>Bane</span> or <span>Boon</span> of <span>Academic</span> <span>Life</span>?”</span> <em>Journal of Management Inquiry</em> 14 (4): 321–29. <a href="https://doi.org/10.1177/1056492605276850">https://doi.org/10.1177/1056492605276850</a>.
+</div>
+<div id="ref-sandstrom2016" class="csl-entry" role="listitem">
+Sandström, Ulf, and Peter van den Besselaar. 2016. <span>“Quantity and/or <span>Quality</span>? <span>The</span> <span>Importance</span> of <span>Publishing</span> <span>Many</span> <span>Papers</span>.”</span> <em>PLOS ONE</em> 11 (11): e0166149. <a href="https://doi.org/10.1371/journal.pone.0166149">https://doi.org/10.1371/journal.pone.0166149</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

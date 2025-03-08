@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "talks/index.html#section",
+    "href": "talks/index.html#section",
+    "title": "Talks",
+    "section": "2025",
+    "text": "2025\n\n\n    \n    \n                  \n            \n        \n        \n            Matching property rights and transboundary ecological processes\n\n            \n\n            \n            \n            \n        \n        \n    \n    \n\n\nNo matching items"
+  },
+  {
     "objectID": "research/index.html",
     "href": "research/index.html",
     "title": "Research",
@@ -404,5 +411,40 @@
     "title": "Aquaculture: The missing contributor in the food security agenda",
     "section": "Citation",
     "text": "Citation\n\n Add to Zotero \n\n@article{GARLOCK2022100620,\ntitle = {Aquaculture: The missing contributor in the food security agenda},\njournal = {Global Food Security},\nvolume = {32},\npages = {100620},\nyear = {2022},\nissn = {2211-9124},\ndoi = {https://doi.org/10.1016/j.gfs.2022.100620},\nurl = {https://www.sciencedirect.com/science/article/pii/S2211912422000116},\nauthor = {Taryn Garlock and Frank Asche and James Anderson and Adams Ceballos-Concha and David C. Love and Tonje C. Osmundsen and Ruth Beatriz Mezzalira Pincinato},\nkeywords = {Fish farming, Fish consumption, Poverty, Seafood}\n}"
+  },
+  {
+    "objectID": "talks/2025/Aqua_America_NO25/index.html#production-organization",
+    "href": "talks/2025/Aqua_America_NO25/index.html#production-organization",
+    "title": "Matching property rights and transboundary ecological processes",
+    "section": "Production Organization",
+    "text": "Production Organization\n\n\n\n\nNorway’s coast is divided into 13 production zones (PZs).\nPZs are designed to minimize cross-zone contamination of salmon lice and other parasites (Ådlandsvik 2015).\nFarmers require licenses and allocated sites to operate\nLicensing criteria have shifted with government priorities, leading to inconsistent regulations, unclear criteria, and legal disputes (Anon 2015; Hersoug, Mikkelsen, and Karlsen 2019).\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: The 13 aquaculture production zones along the Norwegian coast. Note: production zone 3 and Hardangerfjord are highlighted. Blue dots are production sites. Source: Sandvik et al. (2021)."
+  },
+  {
+    "objectID": "talks/2025/Aqua_America_NO25/index.html#the-bhhi",
+    "href": "talks/2025/Aqua_America_NO25/index.html#the-bhhi",
+    "title": "Matching property rights and transboundary ecological processes",
+    "section": "The BHHI",
+    "text": "The BHHI\nThe BHHI quantifies ownership concentration in a production zone. It is calculated in two steps:\n\nBiomass Share Calculation: For each firm i in production zone p at time t: \\(s_{itp} = \\frac{q_{itp}}{\\sum_{i=1}^n q_{itp}}\\) where \\(q_{itp}\\) is the biomass (in kg).\nBHHI Calculation:\nSum of squared biomass shares:\n\\[\\text{BHHI}_{pt} = \\sum_{i=1}^n s_{itp}^2\\]"
+  },
+  {
+    "objectID": "talks/2025/Aqua_America_NO25/index.html#bhhi-and-sea-lice",
+    "href": "talks/2025/Aqua_America_NO25/index.html#bhhi-and-sea-lice",
+    "title": "Matching property rights and transboundary ecological processes",
+    "section": "BHHI and sea lice",
+    "text": "BHHI and sea lice\n\n\n\n\n\n\n\n\nFigure 2: Production Zones 1 and 13: Biomass Herfindahl-Hirschman Index (BHHI) and Sea Lice Average per Ten Fish Over Time.\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 3: Production Zones 2 to 12: Biomass Herfindahl-Hirschman Index (BHHI) and Sea Lice Average per Ten Fish Over Time"
+  },
+  {
+    "objectID": "talks/2025/Aqua_America_NO25/index.html#overview-of-the-dataset",
+    "href": "talks/2025/Aqua_America_NO25/index.html#overview-of-the-dataset",
+    "title": "Matching property rights and transboundary ecological processes",
+    "section": "Overview of the dataset",
+    "text": "Overview of the dataset\n\nTime Period & Scope:\n\nCovers 2012–2017 with 30,566 monthly reports.\nData from 849 salmon production sites, representing approximately 90% of total production."
+  },
+  {
+    "objectID": "talks/2025/Aqua_America_NO25/index.html#ownership-concentration-firm-classification-and-sea-lice-management-strategies.",
+    "href": "talks/2025/Aqua_America_NO25/index.html#ownership-concentration-firm-classification-and-sea-lice-management-strategies.",
+    "title": "Matching property rights and transboundary ecological processes",
+    "section": "Ownership Concentration, Firm Classification, and Sea Lice Management Strategies.",
+    "text": "Ownership Concentration, Firm Classification, and Sea Lice Management Strategies.\n\n\n\n\n\n\nFigure 4: Panel A shows the mean fallowing frequency across ownership concentration categories (BHHI) for major and other firms. Panel B presents the average use of cleaner fish. Panel C illustrates chemical bath treatments. Panel D reports the synchronization rate of fallowing and treatments."
   }
 ]

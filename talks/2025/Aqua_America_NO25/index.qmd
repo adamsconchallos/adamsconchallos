@@ -1,0 +1,227 @@
+---
+title: Matching property rights and transboundary ecological processes
+subtitle: The case of Norwegian salmon aquaculture
+institute: "University of Florida"
+author: "Adams Ceballos-Concha"
+logo: images/IFAS-core.png
+format: 
+  revealjs:
+    # embed-resources: true
+    # self-contained-math: true
+    navigation-mode: vertical
+    auto-stretch: false
+    #incremental: true
+    logo: images/IFAS-core.png
+    #footer: "`emitanaka.org/slides/toronto2022`"
+    slide-number: true
+    multiplex: true
+    theme: [simple, assets/monash.scss]
+    show-slide-number: all
+    controls: true
+    width: 1280
+    height: 720
+    css: [assets/syntax-highlight.css, assets/custom.css, assets/pacman.css]
+    header-includes: |
+      <link rel="stylesheet" href="/assets/fontawesome-free-6.7.2-web/css/font-awesome.min.css">
+      <script defer src="/assets/fontawesome-free-6.7.2-web/js/all.min.js"></script>
+execute:
+  echo: true
+bibliography: references.bib
+lightbox: true
+---
+
+
+
+# Take-away message [1]{.circle} <i class="fa-brands fa-r-project" style="height:120px;vertical-align:middle;"></i>  
+
+
+
+* Concentrated ownership improves management
+
+::: info-box
+
+- Higher ownership concentration (measured via the Biomass Herfindahl-Hirschman Index (BHHI)) significantly reduces sea lice severity on farms already experiencing infestations, suggesting that coordinated management strategies enhance treatment efficacy.
+- 100‐point increase in the BHHI is associated with approximately a 15–16% reduction in sea lice levels on farms already experiencing infestations.
+
+
+:::
+
+
+
+# Take-away message [2]{.circle} <i class="fa-brands fa-r-project" style="height:120px;vertical-align:middle;"></i>
+
+
+
+* Limited impact on infestation occurrence
+
+
+
+
+::: info-box
+
+The study finds no evidence that increased ownership concentration affects the initial probability of a sea lice outbreak, suggesting that preventive measures may require different strategies.
+
+
+:::
+
+# Why higher ownership concentration should lead to lower externalities level
+:::::: {.columns}
+
+
+
+:::::: {.column width="40%"}
+
+::: box
+1. Each farm makes independent decisions, often prioritizing private costs over collective disease control.
+2. Disease spreads within each area, but without coordination, some farms underinvest in treatment, leading to persistent infections.
+3. Spillovers between areas create externalities, but ownership concentration internalizes these effects, ensuring synchronized management, reducing free-riding, and improving disease control efficiency.
+
+:::
+
+::::::
+
+:::::: {.column width="60%"}
+
+::: {.fragment .fade-in}
+
+::: {data-id="box1"}
+
+:::{.r-stack}
+![](images/area1.png){.fragment width="80%" auto-animate="true" auto-animate-easing="ease-in-out"}
+
+
+
+![](images/area2.png){.fragment width="80%" auto-animate="true" auto-animate-easing="ease-in-out"}
+
+![](images/area3.png){.fragment width="80%" auto-animate="true" auto-animate-easing="ease-in-out"}
+
+![](images/area4.png){.fragment width="80%" auto-animate="true" auto-animate-easing="ease-in-out"}
+:::
+
+:::
+
+:::
+
+:::::
+
+::::::
+<!-- # Experimental design<br> short stories  {background-color="#006dae"} -->
+
+#   {data-background-image="images/Picture7.png" data-background-size="cover"}
+
+## Production Organization
+
+:::::: {.columns}
+
+
+
+:::::: {.column width="37%"}
+
+::: box
+
+- Norway's coast is divided into <span class="fragment highlight-red" fragment-index=2>13 production zones (PZs)</span>.
+- PZs are designed to <span class="fragment highlight-red" fragment-index=3>minimize cross-zone contamination</span> of salmon lice and other parasites [@Adlandsvik2015].
+- Farmers require licenses and allocated sites to operate
+- Licensing criteria have shifted with government priorities, leading to inconsistent regulations, unclear criteria, and legal disputes [@anon_recommendation_2015; @hersoug_great_2019].
+
+:::
+
+::::::
+
+:::::: {.column width="63%"}
+
+::: {.fragment .fade-in}
+
+::: {data-id="box1"}
+
+![The 13 aquaculture production zones along the Norwegian coast. Note: production zone 3 and Hardangerfjord are highlighted. Blue dots are production sites. Source: @sandvik_development_2021.](images/fig31.jpg){#fig-pzmap}
+:::
+
+:::
+
+:::::
+
+::::::
+
+## The BHHI
+
+The **BHHI** quantifies ownership concentration in a production zone. It is calculated in two steps:
+
+1. **Biomass Share Calculation:** For each firm *i* in production zone *p* at time *t*:  $s_{itp} = \frac{q_{itp}}{\sum_{i=1}^n q_{itp}}$ where $q_{itp}$ is the biomass (in kg).
+2. **BHHI Calculation:**  
+   Sum of squared biomass shares:  
+   $$\text{BHHI}_{pt} = \sum_{i=1}^n s_{itp}^2$$
+---
+
+## BHHI and sea lice
+
+:::::: {.columns}
+
+
+
+:::::: {.column width="37%"}
+
+
+![Production Zones 1 and 13: Biomass Herfindahl-Hirschman Index (BHHI) and Sea Lice Average per Ten Fish Over Time.](images/sealice_bhhi_1_13.png){#fig-fig31}
+
+::::::
+
+:::::: {.column width="63%"}
+
+::: {.fragment .fade-in}
+
+::: {data-id="box1"}
+
+![Production Zones 2 to 12: Biomass Herfindahl-Hirschman Index (BHHI) and Sea Lice Average per Ten Fish Over Time](images/sealice_bhhi_2_12.png){#fig-fig33}
+:::
+
+:::
+
+:::::
+
+::::::
+
+---
+
+## Overview of the dataset
+
+- **Time Period & Scope:**  
+  - Covers 2012–2017 with 30,566 monthly reports.
+  - Data from 849 salmon production sites, representing approximately 90% of total production.
+
+---
+
+# Estimation procedure overview
+
+Our study evaluates how ownership concentration affects sea lice management using two models:
+
+:::{.callout-note }
+## Extensive margin
+  - We estimate the probability that a farm experiences any sea lice infestation.
+  - A fixed-effects probit model with a control function is used to adjust for endogeneity.
+
+:::
+
+:::{.callout-note}
+## Intensive margin
+  - For farms with sea lice present, we assess the severity of infestation.
+  - A two-stage least squares (2SLS) method is employed using an instrument (based on production cycles in other zones) to address potential endogeneity.
+:::
+
+# Extensive margin
+
+::: {#tbl-controlfunc}
+![](images/table1.png)
+:::
+
+# Extensive margin
+
+
+![](images/fig_tab_2.png){width="50%"}
+
+
+## Ownership Concentration, Firm Classification, and Sea Lice Management Strategies.
+
+![Panel A shows the mean fallowing frequency across ownership concentration categories (BHHI) for major and other firms. Panel B presents the average use of cleaner fish. Panel C illustrates chemical bath treatments. Panel D reports the synchronization rate of fallowing and treatments.](images/channels.png){#fig-management_strategies width="60%"}
+
+# References

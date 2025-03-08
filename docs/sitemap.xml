@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.adamsceballos.com/talks/index.html</loc>
+    <lastmod>2025-03-07T22:04:12.194Z</lastmod>
+  </url>
+  <url>
     <loc>https://www.adamsceballos.com/research/index.html</loc>
     <lastmod>2024-02-23T02:24:22.000Z</lastmod>
   </url>
@@ -34,7 +38,7 @@
   </url>
   <url>
     <loc>https://www.adamsceballos.com/blog/2025/02/ifq_academia/index.html</loc>
-    <lastmod>2025-02-16T15:04:03.450Z</lastmod>
+    <lastmod>2025-02-16T15:05:10.032Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/cv/index.html</loc>
@@ -51,5 +55,9 @@
   <url>
     <loc>https://www.adamsceballos.com/research/articles/garlock-2022/index.html</loc>
     <lastmod>2024-02-23T01:45:44.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/talks/2025/Aqua_America_NO25/index.html</loc>
+    <lastmod>2025-03-08T20:00:28.782Z</lastmod>
   </url>
 </urlset>

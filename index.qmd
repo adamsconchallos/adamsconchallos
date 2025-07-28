@@ -28,7 +28,20 @@ links:
 
 ::: {.g-col-12 .g-col-sm-6}
 
-I am a **postdoctoral associate** at the Institute of Food and Agricultural Sciences (IFAS), University of Florida. My research lies at the intersection of **marine and aquaculture economics**, focusing on the complex relationships between institutions and marine ecosystems. My work explores the effects of property rights on marine industry dynamics, the influence of transnational firms on environmental and local governance outcomes, and the role of industry ownership in shaping community well-being. These questions are increasingly critical as global reliance on ocean resources intensifies.
+I am a **postdoctoral associate** at the University of Florida’s Institute of Food and Agricultural Sciences (IFAS).
+
+**Research themes**
+
+- Property rights and marine industry dynamics  
+- Governance of transnational aquaculture firms  
+- Community well‑being under changing ownership structures  
+
+These topics matter as global reliance on ocean resources intensifies.
+
+:::{.callout-note collapse="false"}
+### New on the Blog  →  
+Read reflections on marine economics, policy, and data analysis in my [latest posts](/blog/).  
+:::
 
 :::
 
@@ -50,13 +63,23 @@ I am a **postdoctoral associate** at the Institute of Food and Agricultural Scie
 :::
 ::: {.g-col-12 .g-col-sm-12}
 
-I am currently involved in the Seagrass Conservation on Florida’s Nature Coast project, which aims to address the ecological and economic impacts of propeller scarring in critical seagrass habitats. Learn more about the project [here](https://restoreactscienceprogram.noaa.gov/projects/seagrass-conservation-on-floridas-nature-coast).
+### Current project
 
-In addition to my postdoctoral research, I have extensive teaching experience, having taught courses in **microeconomics, econometrics, environmental economics**, and related topics across multiple universities at both graduate and undergraduate levels. Previously, I served as a research assistant and team coordinator at the **Interdisciplinary Center for Aquaculture Research** ([INCAR](https://centroincar.cl/en/)) in Chile, where I developed sustainable aquaculture strategies in collaboration with regional governments.
+I am **co‑investigator** on *Seagrass Conservation on Florida’s Nature Coast*, quantifying the ecological and economic costs of propeller scarring in critical habitats.  
+[Project details](https://restoreactscienceprogram.noaa.gov/projects/seagrass-conservation-on-floridas-nature-coast).
 
-You will find my [**academic outputs**](https://scholar.google.cl/citations?user=RSqV_1UAAAAJ&hl=en) on this website, including articles, monographs, and translations. Additionally, the site provides updates on my current research projects, information on upcoming events and conferences where I will be presenting, and insights into my scholarly journey. I invite you to explore the content.
+### Teaching and mentoring
 
-Please feel free to [contact me](mailto:aceballos@ufl.edu) if you have any questions or would like to discuss potential projects.
+I have taught **micro­economics, econometrics, and environmental economics** at graduate and undergraduate levels across several universities and continue to supervise student research.
+
+### Previous appointments
+
+At Chile’s **Interdisciplinary Center for Aquaculture Research (INCAR)** I coordinated a multidisciplinary team that developed sustainable aquaculture strategies for regional governments.
+
+---
+
+You can view my [academic outputs](https://scholar.google.cl/citations?user=RSqV_1UAAAAJ&hl=en), ongoing projects, and conference schedule on this site.  
+For collaboration inquiries, please [e‑mail me](mailto:aceballos@ufl.edu).
 
 :::
 

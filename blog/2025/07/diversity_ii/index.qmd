@@ -14,11 +14,11 @@ categories:
   - Hotelling
   - Backstop technology
 date: 2025-07-28
-image: "img/card.png"
+image: "img/protein_bar.png"
 twitter-card:
-  image: "img/card.png"
+  image: "img/protein_bar.png"
 open-graph:
-  image: "img/card.png"
+  image: "img/protein_bar.png"
 appendix-style: none
 bibliography: references.bib
 ---

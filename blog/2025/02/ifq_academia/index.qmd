@@ -2,11 +2,11 @@
 title: "Individual Fishing Quotas and Academic Overpublishing"
 date: 2025-02-15
 description: "How the 'publish or perish' culture in academia creates negative externalities by prioritizing quantity over quality, leading to systemic inefficiencies in knowledge production and dissemination. This piece examines overpublishing as a common-pool resource problem and its implications for scientific progress."
-image: "img/card.png"
+image: "overpublishing.webp"
 twitter-card:
-  image: "img/card.png"
+  image: "overpublishing.webp"
 open-graph:
-  image: "img/card.png"
+  image: "overpublishing.webp"
 categories:
   - blog
   - english

@@ -12,11 +12,11 @@ categories:
   - Technology
   - Diversity
 date: 2025-07-25
-image: "img/card.png"
+image: "img/corn-production-land-us.png"
 twitter-card:
-  image: "img/card.png"
+  image: "img/corn-production-land-us.png"
 open-graph:
-  image: "img/card.png"
+  image: "img/corn-production-land-us.png"
 appendix-style: none
 bibliography: references.bib
 ---

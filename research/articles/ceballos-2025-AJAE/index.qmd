@@ -48,7 +48,7 @@ pub-info:
   #     url: https://www.zotero.org/save?type=doi&q=10.1111/raq.12993
   #     icon: ai ai-zotero
   reference: >-
-    <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, <a>Frank Asche</a>, <a>Andrew Ropicki</a>, <a>Conner Mullally</a>, and <a>Jordan Moor</a>, “Matching Property Rights and Transboundary Ecological Processes. The case of Norwegian Salmon Aquaculture,” <em>American Journal of Agricultural Economics</em> (Forthcoming).
+    <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, <a>Frank Asche</a>, <a>Andrew Ropicki</a>, <a>Conner Mullally</a>, and <a>Jordan Moor</a>, “Matching Property Rights and Transboundary Ecological Processes. The case of Norwegian Salmon Aquaculture,” <em>American Journal of Agricultural Economics</em> (Pre print).
 
   extra: >-
     The authors (Adams Ceballos-Concha and Frank Asche) acknowledge funding from the Research Council of Norway (project numbers 328724 and 353039).

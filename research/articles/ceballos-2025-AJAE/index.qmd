@@ -16,6 +16,7 @@ author:
     url: https://sites.google.com/site/connermullally/home
     affiliation: Food and resource economics, University of Florida, Gainesville, Florida, USA
   - name: Jordan Moor
+    url: https://fred.ifas.ufl.edu/about/directory/jordan-moor/
     affiliation: Food and resource economics, University of Florida, Gainesville, Florida, USA
 categories: 
   - Aquaculture

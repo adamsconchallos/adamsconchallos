@@ -19,28 +19,27 @@ links:
     href: https://www.linkedin.com/in/adams-ceballos-concha-0403633a/
   - icon: envelope
     text: Email
-    href: "mailto:mail.aceballos@ufl.edu"  
+    href: "mailto:aceballos@ufl.edu"
 ---
 
 ::: {.grid}
 
-
-
 ::: {.g-col-12 .g-col-sm-6}
 
-I am a **postdoctoral associate** at the University of Florida’s Institute of Food and Agricultural Sciences (IFAS).
+I am a **postdoctoral associate** at the University of Florida’s Institute of Food and Agricultural Sciences ([IFAS](https://ifas.ufl.edu/)).
+I use **causal inference**, **spatial analysis**, and **survey-based methods** to evaluate how environmental and regulatory policies shape behavior across space and time. My work links policy design to outcomes in **compliance**, **economic performance**, and **resource conservation**.
 
-**Research themes**
+:::{.callout-tip}
+### Award
+**IAAEM Best Dissertation Award (Aquaculture 2025).**  
+*Coupled Human–Natural Systems: Economic and Ecological Interactions in Fisheries and Aquaculture.*  
+[Announcement](https://iaaem.org/best-paper-and-dissertation-awards-at-aquaculture-2025/)
+:::
 
-- Property rights and marine industry dynamics  
-- Governance of transnational aquaculture firms  
-- Community well‑being under changing ownership structures  
-
-These topics matter as global reliance on ocean resources intensifies.
 
 :::{.callout-note collapse="false"}
 ### New on the Blog  →  
-Read reflections on marine economics, policy, and data analysis in my [latest posts](/blog/).  
+Reflections on marine economics, policy, and data analysis in my [latest posts](/blog/).
 :::
 
 :::
@@ -59,32 +58,20 @@ Read reflections on marine economics, policy, and data analysis in my [latest po
   <div class="g-col-1 g-col-sm-0"></div>
 </div>
 ```
-
 :::
+
 ::: {.g-col-12 .g-col-sm-12}
 
-### Current project
+**Current focus.** Evaluation of **boating and fishery policies** in Florida’s Nature Coast and the Florida Keys under the [**NOAA RESTORE Act**](https://restoreactscienceprogram.noaa.gov/projects/seagrass-conservation-on-floridas-nature-coast), integrating survey and spatial data to quantify local economic and environmental impacts. Collaboration with the **Florida Fish and Wildlife Conservation Commission** on the evaluation of [**Marine Protected Areas**](https://myfwc.com/research/saltwater/wdr/).
 
-I am **co‑investigator** on *Seagrass Conservation on Florida’s Nature Coast*, quantifying the ecological and economic costs of propeller scarring in critical habitats.  
-[Project details](https://restoreactscienceprogram.noaa.gov/projects/seagrass-conservation-on-floridas-nature-coast).
+**Prior work.** Commercial fishery responses to [**harmful algal blooms**](https://blogs.ifas.ufl.edu/news/2021/08/02/uf-economic-report-details-select-marine-industry-and-tourism-impacts-from-2018-red-tide-event/) in the Gulf of Mexico; policy design for **aquaculture adoption** in Chile.
 
-### Teaching and mentoring
-
-I have taught **micro­economics, econometrics, and environmental economics** at graduate and undergraduate levels across several universities and continue to supervise student research.
-
-### Previous appointments
-
-At Chile’s **Interdisciplinary Center for Aquaculture Research (INCAR)** I coordinated a multidisciplinary team that developed sustainable aquaculture strategies for regional governments.
 
 ---
 
-You can view my [academic outputs](https://scholar.google.cl/citations?user=RSqV_1UAAAAJ&hl=en), ongoing projects, and conference schedule on this site.  
-For collaboration inquiries, please [e‑mail me](mailto:aceballos@ufl.edu).
+See **publications and outputs** on [Google Scholar](https://scholar.google.cl/citations?user=RSqV_1UAAAAJ&hl=en), plus ongoing projects and travel.  
+For collaboration inquiries, please **email** [aceballos@ufl.edu](mailto:aceballos@ufl.edu).
 
 :::
 
-
 :::
-
-
-

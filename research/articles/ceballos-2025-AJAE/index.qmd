@@ -49,7 +49,7 @@ pub-info:
       url: https://www.zotero.org/save?type=doi&q=10.2139/ssrn.5589490
       icon: ai ai-zotero
   reference: >-
-    <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, <a>Frank Asche</a>, <a>Andrew Ropicki</a>, <a>Conner Mullally</a>, and <a>Jordan Moor</a>, “Matching Property Rights and Transboundary Ecological Processes. The case of Norwegian Salmon Aquaculture,” <em>Pre print</em>.
+    <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, <a>Frank Asche</a>, <a>Andrew Ropicki</a>, <a>Conner Mullally</a>, and <a>Jordan Moor</a>, “Matching Property Rights and Transboundary Ecological Processes. The case of Norwegian Salmon Aquaculture,” <em>American Journal of Agricultual Economics (Forthcoming)</em>.
 
   extra: >-
     The authors (Adams Ceballos-Concha and Frank Asche) acknowledge funding from the Research Council of Norway (project numbers 328724 and 353039).
@@ -201,7 +201,7 @@ The Traffic Light System (TLS) operationalizes zone-level coordination by settin
 @article{CeballosConchaEtAl_SSRN_2025,
   author  = {Adams Ceballos-Concha and Frank Asche and Andrew Ropicki and Conner Mullally and Jordan Moor},
   title   = {Matching Property Rights and Transboundary Ecological Processes: The Case of Norwegian Salmon Aquaculture},
-  journal = {SSRN Electronic Journal},
+  journal = {American Journal of Agricultural Economics (Forthcoming)},
   year    = {2025},
   doi     = {10.2139/ssrn.5589490},
   url     = {https://dx.doi.org/10.2139/ssrn.5589490}

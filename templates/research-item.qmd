@@ -1,0 +1,26 @@
+---
+title: "{{TITLE}}"
+date: {{DATE}}
+author:
+  - name: Adams Ceballos-Concha
+    url: https://adamsceballos.com/
+    orcid: 0000-0003-3822-8791
+categories:
+  - topic-1
+  - topic-2
+pub-info:
+  links: []
+  reference: >-
+    Adams Ceballos-Concha, "{{TITLE}}", {{YEAR}}.
+  extra: >-
+    Add funding or notes here.
+doi: "{{DOI}}"
+haiku:
+  - Add one concise finding.
+  - Add a second concise finding.
+  - Add a third concise finding.
+---
+
+## Abstract
+
+Add the abstract here.

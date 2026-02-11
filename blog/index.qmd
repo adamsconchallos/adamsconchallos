@@ -3,19 +3,12 @@ title: "Blog"
 author: ""
 description: "Adams Ceballos's blog"
 listing:
-  - id: posts_2025
-    contents: "2025/**/index.qmd"
-    sort: "date desc"
-    template: ../html/blog/listing.ejs
-    categories: true
-  - id: posts_2024
-    contents: "2024/**/index.qmd"
+  - id: posts
+    contents: "[0-9][0-9][0-9][0-9]/**/index.qmd"
     sort: "date desc"
     template: ../html/blog/listing.ejs
     categories: true
 page-layout: full
-toc-title: Year
-toc-location: right
 date-format: "MMMM D, YYYY"
 code-tools: false
 comments: false
@@ -28,15 +21,7 @@ freeze: false
     display: none;
 }
 ```
-## 2025
 
-:::{#posts_2025}
-:::
-
-
-
-## 2024
-
-:::{#posts_2024}
+:::{#posts}
 :::
 

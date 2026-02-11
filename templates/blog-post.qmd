@@ -1,0 +1,15 @@
+---
+title: "{{TITLE}}"
+date: {{DATE}}
+description: "{{DESCRIPTION}}"
+categories:
+  - blog
+  - {{LANGUAGE_CATEGORY}}
+execute:
+  echo: false
+format:
+  html:
+    code-tools: false
+---
+
+Write your post here.

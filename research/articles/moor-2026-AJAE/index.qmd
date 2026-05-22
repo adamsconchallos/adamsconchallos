@@ -1,0 +1,63 @@
+---
+title: "An economic approach to mitigating spillover bias in synthetic control methods: An application to the price effects of fishing quotas"
+date: 2026-05-12
+author:
+  - name: Jordan Moor
+    url: https://fred.ifas.ufl.edu/about/directory/jordan-moor/
+    affiliation: Food and Resource Economics Department, University of Florida, Gainesville, Florida, USA
+  - name: Andrew Ropicki
+    url: https://fred.ifas.ufl.edu/about/directory/andrew-ropicki/
+    affiliation: Food and Resource Economics Department, University of Florida, Gainesville, Florida, USA
+  - name: Frank Asche
+    url: https://scholar.google.com/citations?user=hF8FTTIAAAAJ&hl=en
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences, University of Florida, Gainesville, Florida, USA
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences, University of Florida, Gainesville, Florida, USA
+categories:
+  - Individual Fishing Quotas
+  - Synthetic control
+  - Spillover bias
+  - Reef-fish fisheries
+  - Market integration
+pub-info:
+  links:
+    - name: Final version
+      url: https://doi.org/10.1002/ajae.70079
+      icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1002/ajae.70079
+      icon: ai ai-zotero
+  reference: >-
+    <a>Jordan Moor</a>, <a>Andrew Ropicki</a>, <a>Frank Asche</a>, and <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos-Concha</strong></a>, “An economic approach to mitigating spillover bias in synthetic control methods: An application to the price effects of fishing quotas,” <em>American Journal of Agricultural Economics</em> (2026), doi: <a href="https://doi.org/10.1002/ajae.70079"><code>10.1002/ajae.70079</code></a>.
+
+  extra: >-
+    Funded in part by the National Marine Fisheries Service (NA23NMF4550296).
+doi: 10.1002/ajae.70079
+haiku:
+  - IFQs raise ex-vessel prices for reef-fish species and spill over to adjacent untreated fisheries.
+  - A theory-guided donor selection rule reduces synthetic-control bias when treatment leaks across units.
+  - The same framework lets you read the spillover itself as an estimate, not just a nuisance.
+---
+
+## Abstract
+
+Individual Fishing Quotas (IFQs) have the potential to lead to higher ex-vessel prices by reducing market gluts and improving product quality. While IFQs have been introduced in a number of fisheries in recent decades, few causal studies investigate their price effects. Using synthetic control methods on US reef-fish fisheries, we show that IFQs significantly increase prices for red snapper, red grouper, gag grouper, yellowedge grouper, scamp grouper, and tilefish. We also find significant positive price spillovers to adjacent, untreated fisheries. A primary challenge to unbiased estimation using synthetic control is treatment spillover, which can contaminate both never-treated units in the donor pool and to-be-treated units in a staggered implementation. When control (donor) units are subject to these spillovers, this can lead to either attenuation or divergence of the causal estimate, depending on the empirical setting. To address this estimation challenge, we propose a framework relying on economic theory (market arbitrage and product substitution) and empirical analysis (e.g., market integration or demand estimation) to inform both donor selection and the timing of the treatment start date. As a result, our proposed structure improves the accuracy of synthetic control estimates, as shown by a small Monte Carlo experiment. Furthermore, by pre-identifying contaminated units, our framework allows for the direct measurement of the spillover effects themselves.
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1002/ajae.70079">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{MoorEtAl_AJAE_2026,
+  author  = {Jordan Moor and Andrew Ropicki and Frank Asche and Adams Ceballos-Concha},
+  title   = {An economic approach to mitigating spillover bias in synthetic control methods: An application to the price effects of fishing quotas},
+  journal = {American Journal of Agricultural Economics},
+  year    = {2026},
+  doi     = {10.1002/ajae.70079},
+  url     = {https://doi.org/10.1002/ajae.70079}
+}
+```

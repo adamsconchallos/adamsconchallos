@@ -2,7 +2,7 @@
 title: "Hola!"
 pagetitle: "Adams Ceballos-Concha"
 main-photo: "img/my_image1.jpg"
-title-block-banner: "#3f9f7f"
+title-block-banner: "#671130"
 format:
   html:
     quarto-template-params:

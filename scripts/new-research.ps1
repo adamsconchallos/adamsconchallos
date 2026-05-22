@@ -56,7 +56,7 @@ if (-not $Slug) {
 }
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$templatePath = Join-Path $repoRoot "templates\research-item.qmd"
+$templatePath = Join-Path $repoRoot "_templates\research-item.qmd"
 if (-not (Test-Path -LiteralPath $templatePath)) {
     throw "Missing template file: $templatePath"
 }

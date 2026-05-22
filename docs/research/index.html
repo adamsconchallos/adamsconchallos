@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c6e10961051588e44b2076a3e8e4a21a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4631324f0f423017b5cf8e4a17343031.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -114,7 +115,7 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background: #3f9f7f;
+        background: #671130;
       }
 </style>
 
@@ -132,7 +133,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -158,7 +159,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../img/logo.png" alt="" class="navbar-logo">
+    <img src="../img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Adams Ceballos-Concha</span>
@@ -258,7 +260,7 @@ window.Quarto = {
 <div class="research project-list">
 <ul class="list">
     
-        <li class="project" data-index="0" data-categories="QXF1YWN1bHR1cmUlMkNleHRlcm5hbGl0aWVzJTJDb3duZXJzaGlwJTIwY29uY2VudHJhdGlvbiUyQ3Byb3BlcnR5JTIwcmlnaHRzJTJDc2FsbW9uJTIwZmFybWluZyUyQ3NwYXRpYWwtZHluYW1pYyUyQ3RyYW5zYm91bmRhcnklMjBleHRlcm5hbGl0aWVzLg==" data-listing-date-sort="1760068800000" data-listing-file-modified-sort="1761193136831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1738">
+        <li class="project" data-index="0" data-categories="QXF1YWN1bHR1cmUlMkNleHRlcm5hbGl0aWVzJTJDb3duZXJzaGlwJTIwY29uY2VudHJhdGlvbiUyQ3Byb3BlcnR5JTIwcmlnaHRzJTJDc2FsbW9uJTIwZmFybWluZyUyQ3NwYXRpYWwtZHluYW1pYyUyQ3RyYW5zYm91bmRhcnklMjBleHRlcm5hbGl0aWVzLg==" data-listing-date-sort="1760068800000" data-listing-file-modified-sort="1779414401652" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1738">
             <div class="project-content listing-pub-info">
                 <p><a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, <a>Frank Asche</a>, <a>Andrew Ropicki</a>, <a>Conner Mullally</a>, and <a>Jordan Moor</a>, “Matching Property Rights and Transboundary Ecological Processes. The case of Norwegian Salmon Aquaculture,” <em>American Journal of Agricultual Economics (Forthcoming)</em>.</p>
             </div>
@@ -350,7 +352,7 @@ window.Quarto = {
             </div>
         </li>
         
-        <li class="project" data-index="1" data-categories="U2FsbW9uJTIwYXF1YWN1bHR1cmUlMkNDaGlsZSUyQ1NvY2lvZWNvbm9taWMlMjBpbXBhY3Rz" data-listing-date-sort="1732856400000" data-listing-file-modified-sort="1736312004145" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="878">
+        <li class="project" data-index="1" data-categories="U2FsbW9uJTIwYXF1YWN1bHR1cmUlMkNDaGlsZSUyQ1NvY2lvZWNvbm9taWMlMjBpbXBhY3Rz" data-listing-date-sort="1732856400000" data-listing-file-modified-sort="1779414401675" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="878">
             <div class="project-content listing-pub-info">
                 <p><a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, <a>Frank Asche</a>, and <a>Roberto Cárdenas-Retamal</a>, “Salmon Aquaculture in Chile: Production Growth and Socioeconomic Impacts,” <em>Reviews in Aquaculture</em> 17 (2025): e12993, doi: <a href="https://doi.org/10.1111/raq.12993"><code>10.1111/raq.12993</code></a></p>
             </div>
@@ -416,7 +418,7 @@ window.Quarto = {
             </div>
         </li>
         
-        <li class="project" data-index="2" data-categories="RmlzaCUyMGZhcm1pbmclMkNGaXNoJTIwY29uc3VtcHRpb24lMkNQb3ZlcnR5JTJDU2VhZm9vZA==" data-listing-date-sort="1644728400000" data-listing-file-modified-sort="1708652744000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500">
+        <li class="project" data-index="2" data-categories="RmlzaCUyMGZhcm1pbmclMkNGaXNoJTIwY29uc3VtcHRpb24lMkNQb3ZlcnR5JTJDU2VhZm9vZA==" data-listing-date-sort="1644728400000" data-listing-file-modified-sort="1779414401732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="500">
             <div class="project-content listing-pub-info">
                 <p><a>Taryn Garlock</a>, <a>Frank Asche</a>, <a>James Anderson</a>, <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, <a>David C. Love</a>, <a>Tonje C. Osmundsen</a>, and <a>Ruth Beatriz Mezzalira Pincinato</a> “Aquaculture: The missing contributor in the food security agendae,” <em>Global Food Security</em> 32 (March 2022): 100620, doi: <a href="https://doi.org/10.1016/j.gfs.2022.100620"><code>10.1016/j.gfs.2022.100620</code></a></p>
             </div>
@@ -486,7 +488,7 @@ window.Quarto = {
             </div>
         </li>
         
-        <li class="project" data-index="3" data-categories="SW5jb21lJTIwZGlzdHJpYnV0aW9uJTJDU2FsbW9uJTIwYXF1YWN1bHR1cmUlMkNSZW1vdGUlMjBjb2FzdGFsJTIwYXJlYXMlMkNJbXBhY3QlMjBldmFsdWF0aW9uJTJDQ2hpbGU=" data-listing-date-sort="1616990400000" data-listing-file-modified-sort="1708652744000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="635">
+        <li class="project" data-index="3" data-categories="SW5jb21lJTIwZGlzdHJpYnV0aW9uJTJDU2FsbW9uJTIwYXF1YWN1bHR1cmUlMkNSZW1vdGUlMjBjb2FzdGFsJTIwYXJlYXMlMkNJbXBhY3QlMjBldmFsdWF0aW9uJTJDQ2hpbGU=" data-listing-date-sort="1616990400000" data-listing-file-modified-sort="1779414401609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="635">
             <div class="project-content listing-pub-info">
                 <p><a>Roberto Cárdenas-Retamal</a>, <a>Jorge Dresdner</a>, and <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong></a>, “Impact assessment of salmon farming on income distribution in remote coastal areas: The Chilean case,” <em>Food Policy</em> 101 (May 2021): 102078, doi: <a href="https://doi.org/10.1016/j.foodpol.2021.102078"><code>10.1016/j.foodpol.2021.102078</code></a></p>
             </div>
@@ -560,7 +562,7 @@ window.Quarto = {
             </div>
         </li>
         
-        <li class="project" data-index="4" data-categories="UG92ZXJ0eSUyQ1NhbG1vbiUyQ0FxdWFjdWx0dXJlJTJDU21hbGwlMjBhcmVhJTIwZXN0aW1hdGlvbiUyQ0ltcGFjdCUyMGFzc2Vzc21lbnQ=" data-listing-date-sort="1516856400000" data-listing-file-modified-sort="1708652744000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="464">
+        <li class="project" data-index="4" data-categories="UG92ZXJ0eSUyQ1NhbG1vbiUyQ0FxdWFjdWx0dXJlJTJDU21hbGwlMjBhcmVhJTIwZXN0aW1hdGlvbiUyQ0ltcGFjdCUyMGFzc2Vzc21lbnQ=" data-listing-date-sort="1516856400000" data-listing-file-modified-sort="1779414401627" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="464">
             <div class="project-content listing-pub-info">
                 <p><a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos</strong>, </a><a>Jorge Dresdner</a>, and <a>Miguel Quiroga</a>, “Does the location of salmon farms contribute to the reduction of poverty in remote coastal areas? An impact assessment using a Chilean case study,” <em>Food Policy</em> 75 (February 2018): 68-79, doi: <a href="https://doi.org/10.1016/j.foodpol.2018.01.009"><code>10.1016/j.foodpol.2018.01.009</code></a></p>
             </div>
@@ -715,13 +717,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

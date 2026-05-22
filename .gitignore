@@ -15,3 +15,5 @@
 **/.quarto/
 **/_manuscript/
 .DS_Store
+
+**/*.quarto_ipynb

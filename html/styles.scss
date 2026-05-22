@@ -18,16 +18,28 @@ $gray-800: #373a3c !default;
 $gray-900: #212529 !default;
 $black:    #000000 !default;
 
+// ===== Crisol brand palette =====
+// Source: Manual de normas graficas "Crisol" (page 5).
+$crisol-burgundy:        #671130 !default;  // primary brand (RGB 103-17-48)
+$crisol-burgundy-dark:   #4a0c22 !default;  // hover / pressed
+$crisol-burgundy-30:     #d9b9c2 !default;  // 30% tint (pale rose)
+$crisol-beige:           #bbac7c !default;  // secondary brand (RGB 187-172-124)
+$crisol-beige-dark:      #8a7d52 !default;  // accessible beige text
+$crisol-beige-30:        #eeead8 !default;  // 30% tint (pale cream)
+
+// Re-alias the theme's named colors to the Crisol palette so every existing
+// shift-color() / background-color: $purple / etc. resolves to the brand
+// palette without per-rule rewrites.
 $blue:    #2780e3 !default;
 $indigo:  #6610f2 !default;
-$purple:  #170C3A !default;
-$pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
-$light-orange:  #FB9E07 !default;
+$purple:  $crisol-burgundy !default;       // was #170C3A (navbar, blog chips)
+$pink:    $crisol-burgundy !default;       // was #A52C60 ($primary)
+$red:     $crisol-burgundy-dark !default;  // was #CF4446 (link hover, danger)
+$orange:  $crisol-burgundy !default;       // was #EE6A24 (teaching tags)
+$light-orange:  $crisol-beige !default;    // was #FB9E07 (talk link tint base)
 $yellow:  #F6D645 !default;
-$green:   #118230 !default;
-$teal:    #20c997 !default;
+$green:   $crisol-beige-dark !default;     // was #118230 (research, TOC)
+$teal:    $crisol-burgundy !default;       // was #20c997 (link color)
 $cyan:    #3093CF !default;
 
 $primary:   $pink !default;
@@ -78,13 +90,13 @@ $toc-color: $green;
 $toc-font-size: 1em;
 
 // Navbar
-$navbar-bg: $purple !default;
+$navbar-bg: $crisol-burgundy !default;
 $navbar-fg: $white !default;
-$navbar-hl: $teal !default;
+$navbar-hl: $crisol-beige !default;  // beige hover on burgundy nav
 
-// Footer
-$footer-bg: $gray-900 !default;
-$footer-fg: $gray-300 !default;
+// Footer (bookend the page with the brand burgundy)
+$footer-bg: $crisol-burgundy !default;
+$footer-fg: $crisol-beige-30 !default;
 
 /*-- scss:rules --*/
 
@@ -198,7 +210,11 @@ pre.text, pre.sourceCode, .cell-output pre {
     font-family: $footer-font-family;
 
     a {
-        color: $teal
+        color: $crisol-beige;
+
+        &:hover {
+            color: $white;
+        }
     }
 
     .faux-block {
@@ -625,13 +641,13 @@ pre.text, pre.sourceCode, .cell-output pre {
 
 .cv-download {
     font-family: $headings-font-family;
-    background-color: #771C6D;
-    border-color: #771C6D;
+    background-color: $crisol-burgundy;
+    border-color: $crisol-burgundy;
     color: $white;
 
     &:hover {
-        background-color: $red;
-        border-color: $red;
+        background-color: $crisol-burgundy-dark;
+        border-color: $crisol-burgundy-dark;
         color: $white;
     }
 }

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -54,14 +54,15 @@ div.csl-indent {
 <link href="../../../../img/favicon.png" rel="icon" type="image/png">
 <script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-c6e10961051588e44b2076a3e8e4a21a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../../site_libs/bootstrap/bootstrap-4631324f0f423017b5cf8e4a17343031.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -102,7 +103,7 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background: #170C3A;
+        background: #671130;
       }
 </style>
 
@@ -126,7 +127,8 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../../img/logo.png" alt="" class="navbar-logo">
+    <img src="../../../../img/logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../../../img/logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">Adams Ceballos-Concha</span>
@@ -250,7 +252,7 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-TL;DR
+<span class="screen-reader-only">Tip</span>TL;DR
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -266,7 +268,7 @@ TL;DR
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What is overpublishing?
+<span class="screen-reader-only">Note</span>What is overpublishing?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -290,7 +292,7 @@ What is overpublishing?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Does publishing more improve impact?
+<span class="screen-reader-only">Tip</span>Does publishing more improve impact?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -319,7 +321,7 @@ Does publishing more improve impact?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-A collective action problem
+<span class="screen-reader-only">Warning</span>A collective action problem
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -341,7 +343,7 @@ A collective action problem
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What do IFQs do in fisheries?
+<span class="screen-reader-only">Important</span>What do IFQs do in fisheries?
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -442,13 +444,14 @@ Sandström, Ulf, and Peter van den Besselaar. 2016. <span>“Quantity and/or <sp
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

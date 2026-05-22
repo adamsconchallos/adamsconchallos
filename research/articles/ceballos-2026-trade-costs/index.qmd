@@ -1,0 +1,66 @@
+---
+title: "Trade costs, shocks, and segmented export routes: Evidence from the Chilean salmon industry"
+date: 2026-01-24
+author:
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences, University of Florida, Gainesville, Florida, USA
+  - name: Edward V. Camp
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences, University of Florida, Gainesville, Florida, USA
+  - name: Taryn Garlock
+    affiliation: School of Fisheries, Aquaculture, and Aquatic Sciences, Auburn University, Auburn, AL, USA
+  - name: Felipe J. Quezada-Escalona
+    affiliation: Department of Economics, Universidad de Concepción, Concepción, Chile
+  - name: Hans-Martin Straume
+    affiliation: Department of Economics, BI Norwegian Business School, Bergen, Norway
+categories:
+  - Aquaculture
+  - Augmented gravity model
+  - Chile
+  - Customs data
+  - Trade margins
+  - Salmon industry
+pub-info:
+  links:
+    - name: Final version
+      url: https://doi.org/10.1080/13657305.2026.2618279
+      icon: fa-solid fa-scroll
+    - name: Add to Zotero
+      url: https://www.zotero.org/save?type=doi&q=10.1080/13657305.2026.2618279
+      icon: ai ai-zotero
+  reference: >-
+    <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos-Concha</strong></a>, <a>Edward V. Camp</a>, <a>Taryn Garlock</a>, <a>Felipe J. Quezada-Escalona</a>, and <a>Hans-Martin Straume</a>, “Trade costs, shocks, and segmented export routes: Evidence from the Chilean salmon industry,” <em>Aquaculture Economics &amp; Management</em> 30, no. 2 (2026): 348–380, doi: <a href="https://doi.org/10.1080/13657305.2026.2618279"><code>10.1080/13657305.2026.2618279</code></a>.
+
+  extra: >-
+    JEL codes: F10; F14; Q22; Q27.
+doi: 10.1080/13657305.2026.2618279
+haiku:
+  - Chilean exporters segment export routes by product form and transport mode across destination markets.
+  - Crises like the 2007–2010 ISA outbreak and the 2014 Russian embargo trigger portfolio reweighting, not exit.
+  - Logistical segmentation plus resilient reallocation explain how a remote producer thrives in global salmon trade.
+---
+
+## Abstract
+
+Chile, the world's second-largest salmon producer, is geographically remote from its main consumer markets, creating logistical challenges for exporting perishable salmon products. This paper examines how the Chilean salmon industry has overcome these challenges to establish a competitive export sector. Using customs data from 2002 to 2024 in an augmented gravity model, we analyze how exporters adapt to trade costs and respond to major shocks. Our findings indicate that exporters segment export routes by product form (fresh versus frozen) and transport mode (air, sea, land) across destination markets, and that the industry exhibits portfolio-based resilience in response to crises. During major disruptions, such as the 2007–2010 Infectious Salmon Anemia disease outbreak and the 2014 Russian embargo on Norwegian and Scottish seafood, Chilean exporters reweighted portfolios by redirecting products to alternative markets rather than exiting. This combination of logistical segmentation and resilient trade reallocation helps explain how Chile's salmon industry has thrived despite geographic remoteness.
+
+## Citation
+
+<p class="buttons" style="text-align:center;">
+<a class="btn btn-danger" target="_blank" href="https://www.zotero.org/save?type=doi&q=10.1080/13657305.2026.2618279">{{< ai zotero >}}&emsp;Add to Zotero {{< fa square-arrow-up-right >}}</a>
+</p>
+
+```bibtex
+@article{CeballosConchaEtAl_AEM_2026,
+  author  = {Adams Ceballos-Concha and Edward V. Camp and Taryn Garlock and Felipe J. Quezada-Escalona and Hans-Martin Straume},
+  title   = {Trade costs, shocks, and segmented export routes: Evidence from the Chilean salmon industry},
+  journal = {Aquaculture Economics \& Management},
+  volume  = {30},
+  number  = {2},
+  pages   = {348--380},
+  year    = {2026},
+  doi     = {10.1080/13657305.2026.2618279},
+  url     = {https://doi.org/10.1080/13657305.2026.2618279}
+}
+```

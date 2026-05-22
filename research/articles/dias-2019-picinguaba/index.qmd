@@ -1,0 +1,57 @@
+---
+title: "Urbanization Trade-offs for the Tourism Sector in the Fishing Community of Picinguaba, Brazil"
+date: 2019-09-01
+author:
+  - name: Ana Carolina Esteves Dias
+    affiliation: Faculty of Environment, University of Waterloo, Ontario, Canada
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+    affiliation: Economics Department and Interdisciplinary Center for Aquaculture Research (INCAR), University of Concepción, Chile
+categories:
+  - Coastal community governance
+  - Tourism
+  - Brazil
+  - Caiçara communities
+  - Marine conservation
+  - Gender and decision-making
+pub-info:
+  links:
+    - name: Magazine issue
+      url: https://www.weimagazine.com/
+      icon: fa-solid fa-scroll
+  reference: >-
+    <a>Ana Carolina Esteves Dias</a> and <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos-Concha</strong></a>, “Urbanization Trade-offs for the Tourism Sector in the Fishing Community of Picinguaba, Brazil,” <em>Women &amp; Environments International Magazine</em> 100/101 (Summer/Fall 2019): 67–69. ISSN 1499-1993.
+
+  extra: >-
+    Adams Ceballos-Concha gratefully acknowledges financial support from CONICYT/FONDAP/15110027 and the Scientific Millennium Initiative of the Chilean Ministry of Economics, Promotion and Tourism (project RS 130001).
+haiku:
+  - The Brazilian coastal community of Picinguaba faces socio-economic and ecological pressures from tourism growth.
+  - Women have moved to the fore in local decision-making and lead negotiations over protected areas.
+  - Choices: community-based tourism that preserves caiçara culture, profit-driven tourism, or privatizing Couves Island.
+---
+
+## Summary
+
+The Brazilian coastal community of Picinguaba is facing socio-economic and ecological changes that have brought women to the fore in local decision-making. This article, based on qualitative research and interviews with local people, tells the story of how cultural diversity plus collaborative discussion are producing opportunities for improved ecological governance.
+
+Picinguaba is a *caiçara* community — a mixed cultural identity composed of descendants of European immigrants, Africans, and Indigenous people — on the southeast coast of Brazil in the town of Ubatuba, São Paulo State. Until the 1980s, families subsisted on fishing, hunting, and small-scale agriculture, with extensive barter among neighbors. After a federal coastal highway was built in the 1970s, tourism gradually became a major source of income. From roughly 2017 onward, social-media promotion of nearby Couves Island as a "paradise on Earth" produced a tourism spike that turned Picinguaba into little more than an access point to the island, raising boatmen's profits while local restaurants, hotels, and markets lost business, and degrading the very environmental amenity tourists came to see.
+
+The piece draws on 35 interviews across three age cohorts (20–40, 40–60, 60+) and a participatory community workshop to describe these trade-offs and discuss three scenarios: (i) sustainable community-based tourism anchored in caiçara culture; (ii) continued profit-driven tourism with rising inequality and degradation; or (iii) privatization of Couves Island. With women already centrally involved in the local business owners' association and protected-area negotiations, Picinguaba offers a setting in which outside facilitation could help residents reach an agreement on the future of local tourism while empowering women's participation in governance.
+
+The article appears in the "In the Field" section of *Women & Environments International Magazine*'s 100/101 anniversary issue, *Celebrating Economies of Change: Brave Visions for Inclusive Futures*.
+
+## Citation
+
+```bibtex
+@article{DiasCeballosConcha_WEI_2019,
+  author  = {Ana Carolina Esteves Dias and Adams Ceballos-Concha},
+  title   = {Urbanization Trade-offs for the Tourism Sector in the Fishing Community of Picinguaba, Brazil},
+  journal = {Women \& Environments International Magazine},
+  volume  = {100/101},
+  pages   = {67--69},
+  year    = {2019},
+  issn    = {1499-1993},
+  url     = {https://www.weimagazine.com/}
+}
+```

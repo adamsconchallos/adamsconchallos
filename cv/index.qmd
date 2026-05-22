@@ -1,56 +1,170 @@
 ---
 title: About me
-date: 2025-01-07
+date: 2026-05-22
 ---
 
-I am a Postdoctoral Associate at the University of Florida's [Institute of Food and Agricultural Sciences](https://ifas.ufl.edu/about-us/)
+I am a Postdoctoral Associate at the University of Florida's [Institute of Food and Agricultural Sciences](https://ifas.ufl.edu/about-us/). I am an applied microeconomist studying how institutions and environmental policies shape behavior and resource use in coupled human–natural systems. I use causal inference, spatial econometrics, and structural modeling to identify the economic drivers and policy impacts of ocean and food system governance.
+
+**Contact.** [aceballos@ufl.edu](mailto:aceballos@ufl.edu) · [linkedin.com/in/AdamsCeballos](https://www.linkedin.com/in/adams-ceballos-concha-0403633a/) · PO Box 110240, McCarty B 2120, Gainesville, FL 32611-0240
+
+---
 
 ## Education
-- **2021 – 2024**: Ph.D., Food and Resource Economics, University of Florida  
+
+- **Aug 2021 – Dec 2024**: Ph.D., Food and Resource Economics, University of Florida
   *Dissertation: Coupled Human-Natural Systems: Economic and Ecological Interactions in Fisheries and Aquaculture.*
+  Advisors: Andrew Ropicki, Frank Asche.
 
-- **2014 – 2017**: M.Sc. Natural Resources and Environmental Economics, Universidad de Concepción  
-  *Thesis: Does the Location of Salmon Farms Contribute to the Reduction of Rural Poverty?*
+- **May 2014 – Aug 2017**: M.Sc., Natural Resources and Environmental Economics, Universidad de Concepción
+  *Thesis: Does the location of salmon farms contribute to the reduction of poverty in remote coastal areas? An impact assessment using a Chilean case study.*
+  Advisors: Jorge Dresdner-Cid, Miguel Quiroga-Suazo.
 
-- **2006 – 2011**: B.S. Economics, Universidad de Concepción  
-  *Thesis: Impact Analysis of the Penal Law Reform in Chile.*
-
----
-
-## Employment History
-- **2025 – current**: Postdoctoral associate, Institute of Food and Agricultural Sciences (IFAS), University of Florida 
-- **2021 – 2024**: Graduate Research Assistant, University of Florida  
-- **2017 – 2021**: Research Assistant, Interdisciplinary Center for Aquaculture Research, Chile  
-- **2018 – 2019**: Coordinator-Researcher, Interdisciplinary Center for Aquaculture Research, Chile  
-- **2011 – 2014**: HR and Finance Manager, Crisol LC, Chile  
+- **Mar 2006 – Mar 2011**: B.S., Economics, Universidad de Concepción
+  *Thesis: Impact analysis of the penal law reform in Chile.*
+  Advisor: Felipe Vasquez-Lavin.
 
 ---
 
-## Teaching Experience
-- **Graduate Level**  
-  - *Resilient Architecture Management and Risk Reduction Master's Program*  
-    Course: Techniques for Risk Analysis and Management (Cost-Benefit Analysis)  
-  - *Applied Economics & Natural Resources Master's Program*  
-    Course: Introduction to Microeconomics  
-- **Undergraduate Level**  
-  Courses: Econometrics, Environmental Economics, Natural Resource Economics, Introduction to Economics, Macroeconomics  
+## Experience
+
+**Jan 2025 – Present** · Postdoctoral Associate, University of Florida — NOAA RESTORE Act Project (No-Motor Zones), Gainesville, FL
+
+- Translate policy objectives into estimands and testable hypotheses; define metrics for behavior, compliance, and welfare outcomes.
+- Design and execute quasi-experimental evaluations (DiD, IV) and survey experiments (contingent behavior).
+- Build analysis pipelines in R; integrate survey, ecological, and administrative data.
+- Operationalize recommendations and deliver executive-facing briefs.
+
+**Jan 2025 – Present** · Researcher, Florida Fish and Wildlife Conservation Commission (FWC) / University of Florida — Western Dry Rocks Seasonal Closure, Florida Keys, FL
+
+- Assess seasonal closure impact using triple DiD with event-study checks; quantify spatial reallocation of trips and compliance indicators.
+- Link fishery-dependent and survey data with spatial features; construct treatment/exposure measures and compliance indicators.
+- Deliver technical memos and policy briefs; document code and assumptions for reproducibility.
+
+**Aug 2021 – Dec 2024** · Graduate Research Assistant, University of Florida, Food & Resource Economics, Gainesville, FL
+
+- Evaluate socioeconomic impacts of harmful algal blooms (2017–2019) using fishery-dependent data; estimate changes in landings and revenues by species and county.
+- Engineer heterogeneous datasets (landings, prices, effort, closures) and implement panel models and quasi-experiments.
+- Prepare stakeholder reports and maintain analysis documentation and code-review standards.
+
+**Sep 2017 – Jun 2021** · Research Assistant / Project Coordinator, Interdisciplinary Center for Aquaculture Research (INCAR), Concepción, Chile
+
+- Coordinate a multidisciplinary research program supporting regional aquaculture policy; design and implement household and stakeholder surveys.
+- Analyze socioeconomic outcomes related to aquaculture expansion; produce evidence summaries and briefings for public agencies.
+- Organize data-collection logistics and stakeholder workshops; document survey instruments and code.
+
+**Apr 2011 – Jul 2017** · Operations / HR Manager, Crisol LLC, Chile
 
 ---
 
-## Networks and Honors
-- **2024**: Best Dissertation Award by the [International Association of Aquaculture Economics and Management (IAAEM)](https://iaaem.org/best-paper-and-dissertation-awards-at-aquaculture-2025/). 
-- **2023–2024**: Graduate Student Representative, **FRE IDEA (Inclusion, Diversity, Equity, and Access) Committee**.
-- **2023–2024**: Academic Vice President, **Food and Resource Economics Graduate Student Organization**.
-- **December 2018**: Co-founder Member, **Socioecological Network of Co-creation for Latin America (RESACA)**.
+## Selected publications
+
+1. **Ceballos-Concha, A.**, Camp, E. V., Garlock, T., Quezada-Escalona, F. J., & Straume, H.-M. (2026). "Trade costs, shocks, and segmented export routes: Evidence from the Chilean salmon industry." *Aquaculture Economics & Management* 30(2): 348–380. [doi:10.1080/13657305.2026.2618279](https://doi.org/10.1080/13657305.2026.2618279) · [Details](/research/articles/ceballos-2026-trade-costs/)
+
+2. Moor, J., Ropicki, A., Asche, F., & **Ceballos-Concha, A.** (2026). "An economic approach to mitigating spillover bias in synthetic control methods: An application to the price effects of fishing quotas." *American Journal of Agricultural Economics.* [doi:10.1002/ajae.70079](https://doi.org/10.1002/ajae.70079) · [Details](/research/articles/moor-2026-AJAE/)
+
+3. **Ceballos-Concha, A.**, Asche, F., Ropicki, A., Mullally, C., & Moor, J. (2025). "Matching property rights and transboundary ecological processes: The case of Norwegian salmon aquaculture." *American Journal of Agricultural Economics.* [doi:10.1111/ajae.70028](https://doi.org/10.1111/ajae.70028) · [Details](/research/articles/ceballos-2025-AJAE/)
+
+4. **Ceballos-Concha, A.**, Asche, F., & Cárdenas-Retamal, R. (2025). "Salmon aquaculture in Chile: Production growth and socioeconomic impacts." *Reviews in Aquaculture* 17(1): e12993. [doi:10.1111/raq.12993](https://doi.org/10.1111/raq.12993) · [Details](/research/articles/ceballos-2025/)
+
+5. Garlock, T., Asche, F., Anderson, J., **Ceballos-Concha, A.**, Love, D. C., Osmundsen, T. C., & Pincinato, R. B. M. (2022). "Aquaculture: The missing contributor in the food security agenda." *Global Food Security* 32: 100620. [doi:10.1016/j.gfs.2022.100620](https://doi.org/10.1016/j.gfs.2022.100620) · [Details](/research/articles/garlock-2022/)
+
+6. Cárdenas-Retamal, R., Dresdner-Cid, J., & **Ceballos-Concha, A.** (2021). "Impact assessment of salmon farming on income distribution in remote coastal areas: The Chilean case." *Food Policy* 101: 102078. · [Details](/research/articles/ceballos%202021/)
+
+7. **Ceballos-Concha, A.**, Dresdner-Cid, J., & Quiroga-Suazo, M. (2018). "Does the location of salmon farms contribute to the reduction of poverty in remote coastal areas? An impact assessment using a Chilean case study." *Food Policy* 75: 68–79. · [Details](/research/articles/ceballos-2018/)
+
+A non-peer-reviewed magazine article on caiçara tourism governance in Picinguaba, Brazil (Dias & **Ceballos-Concha**, *Women & Environments International Magazine* 100/101, 2019: 67–69) is also listed on the [research page](/research/articles/dias-2019-picinguaba/).
 
 ---
 
-## Skills
-- **Languages**: English, Spanish  
-- **Coding**: R, Python, SQL, QGIS, LaTeX  
-- **Web Development**: HTML, CSS, JavaScript, Quarto  
+## Working papers
+
+- **Property Rights at the Wrong Scale: A Framework for Institutional Analysis of Transboundary Externalities.** Solo-authored framework paper reading Chile's aquaculture reforms through evidence from Norwegian salmon-lice management, arguing that internalizing transboundary externalities requires governance at the spatial scale of the ecological process, not the firm.
+- **The Structure of Chilean Seafood Exports.** Solo-authored descriptive analysis of product mix, market concentration, and price dynamics in Chilean seafood exports, characterizing the role of salmon and shellfish in overall trade composition.
+- **Generators, Not Surrogates: An Epistemology of LLM-Assisted Empirical Research.** Solo-authored methods paper on what LLM agents can and cannot do as empirical instruments, distinguishing generation of counterfactual reasoning from simulation of human respondents in economic research.
+- **Seasonal Closures in Commercial Fisheries: Causal Evidence on Behavioral Changes from the Florida Keys.** With Kotryna Klizentyte and Edward V. Camp. BSTS design using FWC trip tickets to estimate the effect of the Western Dry Rocks April–July closure on CPUE, trip timing, and spatial reallocation of effort across reef-fish species.
+- **Spatial Access Regulation in Recreational Fisheries: Welfare Effects of Seagrass Protection Zones.** With Kelly Grogan and Edward V. Camp. Welfare analysis using angler site-choice data, quantifying the access costs imposed by spatial regulation against the ecosystem benefits of habitat protection.
+- **So Many Traps, So Little Time: Theory and Evidence from the Florida Stone Crab Fishery.** With Frank Asche, Christa Court, Jordan Moor, and Andrew Ropicki. Theory and evidence on trap deployment under time-budget constraints, with causal estimates of how red tide reduces landings and revenue through a habitat-based treatment design.
+
+---
+
+## Teaching
+
+**Spring 2026** · Instructor — Agricultural Finance, University of Florida.
+Undergraduate course covering financial statements, ratio analysis, time value of money, investment analysis, and capital budgeting.
+
+**2017 – 2021** · Graduate-level instructor, Universidad de Concepción.
+
+- Master's in Resilient Architecture Management and Disaster Risk Reduction — *Techniques for Risk Analysis and Management* (Unit: Cost-Benefit Analysis).
+- Master's in Applied Economics & in Natural Resources and Environmental Economics — *Introduction to Microeconomics*.
+
+**2017 – 2021** · Undergraduate instruction (part-time), various universities in Concepción, Chile.
+Courses: Econometrics; Environmental Economics; Natural Resource Economics; Introduction to Economics; Macroeconomics.
+
+---
+
+## Presentations
+
+- **2025** · Seminar, University of Stavanger, Norway — *Production Intensification and the Evolution of Property Rights: Evidence from Chilean Salmon Aquaculture.*
+- **2025** · NAAFE Conference: Climate-Ready Fisheries & Aquaculture, La Jolla, CA — *The Causal Impact of Ecological Disturbances: A Machine Learning Approach to the Case of Harmful Algal Blooms in Florida.*
+- **2024** · Aquaculture America, San Antonio, TX — *The Impact of Ecological Disturbances on Low-Mobility Seafood Industries: Stone Crab and Oyster Aquaculture in the Face of HAB.*
+- **2023** · NAAFE Conference: Science & Governance for Sustainable Fisheries in a Changing Ocean, Woods Hole, MA — *Invasion Externalities and Firm Heterogeneity: The Case of Sea Lice.*
+- **2022** · Aquaculture America, New Orleans, LA — *Firm Heterogeneity and Externalities: The Case of Sea Lice.*
+- **2022** · Sloan / Berkeley Summer School in Environmental & Energy Economics, Berkeley, CA — *Firm Heterogeneity & Spatial Negative Externalities: Norwegian Salmon Industry.*
+- **2022** · World Aquaculture Society Conference, San Diego, CA — *The Chilean Salmon Industry's Socioeconomic Impacts.*
+- **2019** · SARAS Workshop, Bellavista, Uruguay — Planning of 2020 SARAS Conference "Savoring Sustainability in Uruguay" (RESACA team).
+- **2019** · VI Workshop of Natural Resources & Environmental Economics, Santiago, Chile — *How Negative Spatial Externalities Shape Salmon Farms' Geographic Concentration.*
+- **2018** · X Annual Meeting, Regional Studies Chilean Society, San Pedro de Atacama, Chile — *How Negative Spatial Externalities Shape Salmon Farms' Geographic Concentration.*
+- **2018** · 2nd Transdisciplinary Conference on Sustainable Development in Chile & Latin America, Nottingham, England — *Do Salmon Farm Locations Reduce Rural Poverty? Evidence from Chile.*
+- **2017** · IX Annual Meeting, Regional Studies Chilean Society, Chile — *Do Salmon Farm Locations Reduce Rural Poverty? An Assessment for Chile.*
+
+---
+
+## Networks and honors
+
+- **2026** · Daniel K. Lew Best Paper Award, International Institute of Fisheries Economics & Trade (IIFET).
+- **2024** · Best Ph.D. Dissertation Award, [International Association of Aquaculture Economics and Management (IAAEM)](https://iaaem.org/best-paper-and-dissertation-awards-at-aquaculture-2025/).
+- **2024** · University of Florida Underwater Hockey — Florida State Champion, Orlando.
+- **2023 – 2024** · Graduate Student Representative, FRE IDEA (Inclusion, Diversity, Equity, and Access) Committee, University of Florida.
+- **2023 – 2024** · Academic Vice President, Food and Resource Economics Graduate Student Organization, University of Florida.
+- **Dec 2018** · Co-founder member, Socioecological Network of Co-creation for Latin America (RESACA).
+
+---
+
+## Funding and grants
+
+- **Travel Award** — School of Forest, Fisheries, and Geomatics Sciences, University of Florida.
+- **Scholarship** — Berkeley Summer School in Environmental and Energy Economics, 2022.
+- **Travel and accommodation grants** — South American Institute for Resilience and Sustainability Studies (Bellavista, Uruguay) and Stockholm Resilience Center (Stockholm, Sweden), 2018–2019.
+- **Master's Scholarship** — Universidad de Concepción, Chile, 2018.
+
+---
+
+## Professional service
+
+**Reviewer.** *Food Policy* (2022–2023); *Aquaculture Economics & Management* (2022–2025); *PLOS ONE* (2025); *Aquaculture International* (2025–2026); *Humanities and Social Sciences Communications* (2025); *Frontiers in Aquaculture* (2025).
+
+**Committee service.** FRE IDEA (Inclusion, Diversity, Equity, and Access) Committee — Graduate Student Representative (2023–2024).
+
+---
+
+## Certifications and workshops
+
+- **2018** · *An Introduction to Social-Ecological Systems Research in Latin America* — Stockholm Resilience Center & SARAS.
+- **2018** · Collection and Management of Big Data in Regional Science; The AF Method for Measuring Multidimensional Poverty — Regional Studies Chilean Society.
+- **2017** · Visualizing the City in QGIS; Discrete Choice Models; *Introduction to the Econometrics of High-Dimensional Models* (C. Hansen, Central Bank of Chile); Analysis of Spatial / Spatio-Temporal Data in GeoDa (U. Concepción, Chillán).
+
+---
+
+## Technical skills
+
+- **Methods**: difference-in-differences, instrumental variables, event studies, synthetic control; panel models; welfare analysis; spatial econometrics; double/debiased machine learning.
+- **R**: EconML / DoubleML / grf; tidyverse; fixest; data.table.
+- **Other languages**: Python, SQL.
+- **Data and platforms**: SQL; Git; reproducible pipelines (Quarto, R Markdown).
+- **Visualization and communication**: executive briefs; Quarto / R Markdown; dashboards (Shiny, Plotly); maps (QGIS).
+- **Domains**: environmental policy; fisheries and aquaculture.
+- **Languages**: Spanish (native), English (fluent).
 
 ---
 
 References available upon request.
-

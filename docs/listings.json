@@ -27,5 +27,12 @@
       "/blog/2025/01/index.html",
       "/blog/2024/02/index.html"
     ]
+  },
+  {
+    "listing": "/reports/index.html",
+    "items": [
+      "/reports/articles/simon-2019-estudio-base/index.html",
+      "/reports/articles/simon-2019-metodologia/index.html"
+    ]
   }
 ]

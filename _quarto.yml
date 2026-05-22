@@ -18,6 +18,8 @@ website:
     left:
       - text: "Research"
         href: research/index.qmd
+      - text: "Reports"
+        href: reports/index.qmd
       - text: "Blog"
         file: blog/index.qmd
       - text: "Talks"

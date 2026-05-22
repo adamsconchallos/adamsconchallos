@@ -1,0 +1,19 @@
+---
+title: "Reports"
+listing:
+  - id: articles
+    contents: "articles/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/listing.ejs
+    categories: true
+page-layout: full
+include-back-link: false
+toc-location: right
+---
+
+Technical and policy reports produced for government agencies, public funding programs, and research consortia. These pieces typically distill applied research into recommendations for non-academic audiences. {{< ai blank-just-to-add-ai-dependency-to-this-page >}}
+
+## Policy and technical reports
+
+:::{#articles}
+:::

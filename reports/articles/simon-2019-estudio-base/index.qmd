@@ -1,0 +1,84 @@
+---
+title: "Estudio Base: Política Pública Regional para el Desarrollo de Acuicultura Sustentable"
+date: 2019-12-01
+lang: es
+author:
+  - name: Jeanne Simon Rodgers
+    affiliation: Departamento de Ciencia Política, Universidad de Concepción, Chile
+    role: Directora
+  - name: Renato Quiñones
+    affiliation: Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile
+  - name: Doris Soto
+    affiliation: Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile
+  - name: Jorge Dresdner
+    affiliation: Departamento de Economía, Universidad de Concepción, Chile
+  - name: Nuria González
+    affiliation: Universidad de Concepción, Chile
+  - name: Lilian Troncoso
+    affiliation: Universidad de Concepción, Chile
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+    affiliation: Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile
+  - name: Jorge León
+    affiliation: Universidad de Concepción, Chile
+  - name: Rodrigo Montes
+    affiliation: Universidad de Concepción, Chile
+  - name: Oscar Santis
+    affiliation: Universidad de Concepción, Chile
+  - name: Álvaro Sanhueza
+    affiliation: Universidad de Concepción, Chile
+  - name: Yanina Figueroa
+    affiliation: Universidad de Concepción, Chile
+categories:
+  - Política pública
+  - Acuicultura sustentable
+  - Región del Bío-Bío
+  - Enfoque ecosistémico
+  - Gobernanza colaborativa
+pub-info:
+  links:
+    - name: PDF (informe completo)
+      url: FIC-estudiobase-políticapública-final.pdf
+      local: true
+      icon: fa-solid fa-file-pdf
+  reference: >-
+    Simon, J.; Quiñones, R.; Soto, D.; Dresdner, J.; González, N.; Troncoso, L.; <strong>Ceballos, A.</strong>; León, J.; Montes, R.; Santis, O.; Sanhueza, A.; y Figueroa, Y. (2019). <em>Estudio Base: Política Pública Regional para el Desarrollo de la Acuicultura Sustentable. Sistematización de conocimiento tácito y explícito para la promoción de la acuicultura sustentable en la Región del Bío-Bío: Una aproximación mediante la aplicación de lógica difusa.</em> Programa Fondo de Innovación para la Competitividad Regional, Proyecto FIC-R 2017 (FIC 4000116), Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile.
+
+  extra: >-
+    Proyecto financiado por el Gobierno Regional del Bío-Bío a través del Fondo de Innovación para la Competitividad Regional (FIC-R 2017), Proyecto FIC 4000116.
+haiku:
+  - Diagnóstico de brechas ecológicas, socioeconómicas y de gobernanza para la acuicultura en la Región del Bío-Bío.
+  - Tres opciones estratégicas evaluadas: acuicultura de pequeña escala, offshore, y piscicultura cerrada con recirculación de agua.
+  - Propuesta de política regional bajo un enfoque ecosistémico con matriz de marco lógico para gobernanza público-privada.
+---
+
+## Resumen
+
+Este estudio constituye la base técnica para el diseño de una política pública regional orientada al desarrollo sustentable de la acuicultura en la Región del Bío-Bío, Chile. El trabajo sistematiza conocimiento tácito y explícito —proveniente de la literatura, de instrumentos regulatorios nacionales y regionales, y de actores del territorio— para diagnosticar brechas y proponer lineamientos estratégicos.
+
+Se adopta un **enfoque ecosistémico a la acuicultura** organizado en tres dimensiones: (i) bienestar ecológico, (ii) sustentabilidad económica para mejorar el bienestar humano y la equidad en comunidades costeras, y (iii) gobernanza colaborativa para fortalecer la convivencia social y la resiliencia territorial. A partir de un diagnóstico de la actividad acuícola en las regiones del Biobío y Ñuble, el informe identifica limitantes ecológicas del borde costero (surgencia, eventos anóxicos, biodiversidad), brechas socioeconómicas y deficiencias de gobernanza.
+
+El informe evalúa tres **opciones estratégicas** para el fomento de acuicultura sustentable: acuicultura de pequeña escala, acuicultura offshore, y piscicultura cerrada con recirculación de agua. Concluye con una visión estratégica regional, una matriz de marco lógico que articula objetivos, indicadores y medios de verificación, y un esquema de gobernanza público-privada.
+
+## Cita sugerida
+
+```bibtex
+@techreport{SimonEtAl_FIC_EstudioBase_2019,
+  author      = {Simon, Jeanne and Qui\~nones, Renato and Soto, Doris and Dresdner, Jorge
+                 and Gonz\'alez, Nuria and Troncoso, Lilian and Ceballos-Concha, Adams
+                 and Le\'on, Jorge and Montes, Rodrigo and Santis, Oscar
+                 and Sanhueza, \'Alvaro and Figueroa, Yanina},
+  title       = {Estudio Base: Pol\'itica P\'ublica Regional para el Desarrollo de la
+                 Acuicultura Sustentable. Sistematizaci\'on de conocimiento t\'acito y
+                 expl\'icito para la promoci\'on de la acuicultura sustentable en la
+                 Regi\'on del B\'io-B\'io},
+  institution = {Centro Interdisciplinario para la Investigaci\'on Acu\'icola (INCAR),
+                 Universidad de Concepci\'on},
+  type        = {Informe t\'ecnico},
+  number      = {Proyecto FIC-R 2017 (FIC 4000116)},
+  address     = {Concepci\'on, Chile},
+  year        = {2019},
+  month       = dec
+}
+```

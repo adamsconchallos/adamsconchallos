@@ -1,0 +1,89 @@
+---
+title: "Metodología para la construcción del Modelo de Lógica Difusa para la promoción de la acuicultura sustentable en la Región del Biobío"
+date: 2019-12-01
+lang: es
+author:
+  - name: Jeanne Simon Rodgers
+    affiliation: Departamento de Ciencia Política, Universidad de Concepción, Chile
+    role: Directora
+  - name: Renato Quiñones
+    affiliation: Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile
+  - name: Doris Soto
+    affiliation: Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile
+  - name: Jorge Dresdner
+    affiliation: Departamento de Economía, Universidad de Concepción, Chile
+  - name: Nuria González
+    affiliation: Universidad de Concepción, Chile
+  - name: Lilian Troncoso
+    affiliation: Universidad de Concepción, Chile
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+    affiliation: Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile
+  - name: Jorge León
+    affiliation: Universidad de Concepción, Chile
+  - name: Rodrigo Montes
+    affiliation: Universidad de Concepción, Chile
+  - name: Oscar Santis
+    affiliation: Universidad de Concepción, Chile
+  - name: Álvaro Sanhueza
+    affiliation: Universidad de Concepción, Chile
+  - name: Yanina Figueroa
+    affiliation: Universidad de Concepción, Chile
+categories:
+  - Lógica difusa
+  - Modelo Mamdani
+  - Acuicultura sustentable
+  - Región del Bío-Bío
+  - Conocimiento tácito y explícito
+pub-info:
+  links:
+    - name: PDF (pre-informe final)
+      url: Estructura Metodología FIC_final.pdf
+      local: true
+      icon: fa-solid fa-file-pdf
+  reference: >-
+    Simon, J.; Quiñones, R.; Soto, D.; Dresdner, J.; González, N.; Troncoso, L.; <strong>Ceballos, A.</strong>; León, J.; Montes, R.; Santis, O.; Sanhueza, A.; y Figueroa, Y. (2019). <em>Metodología para la construcción del Modelo de Lógica Difusa para la promoción de la acuicultura sustentable en la Región del Biobío. Sistematización de conocimiento tácito y explícito para la promoción de la acuicultura sustentable en la Región del Biobío: Una aproximación mediante la aplicación de lógica difusa.</em> Programa Fondo de Innovación para la Competitividad Regional, Proyecto FIC-R 2017 (FIC 4000116), Centro Interdisciplinario para la Investigación Acuícola (INCAR), Universidad de Concepción, Chile. 26 páginas + Anexos.
+
+  extra: >-
+    Pre-informe final. Proyecto financiado por el Gobierno Regional del Bío-Bío a través del Fondo de Innovación para la Competitividad Regional (FIC-R 2017), Proyecto FIC 4000116.
+haiku:
+  - Tres etapas metodológicas para integrar conocimiento experto y de actores en un modelo de lógica difusa tipo Mamdani.
+  - Funciones de membresía, reglas difusas y desdifusificación para visualizar interrelaciones entre dimensiones del sistema.
+  - Identificación de variables sensibles para priorizar perfiles de proyecto y construir ejes estratégicos regionales.
+---
+
+## Resumen
+
+Pre-informe final que documenta la metodología empleada para construir un **modelo de lógica difusa tipo Mamdani** orientado a promover la acuicultura sustentable en la Región del Biobío, Chile. La aproximación combina sistematización de conocimiento explícito (literatura, instrumentos regulatorios, datos sectoriales) con conocimiento tácito recogido de actores territoriales.
+
+El trabajo se organiza en tres etapas:
+
+1. **Levantamiento y sistematización de conocimiento tácito y explícito.** Establecimiento del enfoque teórico, mapeo de actores relevantes, sistematización de conocimiento explícito, construcción del instrumento de levantamiento, y captura de conocimiento tácito.
+2. **Construcción del modelo de lógica difusa.** Difusificación con elaboración de funciones de membresía, inferencia mediante construcción de reglas difusas, y desdifusificación con visualización de interrelaciones entre variables.
+3. **Priorización de propuestas y elaboración de perfiles.** Identificación de variables sensibles para conformar una cartera de perfiles de proyecto, y elaboración de ejes estratégicos e instrumentos de política.
+
+Los anexos incluyen una revisión de prensa, el instrumento de levantamiento de conocimiento tácito, y un glosario de variables críticas.
+
+## Cita sugerida
+
+```bibtex
+@techreport{SimonEtAl_FIC_Metodologia_2019,
+  author      = {Simon, Jeanne and Qui\~nones, Renato and Soto, Doris and Dresdner, Jorge
+                 and Gonz\'alez, Nuria and Troncoso, Lilian and Ceballos-Concha, Adams
+                 and Le\'on, Jorge and Montes, Rodrigo and Santis, Oscar
+                 and Sanhueza, \'Alvaro and Figueroa, Yanina},
+  title       = {Metodolog\'ia para la construcci\'on del Modelo de L\'ogica Difusa para
+                 la promoci\'on de la acuicultura sustentable en la Regi\'on del Biob\'io.
+                 Sistematizaci\'on de conocimiento t\'acito y expl\'icito para la
+                 promoci\'on de la acuicultura sustentable en la Regi\'on del Biob\'io},
+  institution = {Centro Interdisciplinario para la Investigaci\'on Acu\'icola (INCAR),
+                 Universidad de Concepci\'on},
+  type        = {Pre-informe final},
+  number      = {Proyecto FIC-R 2017 (FIC 4000116)},
+  address     = {Concepci\'on, Chile},
+  year        = {2019},
+  month       = dec,
+  note        = {26 p\'aginas + Anexos}
+}
+```

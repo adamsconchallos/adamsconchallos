@@ -14,15 +14,14 @@ toc-location: right
 date-format: "MMMM D, YYYY"
 code-tools: false
 comments: false
-engine: knitr
 freeze: false
 ---
 
-```{css, echo=FALSE}
+<style>
 #title-block-header .description {
     display: none;
 }
-```
+</style>
 ## 2025
 
 :::{#talks_2025}

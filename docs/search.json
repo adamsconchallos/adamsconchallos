@@ -235,7 +235,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "arXiv Preprint | Code\nOver the centuries, I have devoted countless hours to deciphering and translating the ancient scripts and dialects of the various peoples of Middle-earth. My goal is to gain a deeper understanding of the cultures and histories of these peoples by studying their languages. Currently, I am working on a monograph that explores the linguistic roots of the Elvish languages. Through extensive research and analysis, I hope to shed light on the connections between the different dialects of Elvish and their origins. This project has been particularly challenging, as Elvish is a complex and nuanced language, but I am determined to see it through to completion."
+    "text": "Software and simulations I build alongside the research papers."
   },
   {
     "objectID": "projects/index.html#the-languages-of-middle-earth",
@@ -789,5 +789,12 @@
     "title": "Matching property rights and transboundary ecological processes",
     "section": "Ownership Concentration, Firm Classification, and Sea Lice Management Strategies.",
     "text": "Ownership Concentration, Firm Classification, and Sea Lice Management Strategies.\n\n\n\n\n\n\nFigure 4: Panel A shows the mean fallowing frequency across ownership concentration categories (BHHI) for major and other firms. Panel B presents the average use of cleaner fish. Panel C illustrates chemical bath treatments. Panel D reports the synchronization rate of fallowing and treatments."
+  },
+  {
+    "objectID": "projects/index.html#mutandislab",
+    "href": "projects/index.html#mutandislab",
+    "title": "Projects",
+    "section": "MutandisLab",
+    "text": "MutandisLab\n\n\n\nInstructor Control dashboard during a real class session, 14 firms in Round 6.\n\n\nLive app | Walk-through post\nMutandisLab is a platform for classroom simulations across domains. The name comes from the Latin mutatis mutandis, “change what must”. The first simulation is a business strategy game where student teams run competing firms over six rounds (production, pricing, financing, investment) and are ranked by Economic Value Added. The market clears each round on a shared demand curve. First classroom pilot ran in Spring 2026 with 14 teams. More simulations will follow."
   }
 ]

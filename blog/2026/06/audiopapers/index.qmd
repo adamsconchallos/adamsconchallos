@@ -1,0 +1,82 @@
+---
+title: "AudioPapers — Listen to Papers Instead of Reading Them"
+authors:
+  - name: Adams Ceballos-Concha
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences. University of Florida, Gainesville, Florida, USA
+    corresponding: true
+    orcid: 0000-0003-3822-8791
+    email: aceballos@ufl.edu
+description: "A small command-line tool that turns a paper (Markdown, EPUB, a URL, or plain text) into a chaptered .m4b audiobook using any OpenAI-compatible text-to-speech provider. Bring your own API key."
+categories:
+  - Tools
+  - Accessibility
+  - Text-to-speech
+date: 2026-06-17
+image: "img/card.png"
+twitter-card:
+  image: "img/card.png"
+open-graph:
+  image: "img/card.png"
+resources:
+  - "norwegian-salmon.m4a"
+  - "chile-salmon.m4a"
+appendix-style: none
+---
+
+*Versión en español [aquí](index_es.qmd).*
+
+:::{.callout-tip}
+## TL;DR
+[AudioPapers](https://github.com/adamsconchallos/audiopapers) turns a paper into a chaptered `.m4b` audiobook you can play in any podcast app. It reads Markdown, EPUB, a URL, or plain text, and talks to any OpenAI-compatible text-to-speech provider, so you bring your own API key and pick your own voice. Install it with one command.
+
+```bash
+pipx install git+https://github.com/adamsconchallos/audiopapers
+```
+:::
+
+## Why I built it
+
+Some days I find it genuinely hard to sit and read a long paper. Focus drifts, the same paragraph gets read three times, and an afternoon disappears. But I can listen. I get through papers on a walk or while doing something else with my hands, the same way I get through podcasts.
+
+The tools that already do this are either locked inside a specific app, charge a subscription, or send your text somewhere you don't control. I wanted something small and boring. Point it at a file, get back an audiobook, and use whatever text-to-speech service I already pay for. So I wrote it, and I'm putting it out in case it helps someone else who reads the same paragraph three times.
+
+## Hear it
+
+Here are the abstracts of two of my papers, run through AudioPapers with the Kokoro `af_heart` voice. No editing, this is the raw output.
+
+The first is *Matching Property Rights and Transboundary Ecological Processes*, forthcoming in the *American Journal of Agricultural Economics*.
+
+<audio controls style="width:100%" src="norwegian-salmon.m4a"></audio>
+
+The second is *Salmon Aquaculture in Chile: Production Growth and Socioeconomic Impacts*, in *Reviews in Aquaculture*.
+
+<audio controls style="width:100%" src="chile-salmon.m4a"></audio>
+
+On a full paper the tool also splits the audio into chapters at each heading, so your podcast app's chapter navigation jumps between sections.
+
+## How it works
+
+Three steps.
+
+```bash
+# 1. Install (needs Python 3.11+ and pipx)
+pipx install git+https://github.com/adamsconchallos/audiopapers
+
+# 2. Set your API key (any OpenAI-compatible TTS provider)
+export AUDIOPAPERS_API_KEY=sk-...
+
+# 3. Convert a file
+audiopapers paper.md
+```
+
+That writes `paper.m4b` to the current folder. Headings become chapters, and the file carries title and author metadata so it shows up properly in your player.
+
+It takes Markdown, EPUB, a URL (it pulls the main article body), or a plain-text file. It does not read PDFs directly, so for a PDF I either point it at the preprint's abstract page or paste the section I want into a Markdown file. One practical note from making the samples above is that it shines on prose like abstracts and introductions, and stumbles on heavy inline math and dense citations, which read out loud about as well as you'd expect.
+
+## Bring your own provider
+
+By default it uses OpenAI's text-to-speech. To use a different OpenAI-compatible endpoint, including a local model running on your own machine, you set three values in a config file, the base URL, the model, and the voice. Anything that exposes the standard `/v1/audio/speech` endpoint works, so you choose the trade-off between quality, cost, and privacy that suits you.
+
+## Try it
+
+It's free and open source under the MIT license. The code, install instructions, and a provider table are at <https://github.com/adamsconchallos/audiopapers>. If you try it on your own reading and something breaks or sounds wrong, open an issue or email me at [aceballos@ufl.edu](mailto:aceballos@ufl.edu).

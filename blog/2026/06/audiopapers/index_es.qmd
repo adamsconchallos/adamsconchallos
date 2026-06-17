@@ -1,0 +1,83 @@
+---
+title: "AudioPapers — Escucha los artículos en vez de leerlos"
+authors:
+  - name: Adams Ceballos-Concha
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences. University of Florida, Gainesville, Florida, USA
+    corresponding: true
+    orcid: 0000-0003-3822-8791
+    email: aceballos@ufl.edu
+description: "Una pequeña herramienta de línea de comandos que convierte un artículo (Markdown, EPUB, una URL o texto plano) en un audiolibro .m4b con capítulos, usando cualquier proveedor de texto a voz compatible con OpenAI. Tú pones tu clave."
+categories:
+  - Herramientas
+  - Accesibilidad
+  - Texto a voz
+  - spanish
+date: 2026-06-17
+image: "img/card.png"
+twitter-card:
+  image: "img/card.png"
+open-graph:
+  image: "img/card.png"
+resources:
+  - "norwegian-salmon.m4a"
+  - "chile-salmon.m4a"
+appendix-style: none
+---
+
+*English version [here](index.qmd).*
+
+:::{.callout-tip}
+## En resumen
+[AudioPapers](https://github.com/adamsconchallos/audiopapers) convierte un artículo en un audiolibro `.m4b` con capítulos que puedes escuchar en cualquier app de podcasts. Lee Markdown, EPUB, una URL o texto plano, y se conecta con cualquier proveedor de texto a voz compatible con OpenAI, así que pones tu propia clave y eliges tu propia voz. Instálalo con un solo comando.
+
+```bash
+pipx install git+https://github.com/adamsconchallos/audiopapers
+```
+:::
+
+## Por qué lo hice
+
+Hay días en que me cuesta de verdad sentarme a leer un artículo largo. La atención se va, leo el mismo párrafo tres veces y la tarde se esfuma. Pero escuchar sí puedo. Avanzo con los artículos durante una caminata o mientras hago otra cosa con las manos, igual que con los podcasts.
+
+Las herramientas que ya hacen esto están encerradas en una app concreta, cobran una suscripción, o mandan tu texto a un lugar que no controlas. Quería algo pequeño y aburrido. Apuntarlo a un archivo, recibir un audiolibro, y usar el servicio de texto a voz que ya pago. Así que lo escribí, y lo publico por si le sirve a alguien más que también lee el mismo párrafo tres veces.
+
+## Escúchalo
+
+Aquí están los resúmenes de dos de mis artículos, pasados por AudioPapers con la voz `af_heart` de Kokoro. Sin edición, esta es la salida tal cual.
+
+El primero es *Matching Property Rights and Transboundary Ecological Processes*, próximo a publicarse en el *American Journal of Agricultural Economics*.
+
+<audio controls style="width:100%" src="norwegian-salmon.m4a"></audio>
+
+El segundo es *Salmon Aquaculture in Chile: Production Growth and Socioeconomic Impacts*, en *Reviews in Aquaculture*.
+
+<audio controls style="width:100%" src="chile-salmon.m4a"></audio>
+
+En un artículo completo la herramienta también divide el audio en capítulos en cada encabezado, así la navegación por capítulos de tu app de podcasts salta entre secciones.
+
+## Cómo funciona
+
+Tres pasos.
+
+```bash
+# 1. Instalar (necesita Python 3.11+ y pipx)
+pipx install git+https://github.com/adamsconchallos/audiopapers
+
+# 2. Configurar tu clave (cualquier proveedor de TTS compatible con OpenAI)
+export AUDIOPAPERS_API_KEY=sk-...
+
+# 3. Convertir un archivo
+audiopapers paper.md
+```
+
+Eso escribe `paper.m4b` en la carpeta actual. Los encabezados se vuelven capítulos, y el archivo lleva los metadatos de título y autor para que se vea bien en tu reproductor.
+
+Acepta Markdown, EPUB, una URL (toma el cuerpo principal del artículo) o un archivo de texto plano. No lee PDF directamente, así que para un PDF apunto a la página del resumen del preprint o pego en un archivo Markdown la sección que quiero. Una nota práctica de hacer las muestras de arriba es que funciona muy bien con prosa como resúmenes e introducciones, y tropieza con matemáticas en línea y citas densas, que suenan en voz alta más o menos como te imaginas.
+
+## Usa tu propio proveedor
+
+Por defecto usa el texto a voz de OpenAI. Para usar otro endpoint compatible con OpenAI, incluido un modelo local en tu propia máquina, defines tres valores en un archivo de configuración, la URL base, el modelo y la voz. Cualquier servicio que exponga el endpoint estándar `/v1/audio/speech` funciona, así que eliges el equilibrio entre calidad, costo y privacidad que más te convenga.
+
+## Pruébalo
+
+Es gratis y de código abierto bajo licencia MIT. El código, las instrucciones de instalación y una tabla de proveedores están en <https://github.com/adamsconchallos/audiopapers>. Si lo pruebas con tus propias lecturas y algo se rompe o suena mal, abre un issue o escríbeme a [aceballos@ufl.edu](mailto:aceballos@ufl.edu).

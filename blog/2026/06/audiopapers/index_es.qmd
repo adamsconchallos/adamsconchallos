@@ -21,6 +21,7 @@ open-graph:
 resources:
   - "norwegian-salmon.m4a"
   - "chile-salmon.m4a"
+  - "magnifica-cap3.m4a"
 appendix-style: none
 ---
 
@@ -54,6 +55,12 @@ El segundo es *Salmon Aquaculture in Chile: Production Growth and Socioeconomic 
 <audio controls style="width:100%" src="chile-salmon.m4a"></audio>
 
 En un artículo completo la herramienta también divide el audio en capítulos en cada encabezado, así la navegación por capítulos de tu app de podcasts salta entre secciones.
+
+## Un ejemplo más largo
+
+Para algo más extenso, tomé el Capítulo III de la encíclica *Magnifica Humanitas* del Papa León XIV (15 de mayo de 2026), *Técnica y dominio*, y lo pasé por AudioPapers con la voz `em_alex`. Son unos 37 minutos, justo el tipo de texto largo que prefiero escuchar antes que leer de corrido.
+
+<audio controls style="width:100%" src="magnifica-cap3.m4a"></audio>
 
 ## Cómo funciona
 

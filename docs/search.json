@@ -866,5 +866,19 @@
     "title": "AudioPapers — Escucha los artículos en vez de leerlos",
     "section": "Pruébalo",
     "text": "Pruébalo\nEs gratis y de código abierto bajo licencia MIT. El código, las instrucciones de instalación y una tabla de proveedores están en https://github.com/adamsconchallos/audiopapers. Si lo pruebas con tus propias lecturas y algo se rompe o suena mal, abre un issue o escríbeme a aceballos@ufl.edu."
+  },
+  {
+    "objectID": "blog/2026/06/audiopapers/index.html#a-longer-example",
+    "href": "blog/2026/06/audiopapers/index.html#a-longer-example",
+    "title": "AudioPapers — Listen to Papers Instead of Reading Them",
+    "section": "A longer example",
+    "text": "A longer example\nFor something book-length, I took Chapter 3 of Pope Leo XIV’s encyclical Magnifica Humanitas (May 2026), Técnica y dominio, and ran it through AudioPapers with the Spanish em_alex voice. It runs about 37 minutes, in Spanish, exactly the kind of long text I would rather listen to than read straight through."
+  },
+  {
+    "objectID": "blog/2026/06/audiopapers/index_es.html#un-ejemplo-más-largo",
+    "href": "blog/2026/06/audiopapers/index_es.html#un-ejemplo-más-largo",
+    "title": "AudioPapers — Escucha los artículos en vez de leerlos",
+    "section": "Un ejemplo más largo",
+    "text": "Un ejemplo más largo\nPara algo más extenso, tomé el Capítulo III de la encíclica Magnifica Humanitas del Papa León XIV (15 de mayo de 2026), Técnica y dominio, y lo pasé por AudioPapers con la voz em_alex. Son unos 37 minutos, justo el tipo de texto largo que prefiero escuchar antes que leer de corrido."
   }
 ]

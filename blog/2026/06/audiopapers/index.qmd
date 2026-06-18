@@ -20,6 +20,7 @@ open-graph:
 resources:
   - "norwegian-salmon.m4a"
   - "chile-salmon.m4a"
+  - "magnifica-cap3.m4a"
 appendix-style: none
 ---
 
@@ -53,6 +54,12 @@ The second is *Salmon Aquaculture in Chile: Production Growth and Socioeconomic 
 <audio controls style="width:100%" src="chile-salmon.m4a"></audio>
 
 On a full paper the tool also splits the audio into chapters at each heading, so your podcast app's chapter navigation jumps between sections.
+
+## A longer example
+
+For something book-length, I took Chapter 3 of Pope Leo XIV's encyclical *Magnifica Humanitas* (May 2026), *Técnica y dominio*, and ran it through AudioPapers with the Spanish `em_alex` voice. It runs about 37 minutes, in Spanish, exactly the kind of long text I would rather listen to than read straight through.
+
+<audio controls style="width:100%" src="magnifica-cap3.m4a"></audio>
 
 ## How it works
 

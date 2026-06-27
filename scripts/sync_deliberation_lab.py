@@ -123,3 +123,26 @@ def statement_slug(stmt: dict) -> str:
     date = (stmt["published_at"] or "0000-00-00")[:10]
     num = stmt["id"].replace("joint_", "")
     return f"{date}-joint-{num}"
+
+
+_REGENDER_SUBS = [
+    (r"\bShe\b", "He"), (r"\bshe\b", "he"),
+    (r"\bHerself\b", "Himself"), (r"\bherself\b", "himself"),
+    (r"\bHer\b", "His"), (r"\bher\b", "his"),
+]
+
+
+def regender(text: str) -> str:
+    for pat, rep in _REGENDER_SUBS:
+        text = re.sub(pat, rep, text)
+    return text
+
+
+def regender_phenomenologist(profiles_md: str) -> str:
+    parts = re.split(r"(?=^## )", profiles_md, flags=re.M)
+    out = []
+    for p in parts:
+        if p.startswith("## Roberto Nothomb"):
+            p = regender(p)
+        out.append(p)
+    return "".join(out)

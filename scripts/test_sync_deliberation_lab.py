@@ -84,5 +84,25 @@ class TestJointStatements(unittest.TestCase):
         self.assertEqual(s.statement_slug(stmts[1]), "2026-07-04-joint-000002")
 
 
+class TestRegender(unittest.TestCase):
+    def test_regender_pronouns(self):
+        self.assertEqual(s.regender("She begins from her lived experience"),
+                         "He begins from his lived experience")
+
+    def test_only_phenomenologist_block_changes(self):
+        md = (
+            "## Amélie Maturana\n\nShe holds objectivity in parenthesis.\n\n"
+            "## Roberto Nothomb\n\nShe notices tone and her habit.\n\n"
+            "## Oleo Cebaroa\n\nShe resists timeless definitions.\n"
+        )
+        out = s.regender_phenomenologist(md)
+        self.assertIn("## Amélie Maturana\n\nShe holds", out)
+        self.assertIn("## Oleo Cebaroa\n\nShe resists", out)
+        self.assertIn("He notices tone and his habit", out)
+
+    def test_does_not_touch_hermeneutic(self):
+        self.assertEqual(s.regender("hermeneutic relations"), "hermeneutic relations")
+
+
 if __name__ == "__main__":
     unittest.main()

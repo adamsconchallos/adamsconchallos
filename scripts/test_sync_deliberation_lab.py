@@ -104,5 +104,68 @@ class TestRegender(unittest.TestCase):
         self.assertEqual(s.regender("hermeneutic relations"), "hermeneutic relations")
 
 
+import tempfile
+from pathlib import Path
+
+
+class TestSyncIntegration(unittest.TestCase):
+    def _fixture(self, d: Path):
+        (d / "public_deliberations.md").write_text(
+            "# Public Deliberations\n\nTurns: 1\n\n## turn_0 | Nora Varela\n\nNora speaks. Ask Ian.\n",
+            encoding="utf-8")
+        (d / "private_reflections.md").write_text(
+            "# Private Reflections\n\n## Faye Lin\n\nReflection by Faye.\n", encoding="utf-8")
+        (d / "agent_profiles.md").write_text(
+            "# Agent Profiles\n\nCentral question: X\n\n"
+            "## Faye Lin\n\n- Role: phenomenologist\nShe notices her habit.\n\n"
+            "## Sima Rao\n\n- Role: sociologist\nShe maps stacks.\n", encoding="utf-8")
+        (d / "joint_statements.md").write_text(
+            "# Joint Statements\n\nStatements: 1\n\n## joint_000001\n\n"
+            "- Published at: 2026-06-27T05:37:12+00:00\n\n**Public statement**\n\nNora agrees.\n",
+            encoding="utf-8")
+
+    def test_sync_en_renames_and_regenders(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "src"; src.mkdir()
+            out = Path(tmp) / "out"; out.mkdir()
+            self._fixture(src)
+            s.sync(src, out, lang="en")
+            conv = (out / "conversations.qmd").read_text(encoding="utf-8")
+            self.assertIn("Amélie Maturana", conv)
+            self.assertIn("Ask Humberto", conv)
+            self.assertNotIn("Nora", conv)
+            prof = (out / "profiles.qmd").read_text(encoding="utf-8")
+            self.assertIn("He notices his habit", prof)
+            self.assertIn("She maps stacks", prof)
+            post = out / "statements" / "2026-06-27-joint-000001" / "index.qmd"
+            self.assertIn("Amélie agrees", post.read_text(encoding="utf-8"))
+
+    def test_sync_es_titles_and_banner(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "src"; src.mkdir()
+            out = Path(tmp) / "out"; out.mkdir()
+            self._fixture(src)
+            s.sync(src, out, lang="es", banner="EN ORIGINAL")
+            conv = (out / "conversations.qmd").read_text(encoding="utf-8")
+            self.assertIn('title: "Conversaciones"', conv)
+            self.assertIn("callout-note", conv)
+            self.assertIn("EN ORIGINAL", conv)
+            self.assertIn("Amélie Maturana", conv)
+            post = out / "statements" / "2026-06-27-joint-000001" / "index.qmd"
+            self.assertIn('title: "Declaración conjunta — 2026-06-27"',
+                          post.read_text(encoding="utf-8"))
+
+    def test_statements_idempotent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src = Path(tmp) / "src"; src.mkdir()
+            out = Path(tmp) / "out"; out.mkdir()
+            self._fixture(src)
+            s.sync(src, out, lang="en")
+            post = out / "statements" / "2026-06-27-joint-000001" / "index.qmd"
+            post.write_text("EDITED BY HAND", encoding="utf-8")
+            s.sync(src, out, lang="en")
+            self.assertEqual(post.read_text(encoding="utf-8"), "EDITED BY HAND")
+
+
 if __name__ == "__main__":
     unittest.main()

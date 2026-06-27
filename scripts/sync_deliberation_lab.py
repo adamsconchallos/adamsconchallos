@@ -146,3 +146,65 @@ def regender_phenomenologist(profiles_md: str) -> str:
             p = regender(p)
         out.append(p)
     return "".join(out)
+
+
+import argparse
+from pathlib import Path
+
+
+def _read(p: Path) -> str:
+    return Path(p).read_text(encoding="utf-8")
+
+
+def _write(p: Path, text: str) -> None:
+    p = Path(p)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(text, encoding="utf-8")
+
+
+def sync(from_dir, out_dir, lang: str = "en", banner: str | None = None) -> None:
+    from_dir = Path(from_dir)
+    out_dir = Path(out_dir)
+    t = LANGS[lang]["titles"]
+
+    conv = rename(_read(from_dir / "public_deliberations.md"))
+    _write(out_dir / "conversations.qmd",
+           build_page(t["conversations"], "conversations", lang,
+                      strip_h1_and_intro(conv), banner=banner))
+
+    refl = rename(_read(from_dir / "private_reflections.md"))
+    _write(out_dir / "reflections.qmd",
+           build_page(t["reflections"], "reflections", lang,
+                      strip_h1_and_intro(refl), banner=banner))
+
+    prof = regender_phenomenologist(rename(_read(from_dir / "agent_profiles.md")))
+    _write(out_dir / "profiles.qmd",
+           build_page(t["profiles"], "profiles", lang,
+                      strip_h1_and_intro(prof), banner=banner))
+
+    joint = rename(_read(from_dir / "joint_statements.md"))
+    for stmt in parse_joint_statements(joint):
+        dest = out_dir / "statements" / statement_slug(stmt) / "index.qmd"
+        if dest.exists():
+            continue
+        date = (stmt["published_at"] or "")[:10] or None
+        title = f'{t["statement"]} — {date}' if date else t["statement"]
+        _write(dest, build_page(title, "statements", lang, stmt["body"] + "\n",
+                                date=date, banner=banner))
+
+
+def main(argv=None) -> None:
+    ap = argparse.ArgumentParser(description="Sync deliberation_lab exports into the website.")
+    ap.add_argument("--from", dest="from_dir", type=Path,
+                    default=Path("../deliberation_lab/exports/clean_joint_real"))
+    ap.add_argument("--out", dest="out_dir", type=Path,
+                    default=Path("projects/deliberation-lab"))
+    ap.add_argument("--lang", choices=["en", "es"], default="en")
+    ap.add_argument("--banner", default=None)
+    args = ap.parse_args(argv)
+    sync(args.from_dir, args.out_dir, lang=args.lang, banner=args.banner)
+    print(f"synced [{args.lang}] {args.from_dir} -> {args.out_dir}")
+
+
+if __name__ == "__main__":
+    main()

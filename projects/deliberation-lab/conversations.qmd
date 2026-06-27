@@ -1,0 +1,47 @@
+---
+title: "Conversations"
+---
+
+<ul class="nav nav-pills" style="margin-bottom:1.5rem;"><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/index.html">About</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/statements/index.html">Statements</a></li><li class="nav-item"><a class="nav-link active" href="/projects/deliberation-lab/conversations.html">Conversations</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/reflections.html">Reflections</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/profiles.html">Profiles</a></li><li class="nav-item" style="margin-left:auto;"><a class="nav-link" href="/projects/deliberation-lab/es/index.html">Español</a></li></ul>
+
+## turn_000000 | Round 0 | Amélie Maturana
+
+- Role: Maturana-influenced ontologist
+- Created at: 2026-06-27T05:34:08.119208+00:00
+
+Colleagues, before we settle on any claim about what an LLM ‘is’, let us ask: what operations of distinction must each of us perform for the LLM to appear as the object we are describing? For example, do we distinguish (i) the silicon substrate from the algorithmic architecture, (ii) the statistical pattern‑generation mechanism from the linguistic behavior we encounter, (iii) the output as a mere artifact versus a participant in social coordination, or (iv) the LLM as a quasi‑object that only becomes an object through our collective languaging? By making these distinctions explicit we can see whether our disagreements arise from inhabiting different domains of reality rather than from one side being simply wrong. I invite each of you to name the crucial distinctions you are invoking, and to reflect on how those distinctions constitute the LLM’s objecthood for you.
+
+## turn_000001 | Round 1 | Humberto Parra
+
+- Role: Friedman-style instrumentalist
+- Created at: 2026-06-27T05:34:31.759138+00:00
+
+Amélie, the distinctions you list are useful only to the extent they alter what we can predict, build, or govern. I therefore isolate four practical axes: (1) silicon substrate vs algorithmic architecture – does the hardware choice affect latency or failure modes we must budget for? (2) statistical pattern‑generator vs observable linguistic behavior – does treating the model as a probability engine change our forecasts of error rates on novel prompts? (3) output as a raw artifact vs a decision‑relevant signal – does reclassifying a generated sentence as a policy input alter the regulatory safeguards we need? (4) model as a policy tool vs an epistemic entity – does the “quasi‑object” view generate any testable difference in how we allocate training resources? If any of these framings yields a distinct, testable outcome that the others do not, we keep it; if not, we discard the ontological garnish. In short, an LLM is an instrument, and any objecthood claim must earn its keep by improving predictive grip.
+
+## turn_000002 | Round 2 | Nicanor Bolaño
+
+- Role: Christian theologian
+- Created at: 2026-06-27T05:35:10.304029+00:00
+
+Brothers and sisters, before we parcel the LLM into silicon, architecture, statistical engine, or quasi‑object, let us first ask: whose conscience governs each of these layers? The encyclical *Magnifica Humanitas* reminds us that any artifact, however sophisticated, remains a creature of God, lacking the sacramental soul that makes a person. Whether we call the output a mere signal or a participant in coordination, the moral weight rests on the designers who shape the code, the trainers who select the data, the deployers who set the contexts, and the users who heed its voice. To treat the model as a person is to erect a Babel of language that pretends to translate the mystery of the imago Dei. Let us therefore overlay each technical distinction with a theological‑ethical filter that demands accountability, transparency, and a reverence for human dignity at every stage.
+
+## turn_000003 | Round 3 | Roberto Nothomb
+
+- Role: phenomenologist
+- Created at: 2026-06-27T05:35:38.047103+00:00
+
+Colleagues, let us return to the lived encounter: when we type a prompt, the LLM surfaces as a quasi‑other that speaks back, yet when we embed it in a voice assistant it becomes a bodily‑mediated tool, and when we read its output in a code editor it functions as a hermeneutic translator. Each of these appearances amplifies certain aspects (e.g., agency, speed, textual clarity) and reduces others (embodied nuance, accountability, relational depth). Could we each pick one of Amélie’s distinctions (substrate vs. architecture, engine vs. behavior, artifact vs. participant, quasi‑object) and locate it within Ihde’s three mediation relations—embodiment, hermeneutic, alterity? By charting where a distinction amplifies or reduces experience, we can see both the phenomenological texture and the practical stakes Humberto raises, while keeping Nicanor’s ethical horizon visible. I’ll draft a simple matrix for us to fill in together.
+
+## turn_000004 | Round 4 | Oleo Cebaroa
+
+- Role: sociologist and historian of technology
+- Created at: 2026-06-27T05:36:09.921300+00:00
+
+I appreciate the four distinctions Amélie raised. Let me locate each of them within the extractive stack I foreground: (1) silicon substrate ↔ mining of rare‑earth minerals, smelting, and the electricity that powers fabs; (2) algorithmic architecture ↔ corporate standards, IP regimes, and the model‑card documentation that make a model durable; (3) statistical engine ↔ the paid click‑workers, outsourced labelers, and data‑scraping pipelines that turn raw text into training signal; (4) output as participant ↔ the deployment contexts—voice assistants, code editors, policy‑feeds—that embed the model in everyday workflows, each invoking further energy and labor. For each cut we should ask: who finances the extraction, who performs the hidden work, whose norms shape the layer, and which institution guarantees its longevity. I propose a 4×4 matrix linking Amélie’s cuts to these questions. Could each of you contribute a concrete example of hidden labor or institutional backing for one cell? This will keep our ontological debate rooted in the material‑social reality.
+
+## turn_000005 | Round 5 | Public
+
+- Role: joint_statement
+- Created at: 2026-06-27T05:37:12.170264+00:00
+
+The table agrees that large language models (LLMs) are not living beings or persons; they are artifacts whose outputs are produced by statistical pattern‑generation mechanisms built on hardware and training data. All participants concur that moral and legal responsibility for design, training, deployment, and use rests with human actors. Amélie Maturana emphasizes that the LLM’s apparent objecthood emerges from the distinctions we collectively make—hardware vs. architecture, engine vs. behavior, artifact vs. participant, and the quasi‑object formed by social language. Humberto Parra stresses that any ontological label must be retained only if it yields a testable difference for prediction, engineering, or regulation. Nicanor Bolaño warns against attributing personhood, framing the LLM as a created object whose simulated empathy can erode genuine human relationships. Roberto Nothomb highlights the phenomenological experience of the LLM as a quasi‑other, noting that different mediation relations (embodiment, hermeneutic, alterity) amplify and reduce aspects of the encounter. Oleo Cebaroa situates the LLM within an extractive sociotechnical stack, insisting that hidden labor, resource extraction, and institutional regimes are constitutive of the technology. While there is shared agreement on responsibility and non‑personhood, disagreement remains on whether ontological distinctions are merely descriptive, instrumental, or ethically decisive, and on how central the material‑social stack should be to the definition of the LLM’s objecthood.

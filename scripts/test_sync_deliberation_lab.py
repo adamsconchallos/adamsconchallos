@@ -10,11 +10,15 @@ import sync_deliberation_lab as s
 class TestRename(unittest.TestCase):
     def test_full_names(self):
         self.assertEqual(s.rename("Nora Varela said hello"), "Amélie Maturana said hello")
-        self.assertEqual(s.rename("Sima Rao and Faye Lin"), "Oleo Cebaroa and Roberto Nothomb")
+        self.assertEqual(s.rename("Tomas Echeverria and Ian Mercado"), "Nicanor Bolaño and Humberto Parra")
 
     def test_first_names(self):
         self.assertEqual(s.rename("Thank Nora and ask Ian"), "Thank Amélie and ask Humberto")
-        self.assertEqual(s.rename("Tomas warns; Faye notes"), "Nicanor warns; Roberto notes")
+        self.assertEqual(s.rename("Tomas warns"), "Nicanor warns")
+
+    def test_removed_agents_are_not_mapped(self):
+        # Faye Lin / Sima Rao were removed; their names must pass through untouched
+        self.assertEqual(s.rename("Faye Lin and Sima Rao"), "Faye Lin and Sima Rao")
 
     def test_word_boundaries_do_not_touch_substrings(self):
         self.assertEqual(s.rename("linguistic Iranian"), "linguistic Iranian")
@@ -84,26 +88,6 @@ class TestJointStatements(unittest.TestCase):
         self.assertEqual(s.statement_slug(stmts[1]), "2026-07-04-joint-000002")
 
 
-class TestRegender(unittest.TestCase):
-    def test_regender_pronouns(self):
-        self.assertEqual(s.regender("She begins from her lived experience"),
-                         "He begins from his lived experience")
-
-    def test_only_phenomenologist_block_changes(self):
-        md = (
-            "## Amélie Maturana\n\nShe holds objectivity in parenthesis.\n\n"
-            "## Roberto Nothomb\n\nShe notices tone and her habit.\n\n"
-            "## Oleo Cebaroa\n\nShe resists timeless definitions.\n"
-        )
-        out = s.regender_phenomenologist(md)
-        self.assertIn("## Amélie Maturana\n\nShe holds", out)
-        self.assertIn("## Oleo Cebaroa\n\nShe resists", out)
-        self.assertIn("He notices tone and his habit", out)
-
-    def test_does_not_touch_hermeneutic(self):
-        self.assertEqual(s.regender("hermeneutic relations"), "hermeneutic relations")
-
-
 class TestPresentation(unittest.TestCase):
     def test_wrap_tabset(self):
         out = s.wrap_tabset("## A\n\nx\n\n## B\n\ny\n")
@@ -144,17 +128,17 @@ class TestSyncIntegration(unittest.TestCase):
             "- Created at: 2026-06-27T05:34:08+00:00\n\nNora speaks. Ask Ian.\n",
             encoding="utf-8")
         (d / "private_reflections.md").write_text(
-            "# Private Reflections\n\n## Faye Lin\n\nReflection by Faye.\n", encoding="utf-8")
+            "# Private Reflections\n\n## Tomas Echeverria\n\nReflection by Tomas.\n", encoding="utf-8")
         (d / "agent_profiles.md").write_text(
             "# Agent Profiles\n\nCentral question: X\n\n"
-            "## Faye Lin\n\n- Role: phenomenologist\nShe notices her habit.\n\n"
-            "## Sima Rao\n\n- Role: sociologist\nShe maps stacks.\n", encoding="utf-8")
+            "## Ian Mercado\n\n- Role: instrumentalist\nHe judges by predictions.\n\n"
+            "## Tomas Echeverria\n\n- Role: theologian\nHe asks who is responsible.\n", encoding="utf-8")
         (d / "joint_statements.md").write_text(
             "# Joint Statements\n\nStatements: 1\n\n## joint_000001\n\n"
             "- Published at: 2026-06-27T05:37:12+00:00\n\n**Public statement**\n\nNora agrees.\n",
             encoding="utf-8")
 
-    def test_sync_en_renames_and_regenders(self):
+    def test_sync_en_renames(self):
         with tempfile.TemporaryDirectory() as tmp:
             src = Path(tmp) / "src"; src.mkdir()
             out = Path(tmp) / "out"; out.mkdir()
@@ -165,8 +149,10 @@ class TestSyncIntegration(unittest.TestCase):
             self.assertIn("Ask Humberto", conv)
             self.assertNotIn("## turn_", conv)
             prof = (out / "profiles.qmd").read_text(encoding="utf-8")
-            self.assertIn("He notices his habit", prof)
-            self.assertIn("She maps stacks", prof)
+            self.assertIn("## Nicanor Bolaño", prof)
+            self.assertIn("## Humberto Parra", prof)
+            self.assertNotIn("Roberto Nothomb", prof)
+            self.assertNotIn("Oleo Cebaroa", prof)
             self.assertIn("::: {.panel-tabset}", prof)
             post = out / "statements" / "2026-06-27-joint-000001" / "index.qmd"
             self.assertIn("Amélie agrees", post.read_text(encoding="utf-8"))

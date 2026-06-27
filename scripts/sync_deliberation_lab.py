@@ -8,16 +8,12 @@ FULL_NAME_MAP = {
     "Nora Varela": "Amélie Maturana",
     "Ian Mercado": "Humberto Parra",
     "Tomas Echeverria": "Nicanor Bolaño",
-    "Faye Lin": "Roberto Nothomb",
-    "Sima Rao": "Oleo Cebaroa",
 }
 FIRST_NAME_MAP = {
     "Nora": "Amélie", "Ian": "Humberto", "Tomas": "Nicanor",
-    "Faye": "Roberto", "Sima": "Oleo",
 }
 LAST_NAME_MAP = {
     "Varela": "Maturana", "Mercado": "Parra", "Echeverria": "Bolaño",
-    "Lin": "Nothomb", "Rao": "Cebaroa",
 }
 
 
@@ -125,29 +121,6 @@ def statement_slug(stmt: dict) -> str:
     return f"{date}-joint-{num}"
 
 
-_REGENDER_SUBS = [
-    (r"\bShe\b", "He"), (r"\bshe\b", "he"),
-    (r"\bHerself\b", "Himself"), (r"\bherself\b", "himself"),
-    (r"\bHer\b", "His"), (r"\bher\b", "his"),
-]
-
-
-def regender(text: str) -> str:
-    for pat, rep in _REGENDER_SUBS:
-        text = re.sub(pat, rep, text)
-    return text
-
-
-def regender_phenomenologist(profiles_md: str) -> str:
-    parts = re.split(r"(?=^## )", profiles_md, flags=re.M)
-    out = []
-    for p in parts:
-        if p.startswith("## Roberto Nothomb"):
-            p = regender(p)
-        out.append(p)
-    return "".join(out)
-
-
 def wrap_tabset(body: str) -> str:
     return "::: {.panel-tabset}\n\n" + body.strip() + "\n\n:::\n"
 
@@ -205,7 +178,7 @@ def sync(from_dir, out_dir, lang: str = "en", banner: str | None = None) -> None
 
     _write(out_dir / "profiles.qmd",
            build_page(t["profiles"], "profiles", lang,
-                      wrap_tabset(strip_h1_and_intro(regender_phenomenologist(rename(_read(from_dir / "agent_profiles.md"))))),
+                      wrap_tabset(strip_h1_and_intro(rename(_read(from_dir / "agent_profiles.md")))),
                       banner=banner))
 
     joint = rename(_read(from_dir / "joint_statements.md"))

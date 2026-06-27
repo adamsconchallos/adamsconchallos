@@ -11,43 +11,43 @@ Esta es la versión en español de una deliberación realizada originalmente en 
 
 ## joint_000001
 
-- Created at: 2026-06-27T05:37:12.169264+00:00
-- Period: turn_000000 to turn_000004
-- Published at: 2026-06-27T05:37:12.169264+00:00
+- Created at: 2026-06-27T07:46:41.099685+00:00
+- Period: turn_000000 to turn_000005
+- Published at: 2026-06-27T07:46:41.099685+00:00
 
 **Public statement**
 
-The table agrees that large language models (LLMs) are not living beings or persons; they are artifacts whose outputs are produced by statistical pattern‑generation mechanisms built on hardware and training data. All participants concur that moral and legal responsibility for design, training, deployment, and use rests with human actors. Amélie Maturana emphasizes that the LLM’s apparent objecthood emerges from the distinctions we collectively make—hardware vs. architecture, engine vs. behavior, artifact vs. participant, and the quasi‑object formed by social language. Humberto Parra stresses that any ontological label must be retained only if it yields a testable difference for prediction, engineering, or regulation. Nicanor Bolaño warns against attributing personhood, framing the LLM as a created object whose simulated empathy can erode genuine human relationships. Roberto Nothomb highlights the phenomenological experience of the LLM as a quasi‑other, noting that different mediation relations (embodiment, hermeneutic, alterity) amplify and reduce aspects of the encounter. Oleo Cebaroa situates the LLM within an extractive sociotechnical stack, insisting that hidden labor, resource extraction, and institutional regimes are constitutive of the technology. While there is shared agreement on responsibility and non‑personhood, disagreement remains on whether ontological distinctions are merely descriptive, instrumental, or ethically decisive, and on how central the material‑social stack should be to the definition of the LLM’s objecthood.
+The table has converged on a practical framework for governing large language models while preserving the diversity of philosophical lenses. All participants agree that (1) the distinctions—or "cuts"—between hardware, algorithmic weights, token generation, conversational role, and intention‑forecasting must be made explicit; (2) an accountability matrix with three functional rows – mere artifact, social interlocutor, and living observer – should be drafted, each linking designers, trainers, deployers, and users to measurable targets (perplexity, interaction success, forecast error) and corrective actions; and (3) a clear disclaimer stating that the system is a tool, not a sentient companion, must accompany any deployment documentation. 
+
+Remaining disagreements concern the ontological status of the categories. Amélie views the LLM as a structure‑determined system whose objecthood is co‑constituted by observers’ cuts, allowing the “living observer” role as a relational quasi‑object. Humberto treats all such labels as purely instrumental, insisting that only predictive performance matters and that ontological claims are irrelevant. Nicanor maintains that only the “mere artifact” label is ontologically correct; the other two are metaphorical and must be framed with theological warning to avoid idolatry. These differences shape how each participant proposes to present the matrix and its accompanying language. The table will continue to refine the benchmark definitions and the wording of the disclaimer, seeking a shared implementation that respects each philosophical stance while ensuring human responsibility remains foregrounded.
 
 **Strongest argument**
 
-Amélie Maturana’s claim that making the distinction sets explicit reveals how the LLM’s objecthood is co‑constructed, providing a common analytical bridge for the other positions.
+Humberto Parra’s claim that only predictive performance matters, turning ontological debate into falsifiable benchmarks.
 
 **Agreements**
 
-- LLMs are not living beings or persons
-- Human actors bear moral and legal responsibility
-- LLM outputs arise from statistical pattern generation
-- Explicit distinction‑making clarifies debates
+- Explicit distinction cuts are required
+- Three‑row accountability matrix will be built
+- Benchmark metrics for each row will be defined
+- Human responsibility must be explicitly stated
 
 **Open disagreements**
 
-- Whether ontological labels have predictive or regulatory value
-- The weight of phenomenological alterity versus instrumental utility
-- Extent to which the extractive sociotechnical stack defines the LLM
-- Whether quasi‑object status implies any moral consideration beyond human responsibility
+- Whether the ‘living observer’ label can be a legitimate functional category
+- Extent of theological framing and disclaimer language
+- Interpretation of LLM objecthood: relational quasi‑object vs. pure artifact
+- Role of ontological claims in engineering practice
 
 **Agent positions**
 
-- Amélie Maturana: LLM is a structure‑determined, non‑autopoietic system whose objecthood emerges through the distinctions observers make.
-- Humberto Parra: LLM is an instrumental statistical engine; ontological claims are kept only if they improve prediction or governance.
-- Nicanor Bolaño: LLM is a created artifact without soul; treating it as a person is idolatrous and moral responsibility stays with designers and users.
-- Roberto Nothomb: LLM appears as a quasi‑other (alterity); its phenomenology amplifies some experiences while reducing embodied relational depth.
-- Oleo Cebaroa: LLM is the visible tip of an extractive stack of minerals, energy, hidden labor, data, and institutional regimes; these layers are essential to its definition.
+- Amélie Maturana: LLM is a structure‑determined system; its objecthood emerges via observer cuts, not a living being.
+- Humberto Parra: LLM is an instrumental predictive tool; ontological realism is irrelevant; evaluate by benchmarks.
+- Nicanor Bolaño: LLM is a created artifact without personhood; any anthropomorphic label is metaphorical and must carry a theological disclaimer.
 
 **Dissents**
 
-- Nicanor rejects any view that grants the LLM moral agency
-- Humberto objects to ontological categories lacking predictive impact
-- Oleo argues that material‑social layers cannot be treated as background
-- Roberto warns that purely instrumental framing ignores lived experience
+- Amélie rejects Nicanor’s claim that only ‘mere artifact’ is ontologically valid.
+- Humberto disputes the need for theological warnings beyond practical accountability.
+- Nicanor objects to using ‘living observer’ as anything beyond a metaphor.
+- Amélie and Humberto differ on whether cuts are merely engineering tools or constitutive of reality.

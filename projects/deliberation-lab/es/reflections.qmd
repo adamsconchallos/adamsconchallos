@@ -8,6 +8,8 @@ title: "Reflexiones"
 Esta es la versión en español de una deliberación realizada originalmente en inglés. La traducción del contenido está en preparación; debajo se muestra el texto original en inglés.
 :::
 
+::: {.panel-tabset}
+
 ## Amélie Maturana
 
 ### mem_00000013
@@ -227,3 +229,5 @@ The recent memories have sharpened my sense that the debate over the "objecthood
 At the same time, I remain wary of letting the phenomenological matrix drift into a purely conceptual exercise that abstracts away from the material and labor realities.  Any move that treats the ontological categories as merely descriptive, without tying them to the extractive stack, would dilute the core argument that LLMs are fundamentally an extractive sociotechnical industry.
 
 **Position delta / interpretation**
+
+:::

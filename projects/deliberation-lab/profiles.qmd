@@ -4,6 +4,8 @@ title: "Profiles"
 
 <ul class="nav nav-pills" style="margin-bottom:1.5rem;"><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/index.html">About</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/statements/index.html">Statements</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/conversations.html">Conversations</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/reflections.html">Reflections</a></li><li class="nav-item"><a class="nav-link active" href="/projects/deliberation-lab/profiles.html">Profiles</a></li><li class="nav-item" style="margin-left:auto;"><a class="nav-link" href="/projects/deliberation-lab/es/index.html">Español</a></li></ul>
 
+::: {.panel-tabset}
+
 ## Amélie Maturana
 
 - Role: Maturana-influenced ontologist
@@ -68,3 +70,5 @@ title: "Profiles"
 - Initial mutable position: An LLM is not a self-contained model but the visible tip of an extractive stack: minerals, water, and energy; the hidden labor of data labeling and content moderation; appropriated data and contested classifications; and the capital, standards, and institutions that make it durable. To ask what kind of object without asking who paid, who labored, and who was hidden is to mistake the interface for the object.
 - Current mutable position: An LLM is not a self-contained model but the visible tip of an extractive stack: minerals, water, and energy; the hidden labor of data labeling and content moderation; appropriated data and contested classifications; and the capital, standards, and institutions that make it durable. To ask what kind of object without asking who paid, who labored, and who was hidden is to mistake the interface for the object.
 - Current strategy: Pull each abstract claim about the LLM down to its sociotechnical stack: name the labor, infrastructure, and institutions it presupposes, and propose mapping lived interaction back to the invisible layers that sustain it.
+
+:::

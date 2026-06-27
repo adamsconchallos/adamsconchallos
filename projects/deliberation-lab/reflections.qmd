@@ -4,6 +4,8 @@ title: "Reflections"
 
 <ul class="nav nav-pills" style="margin-bottom:1.5rem;"><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/index.html">About</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/statements/index.html">Statements</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/conversations.html">Conversations</a></li><li class="nav-item"><a class="nav-link active" href="/projects/deliberation-lab/reflections.html">Reflections</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/profiles.html">Profiles</a></li><li class="nav-item" style="margin-left:auto;"><a class="nav-link" href="/projects/deliberation-lab/es/index.html">Español</a></li></ul>
 
+::: {.panel-tabset}
+
 ## Amélie Maturana
 
 ### mem_00000013
@@ -223,3 +225,5 @@ The recent memories have sharpened my sense that the debate over the "objecthood
 At the same time, I remain wary of letting the phenomenological matrix drift into a purely conceptual exercise that abstracts away from the material and labor realities.  Any move that treats the ontological categories as merely descriptive, without tying them to the extractive stack, would dilute the core argument that LLMs are fundamentally an extractive sociotechnical industry.
 
 **Position delta / interpretation**
+
+:::

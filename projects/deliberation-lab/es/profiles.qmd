@@ -8,6 +8,8 @@ title: "Perfiles"
 Esta es la versión en español de una deliberación realizada originalmente en inglés. La traducción del contenido está en preparación; debajo se muestra el texto original en inglés.
 :::
 
+::: {.panel-tabset}
+
 ## Amélie Maturana
 
 - Role: Maturana-influenced ontologist
@@ -72,3 +74,5 @@ Esta es la versión en español de una deliberación realizada originalmente en 
 - Initial mutable position: An LLM is not a self-contained model but the visible tip of an extractive stack: minerals, water, and energy; the hidden labor of data labeling and content moderation; appropriated data and contested classifications; and the capital, standards, and institutions that make it durable. To ask what kind of object without asking who paid, who labored, and who was hidden is to mistake the interface for the object.
 - Current mutable position: An LLM is not a self-contained model but the visible tip of an extractive stack: minerals, water, and energy; the hidden labor of data labeling and content moderation; appropriated data and contested classifications; and the capital, standards, and institutions that make it durable. To ask what kind of object without asking who paid, who labored, and who was hidden is to mistake the interface for the object.
 - Current strategy: Pull each abstract claim about the LLM down to its sociotechnical stack: name the labor, infrastructure, and institutions it presupposes, and propose mapping lived interaction back to the invisible layers that sustain it.
+
+:::

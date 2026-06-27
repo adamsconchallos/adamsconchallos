@@ -104,6 +104,34 @@ class TestRegender(unittest.TestCase):
         self.assertEqual(s.regender("hermeneutic relations"), "hermeneutic relations")
 
 
+class TestPresentation(unittest.TestCase):
+    def test_wrap_tabset(self):
+        out = s.wrap_tabset("## A\n\nx\n\n## B\n\ny\n")
+        self.assertTrue(out.startswith("::: {.panel-tabset}"))
+        self.assertTrue(out.rstrip().endswith(":::"))
+        self.assertIn("## A", out)
+        self.assertIn("## B", out)
+
+    CONV = (
+        "# Public Deliberations\n\nTurns: 2\n\n"
+        "## turn_000000 | Round 0 | Amélie Maturana\n\n- Role: ontologist\n- Created at: X\n\nHello there.\n\n"
+        "## turn_000005 | Round 5 | Public\n\n- Role: joint_statement\n- Created at: Y\n\nWe agree.\n"
+    )
+
+    def test_style_normal_turn(self):
+        out = s.style_conversation(self.CONV)
+        self.assertIn("### Amélie Maturana · Round 0", out)
+        self.assertIn("*ontologist*", out)
+        self.assertIn("Hello there.", out)
+        self.assertIn("---", out)
+        self.assertNotIn("## turn_", out)
+
+    def test_style_joint_statement(self):
+        out = s.style_conversation(self.CONV)
+        self.assertIn('callout-note title="Joint statement · Round 5"', out)
+        self.assertIn("We agree.", out)
+
+
 import tempfile
 from pathlib import Path
 
@@ -111,7 +139,9 @@ from pathlib import Path
 class TestSyncIntegration(unittest.TestCase):
     def _fixture(self, d: Path):
         (d / "public_deliberations.md").write_text(
-            "# Public Deliberations\n\nTurns: 1\n\n## turn_0 | Nora Varela\n\nNora speaks. Ask Ian.\n",
+            "# Public Deliberations\n\nTurns: 1\n\n"
+            "## turn_000000 | Round 0 | Nora Varela\n\n- Role: Maturana-influenced ontologist\n"
+            "- Created at: 2026-06-27T05:34:08+00:00\n\nNora speaks. Ask Ian.\n",
             encoding="utf-8")
         (d / "private_reflections.md").write_text(
             "# Private Reflections\n\n## Faye Lin\n\nReflection by Faye.\n", encoding="utf-8")
@@ -131,12 +161,13 @@ class TestSyncIntegration(unittest.TestCase):
             self._fixture(src)
             s.sync(src, out, lang="en")
             conv = (out / "conversations.qmd").read_text(encoding="utf-8")
-            self.assertIn("Amélie Maturana", conv)
+            self.assertIn("### Amélie Maturana · Round 0", conv)
             self.assertIn("Ask Humberto", conv)
-            self.assertNotIn("Nora", conv)
+            self.assertNotIn("## turn_", conv)
             prof = (out / "profiles.qmd").read_text(encoding="utf-8")
             self.assertIn("He notices his habit", prof)
             self.assertIn("She maps stacks", prof)
+            self.assertIn("::: {.panel-tabset}", prof)
             post = out / "statements" / "2026-06-27-joint-000001" / "index.qmd"
             self.assertIn("Amélie agrees", post.read_text(encoding="utf-8"))
 

@@ -148,6 +148,32 @@ def regender_phenomenologist(profiles_md: str) -> str:
     return "".join(out)
 
 
+def wrap_tabset(body: str) -> str:
+    return "::: {.panel-tabset}\n\n" + body.strip() + "\n\n:::\n"
+
+
+def style_conversation(md: str) -> str:
+    blocks = re.split(r"(?=^## turn_)", md, flags=re.M)
+    out = []
+    for b in blocks:
+        m = re.match(r"## turn_\d+ \| Round (\d+) \| (.+)", b)
+        if not m:
+            continue
+        round_no = m.group(1)
+        speaker = m.group(2).strip()
+        role_m = re.search(r"^- Role:\s*(.+)$", b, flags=re.M)
+        role = role_m.group(1).strip() if role_m else ""
+        body = re.sub(r"^## turn_.*\n", "", b, count=1, flags=re.M)
+        body = re.sub(r"^- Role:.*\n", "", body, count=1, flags=re.M)
+        body = re.sub(r"^- Created at:.*\n", "", body, count=1, flags=re.M)
+        body = body.strip()
+        if role == "joint_statement" or speaker.lower() == "public":
+            out.append(f'::: {{.callout-note title="Joint statement · Round {round_no}"}}\n{body}\n:::\n')
+        else:
+            out.append(f"### {speaker} · Round {round_no}\n\n*{role}*\n\n{body}\n\n---\n")
+    return "\n".join(out) + "\n"
+
+
 import argparse
 from pathlib import Path
 
@@ -167,20 +193,20 @@ def sync(from_dir, out_dir, lang: str = "en", banner: str | None = None) -> None
     out_dir = Path(out_dir)
     t = LANGS[lang]["titles"]
 
-    conv = rename(_read(from_dir / "public_deliberations.md"))
     _write(out_dir / "conversations.qmd",
            build_page(t["conversations"], "conversations", lang,
-                      strip_h1_and_intro(conv), banner=banner))
+                      style_conversation(rename(_read(from_dir / "public_deliberations.md"))),
+                      banner=banner))
 
-    refl = rename(_read(from_dir / "private_reflections.md"))
     _write(out_dir / "reflections.qmd",
            build_page(t["reflections"], "reflections", lang,
-                      strip_h1_and_intro(refl), banner=banner))
+                      wrap_tabset(strip_h1_and_intro(rename(_read(from_dir / "private_reflections.md")))),
+                      banner=banner))
 
-    prof = regender_phenomenologist(rename(_read(from_dir / "agent_profiles.md")))
     _write(out_dir / "profiles.qmd",
            build_page(t["profiles"], "profiles", lang,
-                      strip_h1_and_intro(prof), banner=banner))
+                      wrap_tabset(strip_h1_and_intro(regender_phenomenologist(rename(_read(from_dir / "agent_profiles.md"))))),
+                      banner=banner))
 
     joint = rename(_read(from_dir / "joint_statements.md"))
     for stmt in parse_joint_statements(joint):

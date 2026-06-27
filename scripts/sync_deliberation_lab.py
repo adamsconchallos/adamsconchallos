@@ -77,3 +77,27 @@ def nav_bar(active_id: str, lang: str) -> str:
         f'<li class="nav-item" style="margin-left:auto;"><a class="nav-link" href="{sw_href}">{sw_label}</a></li>'
     )
     return '<ul class="nav nav-pills" style="margin-bottom:1.5rem;">' + "".join(items) + "</ul>\n\n"
+
+
+def front_matter(title: str, date: str | None = None) -> str:
+    lines = ["---", f'title: "{title}"']
+    if date:
+        lines.append(f'date: "{date}"')
+    lines += ["---", "", ""]
+    return "\n".join(lines)
+
+
+def strip_h1_and_intro(md: str) -> str:
+    idx = md.find("\n## ")
+    if idx == -1:
+        return md.strip() + "\n"
+    return md[idx + 1:].strip() + "\n"
+
+
+def build_page(title: str, active_id: str, lang: str, body: str,
+               date: str | None = None, banner: str | None = None) -> str:
+    parts = [front_matter(title, date), nav_bar(active_id, lang)]
+    if banner:
+        parts.append("::: {.callout-note}\n" + banner + "\n:::\n\n")
+    parts.append(body)
+    return "".join(parts)

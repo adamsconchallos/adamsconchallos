@@ -40,5 +40,29 @@ class TestNavBar(unittest.TestCase):
         self.assertIn(">English</a>", html)
 
 
+class TestPageAssembly(unittest.TestCase):
+    SAMPLE = "# Public Deliberations\n\nConversation: X\nTurns: 6\n\n## turn_0\n\nbody text\n"
+
+    def test_strip_h1_and_intro(self):
+        out = s.strip_h1_and_intro(self.SAMPLE)
+        self.assertTrue(out.startswith("## turn_0"))
+        self.assertNotIn("Public Deliberations", out)
+
+    def test_front_matter_with_and_without_date(self):
+        self.assertIn('date: "2026-06-27"', s.front_matter("H", "2026-06-27"))
+        self.assertNotIn("date:", s.front_matter("H"))
+
+    def test_build_page_orders_sections(self):
+        page = s.build_page("Conversations", "conversations", "en", "## turn_0\n\nbody\n")
+        self.assertTrue(page.startswith("---"))
+        self.assertIn("nav nav-pills", page)
+        self.assertTrue(page.rstrip().endswith("body"))
+
+    def test_build_page_banner(self):
+        page = s.build_page("T", "conversations", "es", "body\n", banner="NOTE-ES")
+        self.assertIn("callout-note", page)
+        self.assertIn("NOTE-ES", page)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -64,5 +64,25 @@ class TestPageAssembly(unittest.TestCase):
         self.assertIn("NOTE-ES", page)
 
 
+class TestJointStatements(unittest.TestCase):
+    SAMPLE = (
+        "# Joint Statements\n\nStatements: 2\n\n"
+        "## joint_000001\n\n- Published at: 2026-06-27T05:37:12.169264+00:00\n\n**Public statement**\n\nfirst\n\n"
+        "## joint_000002\n\n- Published at: 2026-07-04T00:00:00+00:00\n\n**Public statement**\n\nsecond\n"
+    )
+
+    def test_parse_ids_published_body(self):
+        stmts = s.parse_joint_statements(self.SAMPLE)
+        self.assertEqual([x["id"] for x in stmts], ["joint_000001", "joint_000002"])
+        self.assertEqual(stmts[0]["published_at"], "2026-06-27T05:37:12.169264+00:00")
+        self.assertTrue(stmts[0]["body"].startswith("## joint_000001"))
+        self.assertIn("first", stmts[0]["body"])
+
+    def test_slug(self):
+        stmts = s.parse_joint_statements(self.SAMPLE)
+        self.assertEqual(s.statement_slug(stmts[0]), "2026-06-27-joint-000001")
+        self.assertEqual(s.statement_slug(stmts[1]), "2026-07-04-joint-000002")
+
+
 if __name__ == "__main__":
     unittest.main()

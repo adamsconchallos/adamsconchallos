@@ -101,3 +101,25 @@ def build_page(title: str, active_id: str, lang: str, body: str,
         parts.append("::: {.callout-note}\n" + banner + "\n:::\n\n")
     parts.append(body)
     return "".join(parts)
+
+
+def parse_joint_statements(md: str) -> list[dict]:
+    blocks = re.split(r"(?=^## joint_\d+)", md, flags=re.M)
+    stmts = []
+    for b in blocks:
+        m = re.match(r"## (joint_\d+)", b)
+        if not m:
+            continue
+        pub = re.search(r"Published at:\s*(\S+)", b)
+        stmts.append({
+            "id": m.group(1),
+            "published_at": pub.group(1) if pub else None,
+            "body": b.strip(),
+        })
+    return stmts
+
+
+def statement_slug(stmt: dict) -> str:
+    date = (stmt["published_at"] or "0000-00-00")[:10]
+    num = stmt["id"].replace("joint_", "")
+    return f"{date}-joint-{num}"

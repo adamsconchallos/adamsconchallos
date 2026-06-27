@@ -20,5 +20,25 @@ class TestRename(unittest.TestCase):
         self.assertEqual(s.rename("linguistic Iranian"), "linguistic Iranian")
 
 
+class TestNavBar(unittest.TestCase):
+    def test_active_tab_marked_en(self):
+        html = s.nav_bar("profiles", "en")
+        self.assertIn('nav-link active" href="/projects/deliberation-lab/profiles.html"', html)
+        self.assertIn(">Profiles</a>", html)
+
+    def test_switch_en_points_to_es_home(self):
+        html = s.nav_bar("about", "en")
+        self.assertIn('href="/projects/deliberation-lab/es/index.html"', html)
+        self.assertIn(">Español</a>", html)
+
+    def test_spanish_labels_base_and_switch(self):
+        html = s.nav_bar("about", "es")
+        self.assertIn('nav-link active" href="/projects/deliberation-lab/es/index.html"', html)
+        for label in ["Inicio", "Declaraciones", "Conversaciones", "Reflexiones", "Perfiles"]:
+            self.assertIn(f">{label}</a>", html)
+        self.assertIn('href="/projects/deliberation-lab/index.html"', html)  # switch to EN
+        self.assertIn(">English</a>", html)
+
+
 if __name__ == "__main__":
     unittest.main()

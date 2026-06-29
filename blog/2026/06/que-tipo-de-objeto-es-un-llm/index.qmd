@@ -1,0 +1,76 @@
+---
+title: "Máquinas que explican sin haber vivido"
+authors:
+  - name: Adams Ceballos-Concha
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences. University of Florida, Gainesville, Florida, USA
+    corresponding: true
+    orcid: 0000-0003-3822-8791
+    email: aceballos@ufl.edu
+description: "Qué tipo de objeto es un LLM. Con Maturana de fondo, propongo verlo no como un sustituto del humano sino como un compresor del residuo de las explicaciones humanas."
+categories:
+  - Ensayo
+  - LLM
+  - Maturana
+  - Filosofía de la ciencia
+date: 2026-06-28
+lang: es
+bibliography: references.bib
+appendix-style: none
+execute:
+  echo: false
+format:
+  html:
+    code-tools: false
+---
+
+:::{.callout-tip}
+## TL;DR
+Un LLM no experimenta la realidad. Lo que hace es recombinar el *residuo* de las explicaciones humanas que quedaron por escrito: chats, libros, papers, comentarios. Con Humberto Maturana de fondo, propongo dejar de verlo como un *sustituto* del humano y verlo como un **compresor del residuo explicativo**. Eso no lo inhabilita para la ciencia, pero cambia para qué sirve y para qué no.
+:::
+
+Hace bastantes meses empecé a estudiar los llm como objetos para la investigación científica. Pero sin duda el punto de inflexión en todo fue leer sobre Moltbook. Esta es una red social para agentes ia. La idea es que las personas les dan API keys a sus agentes y estos pueden interactuar con libertad en una red social. Estos pueden postear y responder comentarios y dar me gusta, etc. Para mí fue, por decir lo menos, muy interesante porque empecé a pensar en qué tipo de experimentos uno podría hacer en el campo científico, en el campo de las ciencias sociales.
+
+## La literatura explotó
+
+Entonces me puse a buscar literatura al respecto y me di cuenta de que esta explotó. Es decir, en poco tiempo decenas de papers usando diseños experimentales para distintas cosas. Por ejemplo, unos se dedicaron a replicar experimentos practicados en humanos pero con llms [@argyle2023; @filippas2026], y obtenían los mismos resultados. Tanto así es que unos autores se dedicaron a revisar esta ola de simulaciones con llm y llegaron a la conclusión de que hay una crisis de validación [@larooij2026]. Buena parte de esos trabajos valida con criterios subjetivos y no contra datos humanos. Algo parecido a lo que vivieron en su momento los modelos basados en agentes, cuya expansión se adelantó a la pregunta de si de verdad reproducían el mundo que decían simular [@axtell2025].
+
+Sin duda el paper que encontré genial fue el de @park2023, en el que desarrollan una arquitectura para que los agentes se comporten o presenten un comportamiento similar al de los humanos. Ellos propusieron un memory stream en el que el agente va guardando cosas que los agentes ven, conversaciones con otros, etc. Tienen un proceso de reflexión de esas cosas y producen una especie de pensamiento que los va moldeando sin cambiar sus "personalidades".
+
+Yo me empecé a preguntar lo mismo. ¿Será que uno puede entrevistar, usar a los llms como objetos experimentales? Y obvio, traté de implementar las ideas de Park al área que yo conozco en economía ambiental. Pero al poco andar, después de leer a varios autores en la materia de experimentos con llm, algo no me calzaba bien. Había algo en todo este hype que no estaba bien.
+
+## Maturana: la objetividad entre paréntesis
+
+Hace algunos años me compré un libro de Humberto Maturana, un biólogo chileno que, junto a Francisco Varela, desarrolló el concepto de autopoiesis. Maturana tiene un libro (muy difícil de leer, por cierto) que se llama *La objetividad, un argumento para obligar* [@maturana2002objetividad]. En dicho libro, Maturana habla de que nadie tiene acceso privilegiado a la realidad. Él da explicaciones sobre esto. Su punto de partida es que una cosa es la experiencia y otra es el explicar. Nosotros no accedemos a la realidad de manera directa, sino que explicamos la experiencia que tenemos de ella. Y al explicar, lo que hacemos es reformular esa experiencia con elementos de nuestra propia vida, dentro de una comunidad de observadores que acepta o rechaza esas explicaciones según sus propios criterios.
+
+Por eso habla del lenguajear, ese ir y venir de explicaciones entre personas que se coordinan en el lenguaje, y de una comunidad sin acceso privilegiado. Es decir, ninguno de nosotros, ni solos ni en conjunto, puede pararse fuera de su experiencia para verificar la realidad tal cual es. De ahí el nombre de objetividad entre paréntesis, ponemos entre paréntesis la realidad independiente y nos quedamos con que toda explicación es siempre la de un observador.
+
+Maturana insiste en algo que me quedó dando vueltas: el explicar nunca puede sustituir a la experiencia. Y esto cambió mi forma de ver a los llm. Porque al final, estos objetos lo que hacen es usar el residuo de las explicaciones humanas sobre ciertas experiencias, por ejemplo, en los chats, comentarios en blogs, libros, reportes, papers científicos, transcripciones de video, etc. Todo esto es la explicación de experiencias. Los llm, aunque suene obvio, nunca experimentan la realidad.
+
+Eso sí, tampoco nosotros accedemos a la realidad tal cual, también vivimos de explicaciones. Pero nosotros sí vivimos una experiencia. Tenemos un cuerpo, una historia, un lenguajear con otros en el que nos modificamos, y de esa experiencia vivida las explicaciones son apenas el residuo. El llm se queda solo con ese residuo, sin haber vivido nunca la experiencia que lo produjo.
+
+:::{.callout-important}
+## La idea en una frase
+Un LLM no observa el mundo ni emula a un sujeto. Recombina el sedimento textual de las explicaciones que una comunidad produjo hasta su fecha de corte. Su salida informa sobre ese residuo, no sobre el fenómeno que el residuo describe.
+:::
+
+## Estado, no estructura
+
+Permítanme volver a los experimentos de Park. Uno podría decirme que esos agentes sí acumulan memoria, recuerdan lo que vieron y cambian su conducta de una interacción a la otra. Es verdad, pero lo que cambia ahí es el estado, no la estructura. La memoria recuperada entra como texto en el prompt y modifica lo que el modelo recibe, no lo que el modelo es. El mapa que va de la entrada a la respuesta sigue intacto. La prueba es que basta con borrar los archivos de memoria para devolver al agente exactamente a su condición anterior. Esa replicabilidad que la literatura celebra como una virtud es, justamente, la demostración de que su estructura no se transforma en la interacción. En nosotros pasa lo contrario, la interacción reescribe el mapa mismo y no hay vuelta atrás, salimos modificados del lenguajear, de interactuar con otros/as.
+
+Alguien me dirá que esto es cuestión de tiempo, que con más avances tecnológicos pronto los llm van a empezar a experimentar la realidad. Yo pienso que no es que les falte potencia y que con modelos más grandes o más entrenamiento la cosa se resuelva sola. La diferencia no está en la capacidad sino en dónde se produce el cambio estructural, y eso no lo arregla más cómputo. Pero no estoy cerrando la puerta. El día que un sistema produzca sus propios cambios estructurales a partir de su operación, que los agentes empiecen a reescribirse a sí mismos en base a sus conversaciones y experiencias y que eso modifique de verdad sus estructuras internas, la pregunta se reabre y el argumento cambia. Lo que les faltaría a los llm no es más tamaño, es esa capacidad de producir su propia estructura en su operar, que es lo que define a lo vivo.
+
+:::{.callout-note}
+## Un precedente de 1971
+Maturana se hizo exactamente esta pregunta. En *De máquinas y seres vivos* [@maturana_varela1973], él y Varela intentaron generar un sistema autopoiético dentro de un computador, un modelo que llamaron **Protobio** [@varela1974]: unas partículas que se producían entre sí hasta formar una unidad con su propia frontera, capaz de autorepararse. Anticiparon en veinte años el campo de la *vida artificial*. O sea que la idea no es ciencia ficción.
+:::
+
+## ¿Podemos usarlos?
+
+Esto hace una diferencia importante en relación con los usos que los llm pueden tener en la investigación científica. Porque si no pueden acceder a la experiencia, ¿cómo es que pueden ser tratados como sustitutos de humanos, como agentes económicos que eligen, como asistentes que generan hipótesis o como instrumentos que miden texto? Obvio, uno se pregunta, ¿es necesario acceder a la experiencia para explicarla? Muchos científicos no salen de sus computadores para explicar la pobreza y no por ello sus explicaciones son malas. Pero es distinto usar a un llm como objeto de experimentación. ¿Implica esto que no podemos usarlos? Yo creo que no. Lo que cambia no es si podemos usarlos, sino cómo. La pregunta mal planteada es si el llm es un sustituto suficientemente fiel del humano, porque eso le pide a un supuesto equivocado que sea verdadero. La pregunta con contenido es otra. ¿Qué tipo de objeto es y bajo qué caracterización lo estamos usando? Cada una de esas caracterizaciones viene con su propio protocolo de validación y su propio riesgo. Y a la luz de Maturana, la que mejor describe al objeto es la del compresor del residuo explicativo, ese sedimento de explicaciones humanas que el modelo recombina sin haber vivido nada.
+
+Bajo esa caracterización el llm sí es admisible, pero para cosas acotadas, como mapear las explicaciones acumuladas en el corpus y generar conjeturas que después se contrastan con evidencia empírica independiente. Y deja de serlo donde el corpus está mudo, donde es parcial por la historia que lo produjo, o donde la pregunta exige la experiencia vivida de un sujeto y no su residuo textual.
+
+## Referencias
+
+::: {#refs}
+:::

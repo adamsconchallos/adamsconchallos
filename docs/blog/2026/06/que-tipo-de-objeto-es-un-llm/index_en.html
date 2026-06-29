@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Adams Ceballos">
-<meta name="description" content="Qué tipo de objeto es un LLM. Con Maturana de fondo, propongo verlo no como un sustituto del humano sino como un compresor del residuo de las explicaciones humanas.">
+<meta name="description" content="What kind of object is an LLM? With Maturana in the background, I argue we should see it not as a human surrogate but as a compressor of the residue of human explanations.">
 
-<title>Máquinas que explican sin haber vivido | Adams Ceballos-Concha – Adams Ceballos-Concha</title>
+<title>Machines that explain without having lived | Adams Ceballos-Concha – Adams Ceballos-Concha</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,17 +78,17 @@ div.csl-indent {
     "s"
   ],
   "language": {
-    "search-no-results-text": "No se han encontrado resultados",
-    "search-matching-documents-text": "documentos encontrados",
-    "search-copy-link-title": "Copiar el enlace en la búsqueda",
-    "search-hide-matches-text": "Ocultar resultados adicionales",
-    "search-more-match-text": "resultado adicional en este documento",
-    "search-more-matches-text": "resultados adicionales en este documento",
-    "search-clear-button-title": "Borrar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Buscar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FM1V02TFTZ"></script>
@@ -125,8 +125,8 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
     <span class="navbar-title">Adams Ceballos-Concha</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Buscar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -183,24 +183,24 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Máquinas que explican sin haber vivido</h1>
+      <h1 class="title">Machines that explain without having lived</h1>
                   <div>
         <div class="description">
-          Qué tipo de objeto es un LLM. Con Maturana de fondo, propongo verlo no como un sustituto del humano sino como un compresor del residuo de las explicaciones humanas.
+          What kind of object is an LLM? With Maturana in the background, I argue we should see it not as a human surrogate but as a compressor of the residue of human explanations.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Ensayo</div>
+                <div class="quarto-category">Essay</div>
                 <div class="quarto-category">LLM</div>
                 <div class="quarto-category">Maturana</div>
-                <div class="quarto-category">Filosofía de la ciencia</div>
+                <div class="quarto-category">Philosophy of science</div>
               </div>
                   </div>
   </div>
     
   <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Autor/a</div>
-    <div class="quarto-title-meta-heading">Afiliación</div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
     
       <div class="quarto-title-meta-contents">
       <p class="author">Adams Ceballos-Concha <a href="mailto:aceballos@ufl.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-3822-8791" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
@@ -216,9 +216,9 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 
         
       <div>
-      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">domingo, junio 28, 2026</p>
+        <p class="date">Sunday, June 28, 2026</p>
       </div>
     </div>
     
@@ -233,11 +233,11 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#la-literatura-explotó" id="toc-la-literatura-explotó" class="nav-link active" data-scroll-target="#la-literatura-explotó">La literatura explotó</a></li>
-  <li><a href="#maturana-la-objetividad-entre-paréntesis" id="toc-maturana-la-objetividad-entre-paréntesis" class="nav-link" data-scroll-target="#maturana-la-objetividad-entre-paréntesis">Maturana: la objetividad entre paréntesis</a></li>
-  <li><a href="#estado-no-estructura" id="toc-estado-no-estructura" class="nav-link" data-scroll-target="#estado-no-estructura">Estado, no estructura</a></li>
-  <li><a href="#podemos-usarlos" id="toc-podemos-usarlos" class="nav-link" data-scroll-target="#podemos-usarlos">¿Podemos usarlos?</a></li>
-  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  <li><a href="#the-literature-exploded" id="toc-the-literature-exploded" class="nav-link active" data-scroll-target="#the-literature-exploded">The literature exploded</a></li>
+  <li><a href="#maturana-objectivity-in-parentheses" id="toc-maturana-objectivity-in-parentheses" class="nav-link" data-scroll-target="#maturana-objectivity-in-parentheses">Maturana: objectivity in parentheses</a></li>
+  <li><a href="#state-not-structure" id="toc-state-not-structure" class="nav-link" data-scroll-target="#state-not-structure">State, not structure</a></li>
+  <li><a href="#can-we-use-them" id="toc-can-we-use-them" class="nav-link" data-scroll-target="#can-we-use-them">Can we use them?</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
 </nav>
@@ -252,7 +252,7 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 
 
 
-<p><em>English version <a href="../../../../blog/2026/06/que-tipo-de-objeto-es-un-llm/index_en.html">here</a>.</em></p>
+<p><em>Versión en español <a href="../../../../blog/2026/06/que-tipo-de-objeto-es-un-llm/index.html">aquí</a>.</em></p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -263,85 +263,85 @@ gtag('config', 'G-FM1V02TFTZ', { 'anonymize_ip': true});
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Un LLM no experimenta la realidad. Lo que hace es recombinar el <em>residuo</em> de las explicaciones humanas que quedaron por escrito: chats, libros, papers, comentarios. Con Humberto Maturana de fondo, propongo dejar de verlo como un <em>sustituto</em> del humano y verlo como un <strong>compresor del residuo explicativo</strong>. Eso no lo inhabilita para la ciencia, pero cambia para qué sirve y para qué no.</p>
+<p>An LLM does not experience reality. What it does is recombine the <em>residue</em> of the human explanations that were left in writing: chats, books, papers, comments. With Humberto Maturana in the background, I argue we should stop seeing it as a <em>surrogate</em> for the human and see it instead as a <strong>compressor of the explanatory residue</strong>. That doesn’t disqualify it from science, but it changes what it’s useful for and what it isn’t.</p>
 </div>
 </div>
-<p>Hace bastantes meses empecé a estudiar los llm como objetos para la investigación científica. Pero sin duda el punto de inflexión en todo fue leer sobre Moltbook. Esta es una red social para agentes ia. La idea es que las personas les dan API keys a sus agentes y estos pueden interactuar con libertad en una red social. Estos pueden postear y responder comentarios y dar me gusta, etc. Para mí fue, por decir lo menos, muy interesante porque empecé a pensar en qué tipo de experimentos uno podría hacer en el campo científico, en el campo de las ciencias sociales.</p>
-<section id="la-literatura-explotó" class="level2">
-<h2 class="anchored" data-anchor-id="la-literatura-explotó">La literatura explotó</h2>
-<p>Entonces me puse a buscar literatura al respecto y me di cuenta de que esta explotó. Es decir, en poco tiempo decenas de papers usando diseños experimentales para distintas cosas. Por ejemplo, unos se dedicaron a replicar experimentos practicados en humanos pero con llms <span class="citation" data-cites="argyle2023 filippas2026">(<a href="#ref-argyle2023" role="doc-biblioref">Argyle et&nbsp;al. 2023</a>; <a href="#ref-filippas2026" role="doc-biblioref">Filippas, Horton, y Manning 2026</a>)</span>, y obtenían los mismos resultados. Tanto así es que unos autores se dedicaron a revisar esta ola de simulaciones con llm y llegaron a la conclusión de que hay una crisis de validación <span class="citation" data-cites="larooij2026">(<a href="#ref-larooij2026" role="doc-biblioref">Larooij y Törnberg 2026</a>)</span>. Buena parte de esos trabajos valida con criterios subjetivos y no contra datos humanos. Algo parecido a lo que vivieron en su momento los modelos basados en agentes, cuya expansión se adelantó a la pregunta de si de verdad reproducían el mundo que decían simular <span class="citation" data-cites="axtell2025">(<a href="#ref-axtell2025" role="doc-biblioref">Axtell y Farmer 2025</a>)</span>.</p>
-<p>Sin duda el paper que encontré genial fue el de <span class="citation" data-cites="park2023">Park et&nbsp;al. (<a href="#ref-park2023" role="doc-biblioref">2023</a>)</span>, en el que desarrollan una arquitectura para que los agentes se comporten o presenten un comportamiento similar al de los humanos. Ellos propusieron un memory stream en el que el agente va guardando cosas que los agentes ven, conversaciones con otros, etc. Tienen un proceso de reflexión de esas cosas y producen una especie de pensamiento que los va moldeando sin cambiar sus “personalidades”.</p>
-<p>Yo me empecé a preguntar lo mismo. ¿Será que uno puede entrevistar, usar a los llms como objetos experimentales? Y obvio, traté de implementar las ideas de Park al área que yo conozco en economía ambiental. Pero al poco andar, después de leer a varios autores en la materia de experimentos con llm, algo no me calzaba bien. Había algo en todo este hype que no estaba bien.</p>
+<p>Some months ago I started studying LLMs as objects for scientific research. But the real turning point was reading about Moltbook, a social network for AI agents. The idea is that people give their agents API keys and the agents interact freely on a social network. They can post, reply to comments, give likes, and so on. To me it was, to put it mildly, fascinating, because I started thinking about the kind of experiments one could run in science, and in the social sciences in particular.</p>
+<section id="the-literature-exploded" class="level2">
+<h2 class="anchored" data-anchor-id="the-literature-exploded">The literature exploded</h2>
+<p>So I went looking for the literature and realized it had exploded. In a short time, dozens of papers using experimental designs for all sorts of things. Some, for example, set out to replicate experiments done on humans but with LLMs <span class="citation" data-cites="argyle2023 filippas2026">(<a href="#ref-argyle2023" role="doc-biblioref">Argyle et al. 2023</a>; <a href="#ref-filippas2026" role="doc-biblioref">Filippas, Horton, and Manning 2026</a>)</span>, and got the same results. So much so that some authors set out to review this wave of LLM simulations and concluded that there is a validation crisis <span class="citation" data-cites="larooij2026">(<a href="#ref-larooij2026" role="doc-biblioref">Larooij and Törnberg 2026</a>)</span>. A good share of those papers validate with subjective criteria and not against human data. Something similar to what agent-based models went through in their day, whose expansion outran the question of whether they really reproduced the world they claimed to simulate <span class="citation" data-cites="axtell2025">(<a href="#ref-axtell2025" role="doc-biblioref">Axtell and Farmer 2025</a>)</span>.</p>
+<p>The paper I found brilliant was <span class="citation" data-cites="park2023">Park et al. (<a href="#ref-park2023" role="doc-biblioref">2023</a>)</span>, where they develop an architecture for agents to behave, or display behavior, similar to humans. They proposed a memory stream in which the agent stores the things it sees, conversations with others, and so on. The agents reflect on those things and produce a kind of thinking that shapes them without changing their “personalities”.</p>
+<p>I started asking myself the same question. Could one interview LLMs, use them as experimental objects? And of course I tried to bring Park’s ideas to the area I know, environmental economics. But before long, after reading several authors on experiments with LLMs, something didn’t sit right. There was something in all this hype that wasn’t right.</p>
 </section>
-<section id="maturana-la-objetividad-entre-paréntesis" class="level2">
-<h2 class="anchored" data-anchor-id="maturana-la-objetividad-entre-paréntesis">Maturana: la objetividad entre paréntesis</h2>
-<p>Hace algunos años me compré un libro de Humberto Maturana, un biólogo chileno que, junto a Francisco Varela, desarrolló el concepto de autopoiesis. Maturana tiene un libro (muy difícil de leer, por cierto) que se llama <em>La objetividad, un argumento para obligar</em> <span class="citation" data-cites="maturana2002objetividad">(<a href="#ref-maturana2002objetividad" role="doc-biblioref">Maturana 2002</a>)</span>. En dicho libro, Maturana habla de que nadie tiene acceso privilegiado a la realidad. Él da explicaciones sobre esto. Su punto de partida es que una cosa es la experiencia y otra es el explicar. Nosotros no accedemos a la realidad de manera directa, sino que explicamos la experiencia que tenemos de ella. Y al explicar, lo que hacemos es reformular esa experiencia con elementos de nuestra propia vida, dentro de una comunidad de observadores que acepta o rechaza esas explicaciones según sus propios criterios.</p>
-<p>Por eso habla del lenguajear, ese ir y venir de explicaciones entre personas que se coordinan en el lenguaje, y de una comunidad sin acceso privilegiado. Es decir, ninguno de nosotros, ni solos ni en conjunto, puede pararse fuera de su experiencia para verificar la realidad tal cual es. De ahí el nombre de objetividad entre paréntesis, ponemos entre paréntesis la realidad independiente y nos quedamos con que toda explicación es siempre la de un observador.</p>
-<p>Maturana insiste en algo que me quedó dando vueltas: el explicar nunca puede sustituir a la experiencia. Y esto cambió mi forma de ver a los llm. Porque al final, estos objetos lo que hacen es usar el residuo de las explicaciones humanas sobre ciertas experiencias, por ejemplo, en los chats, comentarios en blogs, libros, reportes, papers científicos, transcripciones de video, etc. Todo esto es la explicación de experiencias. Los llm, aunque suene obvio, nunca experimentan la realidad.</p>
-<p>Eso sí, tampoco nosotros accedemos a la realidad tal cual, también vivimos de explicaciones. Pero nosotros sí vivimos una experiencia. Tenemos un cuerpo, una historia, un lenguajear con otros en el que nos modificamos, y de esa experiencia vivida las explicaciones son apenas el residuo. El llm se queda solo con ese residuo, sin haber vivido nunca la experiencia que lo produjo.</p>
+<section id="maturana-objectivity-in-parentheses" class="level2">
+<h2 class="anchored" data-anchor-id="maturana-objectivity-in-parentheses">Maturana: objectivity in parentheses</h2>
+<p>A few years ago I bought a book by Humberto Maturana, a Chilean biologist who, together with Francisco Varela, developed the concept of autopoiesis. Maturana has a book (very hard to read, by the way) called <em>La objetividad, un argumento para obligar</em> <span class="citation" data-cites="maturana2002objetividad">(<a href="#ref-maturana2002objetividad" role="doc-biblioref">Maturana 2002</a>)</span>. In it, Maturana argues that no one has privileged access to reality. He gives explanations for this. His starting point is that experience is one thing and explaining is another. We do not access reality directly; we explain the experience we have of it. And when we explain, what we do is reformulate that experience with elements of our own life, within a community of observers that accepts or rejects those explanations according to its own criteria.</p>
+<p>That is why he speaks of <em>languaging</em>, that back-and-forth of explanations between people coordinating in language, and of a community without privileged access. In other words, none of us, alone or together, can step outside our experience to verify reality as it is. Hence the name objectivity in parentheses: we put independent reality in parentheses and are left with the fact that every explanation is always an observer’s explanation.</p>
+<p>Maturana insists on something that stuck with me: explaining can never replace experience. And this changed how I see LLMs. Because in the end, what these objects do is use the residue of human explanations about certain experiences, for example in chats, blog comments, books, reports, scientific papers, video transcripts, and so on. All of this is the explanation of experiences. LLMs, obvious as it sounds, never experience reality.</p>
+<p>That said, we don’t access reality as it is either; we also live on explanations. But we do live an experience. We have a body, a history, a languaging with others in which we change one another, and of that lived experience the explanations are merely the residue. The LLM is left with only that residue, without ever having lived the experience that produced it.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Importante</span>La idea en una frase
+<span class="screen-reader-only">Important</span>The idea in one sentence
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Un LLM no observa el mundo ni emula a un sujeto. Recombina el sedimento textual de las explicaciones que una comunidad produjo hasta su fecha de corte. Su salida informa sobre ese residuo, no sobre el fenómeno que el residuo describe.</p>
+<p>An LLM does not observe the world or emulate a subject. It recombines the textual sediment of the explanations a community produced up to its cutoff date. Its output informs us about that residue, not about the phenomenon the residue describes.</p>
 </div>
 </div>
 </section>
-<section id="estado-no-estructura" class="level2">
-<h2 class="anchored" data-anchor-id="estado-no-estructura">Estado, no estructura</h2>
-<p>Permítanme volver a los experimentos de Park. Uno podría decirme que esos agentes sí acumulan memoria, recuerdan lo que vieron y cambian su conducta de una interacción a la otra. Es verdad, pero lo que cambia ahí es el estado, no la estructura. La memoria recuperada entra como texto en el prompt y modifica lo que el modelo recibe, no lo que el modelo es. El mapa que va de la entrada a la respuesta sigue intacto. La prueba es que basta con borrar los archivos de memoria para devolver al agente exactamente a su condición anterior. Esa replicabilidad que la literatura celebra como una virtud es, justamente, la demostración de que su estructura no se transforma en la interacción. En nosotros pasa lo contrario, la interacción reescribe el mapa mismo y no hay vuelta atrás, salimos modificados del lenguajear, de interactuar con otros/as.</p>
-<p>Alguien me dirá que esto es cuestión de tiempo, que con más avances tecnológicos pronto los llm van a empezar a experimentar la realidad. Yo pienso que no es que les falte potencia y que con modelos más grandes o más entrenamiento la cosa se resuelva sola. La diferencia no está en la capacidad sino en dónde se produce el cambio estructural, y eso no lo arregla más cómputo. Pero no estoy cerrando la puerta. El día que un sistema produzca sus propios cambios estructurales a partir de su operación, que los agentes empiecen a reescribirse a sí mismos en base a sus conversaciones y experiencias y que eso modifique de verdad sus estructuras internas, la pregunta se reabre y el argumento cambia. Lo que les faltaría a los llm no es más tamaño, es esa capacidad de producir su propia estructura en su operar, que es lo que define a lo vivo.</p>
+<section id="state-not-structure" class="level2">
+<h2 class="anchored" data-anchor-id="state-not-structure">State, not structure</h2>
+<p>Let me come back to Park’s experiments. One could object that those agents do accumulate memory, remember what they saw, and change their behavior from one interaction to the next. True, but what changes there is the state, not the structure. The retrieved memory enters as text in the prompt and modifies what the model receives, not what the model is. The mapping from input to output stays intact. The proof is that deleting the memory files is enough to return the agent to exactly its previous condition. That replicability the literature celebrates as a virtue is, precisely, the demonstration that its structure is not transformed in interaction. With us it is the opposite: interaction rewrites the mapping itself and there is no going back. We come out of languaging, out of interacting with others, changed.</p>
+<p>Someone will tell me this is just a matter of time, that with more technological progress LLMs will soon start to experience reality. I don’t think it is that they lack power, or that bigger models or more training will sort it out on their own. The difference is not in capacity but in where the structural change is produced, and that is not fixed by more compute. But I am not closing the door. The day a system produces its own structural changes out of its own operation, the day agents start rewriting themselves on the basis of their conversations and experiences and that really modifies their internal structures, the question reopens and the argument changes. What LLMs would be missing is not more size, it is that capacity to produce their own structure in their operating, which is what defines the living.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Nota</span>Un precedente de 1971
+<span class="screen-reader-only">Note</span>A precedent from 1971
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Maturana se hizo exactamente esta pregunta. En <em>De máquinas y seres vivos</em> <span class="citation" data-cites="maturana_varela1973">(<a href="#ref-maturana_varela1973" role="doc-biblioref">Maturana y Varela 1973</a>)</span>, él y Varela intentaron generar un sistema autopoiético dentro de un computador, un modelo que llamaron <strong>Protobio</strong> <span class="citation" data-cites="varela1974">(<a href="#ref-varela1974" role="doc-biblioref">Varela, Maturana, y Uribe 1974</a>)</span>: unas partículas que se producían entre sí hasta formar una unidad con su propia frontera, capaz de autorepararse. Anticiparon en veinte años el campo de la <em>vida artificial</em>. O sea que la idea no es ciencia ficción.</p>
+<p>Maturana asked exactly this question. In <em>De máquinas y seres vivos</em> <span class="citation" data-cites="maturana_varela1973">(<a href="#ref-maturana_varela1973" role="doc-biblioref">Maturana and Varela 1973</a>)</span>, he and Varela tried to generate an autopoietic system inside a computer, a model they called <strong>Protobio</strong> <span class="citation" data-cites="varela1974">(<a href="#ref-varela1974" role="doc-biblioref">Varela, Maturana, and Uribe 1974</a>)</span>: particles that produced one another until they formed a unit with its own boundary, able to repair itself. They anticipated the field of <em>artificial life</em> by twenty years. So the idea is not science fiction.</p>
 </div>
 </div>
 </section>
-<section id="podemos-usarlos" class="level2">
-<h2 class="anchored" data-anchor-id="podemos-usarlos">¿Podemos usarlos?</h2>
-<p>Esto hace una diferencia importante en relación con los usos que los llm pueden tener en la investigación científica. Porque si no pueden acceder a la experiencia, ¿cómo es que pueden ser tratados como sustitutos de humanos, como agentes económicos que eligen, como asistentes que generan hipótesis o como instrumentos que miden texto? Obvio, uno se pregunta, ¿es necesario acceder a la experiencia para explicarla? Muchos científicos no salen de sus computadores para explicar la pobreza y no por ello sus explicaciones son malas. Pero es distinto usar a un llm como objeto de experimentación. ¿Implica esto que no podemos usarlos? Yo creo que no. Lo que cambia no es si podemos usarlos, sino cómo. La pregunta mal planteada es si el llm es un sustituto suficientemente fiel del humano, porque eso le pide a un supuesto equivocado que sea verdadero. La pregunta con contenido es otra. ¿Qué tipo de objeto es y bajo qué caracterización lo estamos usando? Cada una de esas caracterizaciones viene con su propio protocolo de validación y su propio riesgo. Y a la luz de Maturana, la que mejor describe al objeto es la del compresor del residuo explicativo, ese sedimento de explicaciones humanas que el modelo recombina sin haber vivido nada.</p>
-<p>Bajo esa caracterización el llm sí es admisible, pero para cosas acotadas, como mapear las explicaciones acumuladas en el corpus y generar conjeturas que después se contrastan con evidencia empírica independiente. Y deja de serlo donde el corpus está mudo, donde es parcial por la historia que lo produjo, o donde la pregunta exige la experiencia vivida de un sujeto y no su residuo textual.</p>
+<section id="can-we-use-them" class="level2">
+<h2 class="anchored" data-anchor-id="can-we-use-them">Can we use them?</h2>
+<p>This makes an important difference for the uses LLMs can have in scientific research. Because if they cannot access experience, how can they be treated as surrogates for humans, as economic agents that choose, as assistants that generate hypotheses, or as instruments that measure text? Obviously one wonders: is it necessary to access an experience in order to explain it? Many scientists never leave their computers to explain poverty, and that does not make their explanations bad. But using an LLM as an object of experimentation is different. Does this mean we cannot use them? I don’t think so. What changes is not whether we can use them, but how. The ill-posed question is whether the LLM is a faithful enough surrogate for the human, because that asks a mistaken assumption to be true. The question with content is another. What kind of object is it, and under which characterization are we using it? Each of those characterizations comes with its own validation protocol and its own risk. And in light of Maturana, the one that best describes the object is that of a compressor of the explanatory residue, that sediment of human explanations the model recombines without having lived anything.</p>
+<p>Under that characterization the LLM is indeed admissible, but for bounded tasks, like mapping the explanations accumulated in the corpus and generating conjectures that are then tested against independent empirical evidence. And it stops being admissible where the corpus is mute, where it is partial because of the history that produced it, or where the question demands the lived experience of a subject and not its textual residue.</p>
 </section>
-<section id="referencias" class="level2">
-<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-argyle2023" class="csl-entry" role="listitem">
-Argyle, Lisa P., Ethan C. Busby, Nancy Fulda, Joshua R. Gubler, Christopher Rytting, y David Wingate. 2023. <span>«Out of One, Many: Using Language Models to Simulate Human Samples»</span>. <em>Political Analysis</em> 31 (3): 337-51. <a href="https://doi.org/10.1017/pan.2023.2">https://doi.org/10.1017/pan.2023.2</a>.
+Argyle, Lisa P., Ethan C. Busby, Nancy Fulda, Joshua R. Gubler, Christopher Rytting, and David Wingate. 2023. <span>“Out of One, Many: Using Language Models to Simulate Human Samples.”</span> <em>Political Analysis</em> 31 (3): 337–51. <a href="https://doi.org/10.1017/pan.2023.2">https://doi.org/10.1017/pan.2023.2</a>.
 </div>
 <div id="ref-axtell2025" class="csl-entry" role="listitem">
-Axtell, Robert L., y J. Doyne Farmer. 2025. <span>«Agent-Based Modeling in Economics and Finance: Past, Present, and Future»</span>. <em>Journal of Economic Literature</em> 63 (1): 197-287. <a href="https://doi.org/10.1257/jel.20221319">https://doi.org/10.1257/jel.20221319</a>.
+Axtell, Robert L., and J. Doyne Farmer. 2025. <span>“Agent-Based Modeling in Economics and Finance: Past, Present, and Future.”</span> <em>Journal of Economic Literature</em> 63 (1): 197–287. <a href="https://doi.org/10.1257/jel.20221319">https://doi.org/10.1257/jel.20221319</a>.
 </div>
 <div id="ref-filippas2026" class="csl-entry" role="listitem">
-Filippas, Apostolos, John J. Horton, y Benjamin S. Manning. 2026. <span>«Large Language Models as Simulated Economic Agents: What Can We Learn from <span>Homo</span> <span>Silicus</span>?»</span> <a href="https://doi.org/10.48550/arXiv.2301.07543">https://doi.org/10.48550/arXiv.2301.07543</a>.
+Filippas, Apostolos, John J. Horton, and Benjamin S. Manning. 2026. <span>“Large Language Models as Simulated Economic Agents: What Can We Learn from <span>Homo</span> <span>Silicus</span>?”</span> <a href="https://doi.org/10.48550/arXiv.2301.07543">https://doi.org/10.48550/arXiv.2301.07543</a>.
 </div>
 <div id="ref-larooij2026" class="csl-entry" role="listitem">
-Larooij, Maik, y Petter Törnberg. 2026. <span>«Validation Is the Central Challenge for Generative Social Simulation: A Critical Review of <span>LLMs</span> in Agent-Based Modeling»</span>. <em>Artificial Intelligence Review</em> 59 (15). <a href="https://doi.org/10.1007/s10462-025-11412-6">https://doi.org/10.1007/s10462-025-11412-6</a>.
+Larooij, Maik, and Petter Törnberg. 2026. <span>“Validation Is the Central Challenge for Generative Social Simulation: A Critical Review of <span>LLMs</span> in Agent-Based Modeling.”</span> <em>Artificial Intelligence Review</em> 59 (15). <a href="https://doi.org/10.1007/s10462-025-11412-6">https://doi.org/10.1007/s10462-025-11412-6</a>.
 </div>
 <div id="ref-maturana2002objetividad" class="csl-entry" role="listitem">
-Maturana, Humberto R. 2002. <em>La objetividad: un argumento para obligar</em>. 2.ª ed. Santiago de Chile: Dolmen Ediciones.
+Maturana, Humberto R. 2002. <em>La Objetividad: Un Argumento Para Obligar</em>. 2nd ed. Santiago de Chile: Dolmen Ediciones.
 </div>
 <div id="ref-maturana_varela1973" class="csl-entry" role="listitem">
-Maturana, Humberto R., y Francisco J. Varela. 1973. <em>De m<span>á</span>quinas y seres vivos: autopoiesis, la organizaci<span>ó</span>n de lo vivo</em>. Santiago de Chile: Editorial Universitaria.
+Maturana, Humberto R., and Francisco J. Varela. 1973. <em>De m<span>á</span>quinas y Seres Vivos: Autopoiesis, La Organizaci<span>ó</span>n de Lo Vivo</em>. Santiago de Chile: Editorial Universitaria.
 </div>
 <div id="ref-park2023" class="csl-entry" role="listitem">
-Park, Joon Sung, Joseph C. O’Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, y Michael S. Bernstein. 2023. <span>«Generative Agents: Interactive Simulacra of Human Behavior»</span>. En <em>Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST ’23)</em>. <a href="https://doi.org/10.1145/3586183.3606763">https://doi.org/10.1145/3586183.3606763</a>.
+Park, Joon Sung, Joseph C. O’Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. 2023. <span>“Generative Agents: Interactive Simulacra of Human Behavior.”</span> In <em>Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST ’23)</em>. <a href="https://doi.org/10.1145/3586183.3606763">https://doi.org/10.1145/3586183.3606763</a>.
 </div>
 <div id="ref-varela1974" class="csl-entry" role="listitem">
-Varela, Francisco G., Humberto R. Maturana, y Ricardo Uribe. 1974. <span>«Autopoiesis: The Organization of Living Systems, Its Characterization and a Model»</span>. <em>BioSystems</em> 5 (4): 187-96. <a href="https://doi.org/10.1016/0303-2647(74)90031-8">https://doi.org/10.1016/0303-2647(74)90031-8</a>.
+Varela, Francisco G., Humberto R. Maturana, and Ricardo Uribe. 1974. <span>“Autopoiesis: The Organization of Living Systems, Its Characterization and a Model.”</span> <em>BioSystems</em> 5 (4): 187–96. <a href="https://doi.org/10.1016/0303-2647(74)90031-8">https://doi.org/10.1016/0303-2647(74)90031-8</a>.
 </div>
 </div>
 
@@ -374,12 +374,12 @@ Varela, Francisco G., Humberto R. Maturana, y Ricardo Uribe. 1974. <span>«Autop
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiado");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiado");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

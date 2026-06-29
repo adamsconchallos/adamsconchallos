@@ -23,6 +23,8 @@ format:
     code-tools: false
 ---
 
+*English version [here](index_en.qmd).*
+
 :::{.callout-tip}
 ## TL;DR
 Un LLM no experimenta la realidad. Lo que hace es recombinar el *residuo* de las explicaciones humanas que quedaron por escrito: chats, libros, papers, comentarios. Con Humberto Maturana de fondo, propongo dejar de verlo como un *sustituto* del humano y verlo como un **compresor del residuo explicativo**. Eso no lo inhabilita para la ciencia, pero cambia para qué sirve y para qué no.

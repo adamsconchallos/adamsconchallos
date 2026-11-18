@@ -30,9 +30,13 @@ I am a **postdoctoral associate** at the University of Florida’s Institute of 
 I use **causal inference**, **spatial analysis**, and **survey-based methods** to evaluate how environmental and regulatory policies shape behavior across space and time. My work links policy design to outcomes in **compliance**, **economic performance**, and **resource conservation**.
 
 :::{.callout-tip}
-### Award
-**IAAEM Best Dissertation Award (Aquaculture 2025).**  
-*Coupled Human–Natural Systems: Economic and Ecological Interactions in Fisheries and Aquaculture.*  
+### Awards
+**Honorable Mention, Daniel K. Lew Best Paper Award (IIFET 2026).**
+*LLM Agents in the Sea: Disease and Firm Behavior in Salmon Aquaculture.*
+International Institute of Fisheries Economics & Trade, Tórshavn, Faroe Islands.
+
+**IAAEM Best Dissertation Award (Aquaculture 2025).**
+*Coupled Human–Natural Systems: Economic and Ecological Interactions in Fisheries and Aquaculture.*
 [Announcement](https://iaaem.org/best-paper-and-dissertation-awards-at-aquaculture-2025/)
 :::
 

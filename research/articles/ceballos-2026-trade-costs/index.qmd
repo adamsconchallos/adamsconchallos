@@ -29,6 +29,10 @@ pub-info:
     - name: Add to Zotero
       url: https://www.zotero.org/save?type=doi&q=10.1080/13657305.2026.2618279
       icon: ai ai-zotero
+    - name: Policy summary
+      url: summary.html
+      local: true
+      icon: fa-solid fa-file-lines
     - name: Resumen en español
       url: resumen.html
       local: true

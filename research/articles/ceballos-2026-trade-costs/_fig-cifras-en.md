@@ -1,0 +1,3 @@
+```{=html}
+<figure class="sp-fig"><figcaption><p class="sp-title">Figure 2. Chilean salmon in three numbers</p></figcaption><div class="tc-tiles"><div class="tc-tile"><p class="tc-hero">4×</p><p class="tc-label">real growth in export value between 2002 and 2024. In 2024 it reached USD 5.97 billion.</p></div><div class="tc-tile"><p class="tc-hero">22×</p><p class="tc-label">growth in exports by truck to Brazil since 2002. In 2024 they reached USD 904 million.</p></div><div class="tc-tile"><p class="tc-hero">85.5% → 57.1%</p><p class="tc-label">decline in the combined share of the United States and Japan in export value between 2002 and 2024.</p></div></div><p class="sp-src">Source: Ceballos-Concha et al. (2026), based on Chilean customs data.</p></figure>
+```

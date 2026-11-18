@@ -20,6 +20,8 @@ author:
   - name: Hans-Martin Straume
 ---
 
+*English version [here](summary.qmd).*
+
 ## La pregunta
 
 Chile es el segundo productor de salmón del mundo, después de Noruega.

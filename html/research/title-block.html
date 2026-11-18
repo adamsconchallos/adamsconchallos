@@ -2,7 +2,7 @@
     class="quarto-title-block research default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
     <div class="quarto-title-banner">
         $if(include-back-link)$
-        <div class="back-nav"><a href="/research/">← Back to research</a></div>
+        <div class="back-nav"><a href="$if(back-link-url)$$back-link-url$$else$/research/$endif$">← $if(back-link-text)$$back-link-text$$else$Back to research$endif$</a></div>
         $endif$
         <div class="quarto-title column-body">
             <h1 class="title">$title$</h1>

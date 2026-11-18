@@ -1,0 +1,115 @@
+---
+title: "¿Cómo exporta salmón un país lejos de sus mercados?"
+subtitle: "Rutas, productos y crisis en las exportaciones chilenas de salmón, 2002–2024"
+description: "Resumen para tomadores de decisión del artículo *Trade costs, shocks, and segmented export routes: Evidence from the Chilean salmon industry*, de Ceballos-Concha, Camp, Garlock, Quezada-Escalona y Straume, publicado en *Aquaculture Economics & Management* (2026)."
+lang: es
+css: figs.css
+toc-title: Contenido
+back-link-url: index.html
+back-link-text: Volver al artículo
+resources:
+  - mapa.js
+  - destinos-2024.json
+author:
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+  - name: Edward V. Camp
+  - name: Taryn Garlock
+  - name: Felipe J. Quezada-Escalona
+  - name: Hans-Martin Straume
+---
+
+## La pregunta
+
+Chile es el segundo productor de salmón del mundo, después de Noruega.
+En 2024 exportó salmón por cerca de 6 mil millones de dólares.
+Pero sus compradores están lejos.
+La mayoría vive en el hemisferio norte, a miles de kilómetros de los centros de cultivo del sur de Chile.
+El salmón fresco, el producto más valioso, se echa a perder rápido y necesita una cadena de frío.
+Y como el mercado del salmón es global, Chile no puede cobrar más caro para pagar el costo de la distancia.
+
+¿Cómo logró entonces convertirse en un exportador competitivo?
+¿Y qué hizo cuando llegaron las crisis?
+
+{{< include _fig-mapa-es.md >}}
+
+{{< include _fig-cifras-es.md >}}
+
+## Qué hicimos
+
+Usamos los registros de aduanas de las exportaciones chilenas de salmón entre 2002 y 2024.
+Los datos son mensuales y suman cerca de 160 mil observaciones.
+Para cada destino, especie y producto informan el valor exportado, el peso, el medio de transporte y el número de registros de aduana.
+Usamos ese número como aproximación a la cantidad de envíos.
+
+Con un modelo de gravedad, la herramienta estándar para estudiar flujos de comercio, separamos el valor exportado en tres partes.
+La primera es cuántos envíos se hacen.
+La segunda es el tamaño promedio de cada envío.
+La tercera es el precio promedio.
+Así podemos ver por cuál de esas vías se ajustan los exportadores cuando cambian los costos o llega una crisis.
+
+## Qué encontramos
+
+### Cada mercado tiene su propia ruta
+
+Entre 2002 y 2024, el barco movió 57% del valor exportado, el avión 27% y el camión 16%.
+Pero cada mercado se abastece de una forma distinta.
+Estados Unidos compra sobre todo filetes frescos, que llegan por avión.
+Japón compra salmón congelado, entero y en filetes, que viaja por barco.
+Brasil compra salmón fresco entero, que cruza la cordillera en camión.
+Esa ruta terrestre a Brasil creció cerca de 22 veces desde 2002.
+
+{{< include _fig-rutas-es.md >}}
+
+### Dos cadenas
+
+¿Cómo enfrentan los exportadores el costo de llegar a mercados que dependen del avión?
+Una opción sería consolidar la carga.
+Eso significa hacer menos envíos y, a la vez, más grandes.
+No encontramos ese patrón en ninguna de las dos cadenas de la industria.
+La cadena congelada viaja por barco.
+En los destinos donde una mayor parte del salmón llega por avión, los envíos congelados son más grandes, pero no son menos.
+Es decir, se exporta más volumen, no la misma carga en menos viajes.
+La cadena fresca llega por avión a los mercados lejanos, y sus envíos no son más grandes.
+Los precios promedio tampoco suben en esos destinos.
+El valor exportado de salmón Atlántico y del Pacífico sí es mayor en ellos.
+Ese valor adicional viene de más volumen, sobre todo congelado, y no de mejores precios.
+
+### Ante las crisis, Chile reasignó sus exportaciones en vez de retirarse
+
+El virus ISA golpeó a la industria entre 2007 y 2010.
+La producción de salmón Atlántico cayó cerca de 80%.
+Los productores cosecharon peces más pequeños, que no servían para los filetes que pide Estados Unidos.
+Ese salmón se fue fresco y entero a Brasil, en camión.
+Así, Brasil se convirtió en el tercer mercado de Chile.
+
+En 2014, Rusia cerró su mercado a los productos del mar de Noruega y otros países occidentales.
+Chile no estaba afectado y envió salmón congelado por barco a Rusia.
+Ese año, Rusia llegó a 9,2% del valor exportado.
+
+¿Salieron los exportadores de los mercados durante estas crisis?
+No encontramos una salida masiva.
+Lo que sí aumentó fue la probabilidad de exportar a los destinos que se abrieron.
+Durante el ISA, esa probabilidad subió en Brasil para las tres especies.
+Después del embargo, subió en Rusia para el salmón Atlántico y la trucha, y bajó levemente para el salmón del Pacífico.
+La pandemia de COVID-19 tampoco cambió el orden de los principales mercados.
+Mientras tanto, la cartera se diversificó.
+Estados Unidos y Japón concentraban 85,5% del valor exportado en 2002 y 57,1% en 2024.
+
+{{< include _fig-crisis-es.md >}}
+
+## Qué significa para la política pública y la industria
+
+¿Qué lecciones deja esta experiencia para un país que exporta lejos de sus mercados?
+Proponemos cuatro lecturas.
+
+1. **La distancia se maneja con diseño.** Chile adapta el producto y el transporte a cada mercado. Envía fresco por avión donde el mercado paga ese costo, congelado por barco donde importa el volumen y fresco por camión a sus vecinos.
+2. **Diversificar mercados y productos funciona como un seguro.** Cuando una crisis cerró un canal, otro se abrió. Los exportadores reasignaron su cartera sin salir de los mercados.
+3. **Los acuerdos comerciales y los protocolos sanitarios amplían las opciones.** Chile tiene 30 tratados comerciales con 65 economías. Es probable que este acceso facilite cambiar de destino cuando llega una crisis. Los nuevos protocolos, como el que permite enviar coho fresco a China desde 2023, suman rutas posibles.
+4. **La logística también es política productiva.** La cadena de frío y la experiencia en carga aérea, marítima y terrestre probablemente bajan el costo de cambiar de destino y de producto.
+
+
+## Referencia
+
+Ceballos-Concha, A., Camp, E. V., Garlock, T., Quezada-Escalona, F. J., & Straume, H.-M. (2026). Trade costs, shocks, and segmented export routes: Evidence from the Chilean salmon industry. *Aquaculture Economics & Management*, 30(2), 348–380. [doi:10.1080/13657305.2026.2618279](https://doi.org/10.1080/13657305.2026.2618279)

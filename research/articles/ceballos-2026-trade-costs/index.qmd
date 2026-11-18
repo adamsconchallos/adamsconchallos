@@ -29,6 +29,10 @@ pub-info:
     - name: Add to Zotero
       url: https://www.zotero.org/save?type=doi&q=10.1080/13657305.2026.2618279
       icon: ai ai-zotero
+    - name: Resumen en español
+      url: resumen.html
+      local: true
+      icon: fa-solid fa-language
   reference: >-
     <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos-Concha</strong></a>, <a>Edward V. Camp</a>, <a>Taryn Garlock</a>, <a>Felipe J. Quezada-Escalona</a>, and <a>Hans-Martin Straume</a>, “Trade costs, shocks, and segmented export routes: Evidence from the Chilean salmon industry,” <em>Aquaculture Economics &amp; Management</em> 30, no. 2 (2026): 348–380, doi: <a href="https://doi.org/10.1080/13657305.2026.2618279"><code>10.1080/13657305.2026.2618279</code></a>.
 

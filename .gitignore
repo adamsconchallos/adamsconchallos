@@ -17,3 +17,7 @@
 .DS_Store
 
 **/*.quarto_ipynb
+
+# Python
+__pycache__/
+*.pyc

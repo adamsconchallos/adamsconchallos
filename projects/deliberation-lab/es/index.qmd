@@ -1,0 +1,66 @@
+---
+title: "La mesa del objeto LLM"
+description: "Una deliberación pública sobre la pregunta: ¿qué tipo de objeto es un LLM?"
+---
+
+<ul class="nav nav-pills" style="margin-bottom:1.5rem;"><li class="nav-item"><a class="nav-link active" href="/projects/deliberation-lab/es/index.html">Inicio</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/es/statements/index.html">Declaraciones</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/es/conversations.html">Conversaciones</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/es/reflections.html">Reflexiones</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/es/profiles.html">Perfiles</a></li><li class="nav-item" style="margin-left:auto;"><a class="nav-link" href="/projects/deliberation-lab/index.html">English</a></li></ul>
+
+## La pregunta
+
+Este proyecto pone en escena una deliberación pública y de largo aliento en torno a
+una sola pregunta:
+
+> **¿Qué tipo de objeto es un LLM?**
+
+Nace de un artículo en el que trabajo, *"¿Qué tipo de objeto es un LLM? Un esquema
+de caracterización para investigación en economía."* El artículo sostiene que la
+pregunta útil no es si los modelos de lenguaje pueden *sustituir* a humanos en la
+investigación, sino bajo qué **caracterización** se los usa — y que cada
+caracterización trae su propio uso admisible, su protocolo de validación y su riesgo.
+
+## Cinco caracterizaciones, cinco riesgos
+
+1. **Sustituto demográfico humano** — se valida contra datos poblacionales; riesgo: falsa representatividad.
+2. **Agente económico (*Homo silicus*)** — se valida contra teoría económica; riesgo: atribución indebida de estados internos.
+3. **Asistente de teorización** — se valida por la falsabilidad de las hipótesis que genera; riesgo: novedad espuria.
+4. **Instrumento de medición de texto** — se valida contra una muestra etiquetada por humanos; riesgo: filtración del entrenamiento.
+5. **Compresor generativo del residuo explicativo** — se valida contra evidencia independiente del dominio; riesgo: confundir la varianza del corpus con la varianza del mundo.
+
+El artículo defiende la quinta. El supuesto del *sustituto* está mal especificado
+para el objeto, porque el sujeto humano cuya conducta interroga la investigación es
+un sistema estructuralmente determinado, constituido en el *lenguajear* (Maturana):
+una historia de interacción recurrente que el modelo no comparte. Lo que un modelo
+contiene no es experiencia, sino la sedimentación textual de las explicaciones que
+una comunidad produjo hasta el corte de entrenamiento — el residuo que recombina y a
+veces amplifica.
+
+## Por qué una mesa de tres voces
+
+En lugar de argumentarlo solo en prosa, el proyecto pone en escena las posturas
+rivales como una mesa de tres agentes anclados en fuentes que deliberan en público,
+guardan reflexiones privadas y, cada cierto tiempo, emiten una declaración conjunta.
+La mesa es ella misma una pequeña instancia de la tesis del artículo: modelos de
+lenguaje recombinando el residuo explicativo acumulado sobre esta misma pregunta.
+
+La arquitectura sigue el espíritu de Park et al. (2023): cada agente acumula una
+memoria creciente, recupera de manera selectiva, reflexiona periódicamente y deja que
+esas reflexiones moldeen lo que dice después. Algunas decisiones de diseño importan:
+
+- una **identidad inmutable estable** separada de una **posición de trabajo mutable**;
+- **perfiles anclados en fuentes primarias**;
+- **fricción para cambiar de opinión**: una posición solo se mueve cuando la
+  `change_confidence` de una reflexión supera la `change_resistance` estable del
+  agente, tras formular el mejor argumento en su propia contra;
+- una **declaración conjunta semanal** que registra acuerdos, desacuerdos abiertos y
+  disensos sin forzar el consenso.
+
+## Los tres agentes
+
+Cada agente lleva el nombre de una mezcla de autores que admiro; el apellido carga el linaje.
+
+- **Amélie Maturana** — ontóloga de raíz Maturaniana (la objetividad entre paréntesis).
+- **Humberto Parra** — instrumentalista a lo Friedman (juzgar un modelo por sus predicciones, no por el realismo de sus supuestos).
+- **Nicanor Bolaño** — teólogo cristiano (la persona como imagen de Dios; el riesgo de tratar a un artefacto como persona).
+
+Usa las pestañas de arriba para leer la última **declaración conjunta**, las
+**conversaciones**, las **reflexiones** privadas de los agentes y sus **perfiles**.

@@ -1,0 +1,111 @@
+---
+title: "Is a bigger salmon worth more?"
+subtitle: "What Chilean fresh salmon export prices show"
+description: "A policy summary of *Size premia in export prices: Evidence from Chilean salmon exports*, by Hans-Martin Straume and Adams Ceballos-Concha, accepted for publication in *Aquaculture Economics & Management*."
+lang: en
+css: figs.css
+back-link-url: index.html
+back-link-text: Back to the article
+author:
+  - name: Hans-Martin Straume
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+---
+
+*Versión en español [aquí](resumen.qmd).*
+
+## The question
+
+Chile is the world's second-largest salmon producer, after Norway.
+What are these salmon like, and what prices do they fetch?
+One might think that a bigger salmon fetches a higher price. However, assuming that buyers only think in kilos is naive, to say the least. Buyers look for pieces that fit their cuts, their portions, and their customers.
+
+Understanding this matters for producers and exporters.
+The weight at which salmon is harvested is a production decision.
+If price changes with size, that decision has economic consequences.
+It also matters for those who design export and value-added policies.
+
+## What we did
+
+We use customs records of Chilean exports of fresh whole salmon and fresh fillets between 2012 and 2025.
+That is more than 900,000 shipments!
+
+With these data we compare very similar shipments.
+They are shipments by the same exporter, to the same country, in the same month, that differ in fish size.
+So the price difference does not reflect that a firm charges more in general, or that the market rose that month.
+We analyze whole salmon and fillets separately.
+We also check whether the differences change with the time of year, the destination country, and the scale of the exporter.
+
+{{< include _fig-valor-en.md >}}
+
+## What we found
+
+### For whole salmon, size changes the average price very little
+
+Average price differences across sizes of whole salmon are small.
+Fish of 2 to 3 kg sell at a discount of about 1.3% relative to fish of 5 to 6 kg.
+Fish above 6 kg earn a premium of close to 1.5%.
+For fish above 7 kg, that premium falls below 1% once shipment size and transport mode are taken into account.
+
+### For fillets, size matters more
+
+For fillets, the relationship between size and price is stronger.
+There are clear discounts and premiums by size.
+Fillets of 0.5 to 1 kg sell at a discount of about 7% relative to fillets of 1 to 1.5 kg.
+Fillets of 1.5 to 2 kg earn a premium of about 2.5%.
+Fillets above 2 kg earn a smaller premium, close to 1%.
+In other words, the largest fillets are not the best paid.
+The highest value lies in the intermediate sizes.
+
+{{< include _fig-premios-en.md >}}
+
+### Filleting is associated with more stable prices over the year
+
+Do these differences change with the time of year?
+For whole salmon there is some seasonal variation, although the evidence is limited.
+It is concentrated in the smallest fish, of 2 to 3 kg, and in the largest, above 7 kg.
+For fillets we find no seasonal pattern.
+Small fillets carry a discount all year, and fillets of 1.5 to 2 kg a premium all year.
+One possible explanation is that filleting turns fish of variable sizes into more standardized products.
+That would give a more stable price structure over the year.
+
+### Each market values sizes differently
+
+Destinations are highly concentrated.
+Brazil receives about 62% of the export value of fresh whole salmon.
+The United States receives 94% of the value of fresh fillets.
+
+The value of a size also depends on where it is sold.
+Differences across markets are significant for both whole salmon and fillets.
+Markets also receive different sizes.
+China accounts for a larger share of large whole salmon and pays a premium of about 5% for them.
+In contrast, the United States pays about 5% less for fish of 2 to 3 kg.
+Argentina has its largest share among small fish, of 2 to 3 kg.
+
+{{< include _fig-mercados-en.md >}}
+
+### Who exports also matters
+
+Exports are concentrated in a few firms.
+The quarter of exporters with the highest export value in each month accounts for about two thirds of total value.
+Size premiums differ with exporter scale, for both whole salmon and fillets.
+For whole salmon, smaller exporters tend to obtain lower premiums for large fish.
+But the largest exporters do not obtain better relative prices for every size.
+This suggests that buyer networks and each firm's processing capacity also play a role.
+
+## What this means for policy and industry
+
+What can decision makers in government or industry do with these results?
+We propose four takeaways.
+
+1. **A bigger salmon does not guarantee a better price.** Decisions on when to harvest and at what weight should weigh the product, the destination market, and the time of year.
+2. **Each size has its market.** Directing each size to the market that values it most can improve the price obtained. This information can be useful for export promotion and market access.
+3. **Processing in Chile plays a role.** Filleting is associated with more stable relative prices over the year.
+4. **Commercial relationships count.** Exporter characteristics and links with buyers appear to influence the price of each size.
+
+## Reference
+
+Straume, H.-M., & Ceballos-Concha, A. (forthcoming). Size premia in export prices: Evidence from Chilean salmon exports. *Aquaculture Economics & Management*.
+
+This work was supported by the Research Council of Norway (grant 352350) and by ANID through INCAR2 (CIA250009).

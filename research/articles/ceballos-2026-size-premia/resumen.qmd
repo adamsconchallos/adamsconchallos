@@ -14,6 +14,8 @@ author:
     orcid: 0000-0003-3822-8791
 ---
 
+*English version [here](summary.qmd).*
+
 ## La pregunta
 
 Chile es el segundo productor de salmón del mundo, después de Noruega.

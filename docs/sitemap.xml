@@ -2,118 +2,170 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.adamsceballos.com/talks/index.html</loc>
-    <lastmod>2026-05-23T16:18:42.061Z</lastmod>
+    <lastmod>2026-11-18T13:10:45.844Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/research/index.html</loc>
-    <lastmod>2026-05-22T01:46:41.732Z</lastmod>
+    <lastmod>2026-11-18T13:10:44.454Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/research/articles/garlock-2022/index.html</loc>
-    <lastmod>2026-05-22T01:46:41.732Z</lastmod>
+    <lastmod>2026-11-18T13:10:44.452Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/research/articles/ceballos-2026-trade-costs/index.html</loc>
-    <lastmod>2026-05-22T15:00:08.191Z</lastmod>
+    <lastmod>2026-11-18T13:10:44.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/research/articles/ceballos-2026-size-premia/index.html</loc>
+    <lastmod>2026-11-18T14:21:54.179Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/research/articles/ceballos-2025/index.html</loc>
-    <lastmod>2026-05-22T01:46:41.675Z</lastmod>
+    <lastmod>2026-11-18T13:10:44.397Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/research/articles/ceballos 2021/index.html</loc>
-    <lastmod>2026-05-22T01:46:41.609Z</lastmod>
+    <lastmod>2026-11-18T13:10:44.346Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/reports/articles/simon-2019-metodologia/index.html</loc>
-    <lastmod>2026-05-22T15:14:55.946Z</lastmod>
+    <lastmod>2026-11-18T13:10:44.342Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/projects/index.html</loc>
-    <lastmod>2026-05-23T16:47:36.426Z</lastmod>
+    <lastmod>2026-11-18T14:22:18.404Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/statements/2026-06-27-joint-000001/index.html</loc>
+    <lastmod>2026-11-18T14:22:18.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/profiles.html</loc>
+    <lastmod>2026-11-18T14:22:18.401Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/es/statements/index.html</loc>
+    <lastmod>2026-11-18T14:22:18.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/es/reflections.html</loc>
+    <lastmod>2026-11-18T14:22:18.398Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/es/index.html</loc>
+    <lastmod>2026-11-18T14:22:18.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/conversations.html</loc>
+    <lastmod>2026-11-18T14:22:18.396Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/cv/index.html</loc>
-    <lastmod>2026-05-23T16:52:21.311Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2026/05/mutandislab/index.html</loc>
-    <lastmod>2026-05-23T16:09:06.020Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2025/07/curva_diversidad/index.html</loc>
-    <lastmod>2026-05-22T01:46:40.967Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2025/01/index_en.html</loc>
-    <lastmod>2026-05-22T01:46:40.817Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2024/02/index.html</loc>
-    <lastmod>2026-05-22T01:46:40.817Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2025/01/index.html</loc>
-    <lastmod>2026-05-22T01:46:40.817Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2025/02/ifq_academia/index.html</loc>
-    <lastmod>2026-05-22T01:46:40.817Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2025/07/diversity_ii/index.html</loc>
-    <lastmod>2026-05-22T01:46:40.987Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/index.html</loc>
-    <lastmod>2026-06-29T00:48:28.681Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/index.html</loc>
-    <lastmod>2026-05-22T02:15:07.912Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/reports/articles/simon-2019-estudio-base/index.html</loc>
-    <lastmod>2026-05-22T15:14:33.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/reports/index.html</loc>
-    <lastmod>2026-05-22T15:14:05.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/research/articles/ceballos-2018/index.html</loc>
-    <lastmod>2026-05-22T01:46:41.627Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/research/articles/ceballos-2025-AJAE/index.html</loc>
-    <lastmod>2026-05-22T14:53:37.984Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/research/articles/dias-2019-picinguaba/index.html</loc>
-    <lastmod>2026-05-22T15:03:58.938Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/research/articles/moor-2026-AJAE/index.html</loc>
-    <lastmod>2026-05-22T14:54:02.601Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/talks/2025/Aqua_America_NO25/index.html</loc>
-    <lastmod>2026-05-22T01:46:43.693Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2026/06/audiopapers/index.html</loc>
-    <lastmod>2026-06-18T00:41:57.670Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2026/06/audiopapers/index_es.html</loc>
-    <lastmod>2026-06-18T00:42:08.902Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.adamsceballos.com/blog/2026/06/que-tipo-de-objeto-es-un-llm/index.html</loc>
-    <lastmod>2026-06-29T00:49:34.705Z</lastmod>
+    <lastmod>2026-11-18T13:10:46.013Z</lastmod>
   </url>
   <url>
     <loc>https://www.adamsceballos.com/blog/2026/06/que-tipo-de-objeto-es-un-llm/index_en.html</loc>
-    <lastmod>2026-06-29T00:50:09.273Z</lastmod>
+    <lastmod>2026-11-18T13:10:43.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2026/06/audiopapers/index_es.html</loc>
+    <lastmod>2026-11-18T13:10:43.656Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2026/05/mutandislab/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2025/07/curva_diversidad/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2025/01/index_en.html</loc>
+    <lastmod>2026-11-18T13:10:43.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2024/02/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.484Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2025/01/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2025/02/ifq_academia/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.490Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2025/07/diversity_ii/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2026/06/audiopapers/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.656Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/2026/06/que-tipo-de-objeto-es-un-llm/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.718Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/blog/index.html</loc>
+    <lastmod>2026-11-18T13:10:43.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/index.html</loc>
+    <lastmod>2026-11-18T14:21:42.925Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/es/conversations.html</loc>
+    <lastmod>2026-11-18T14:22:18.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/es/profiles.html</loc>
+    <lastmod>2026-11-18T14:22:18.398Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/es/statements/2026-06-27-joint-000001/index.html</loc>
+    <lastmod>2026-11-18T14:22:18.399Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/index.html</loc>
+    <lastmod>2026-11-18T14:22:18.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/reflections.html</loc>
+    <lastmod>2026-11-18T14:22:18.402Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/projects/deliberation-lab/statements/index.html</loc>
+    <lastmod>2026-11-18T14:22:18.403Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/reports/articles/simon-2019-estudio-base/index.html</loc>
+    <lastmod>2026-11-18T13:10:44.334Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/reports/index.html</loc>
+    <lastmod>2026-11-18T13:10:44.342Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/research/articles/ceballos-2018/index.html</loc>
+    <lastmod>2026-11-18T13:10:44.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/research/articles/ceballos-2025-AJAE/index.html</loc>
+    <lastmod>2026-11-18T13:10:44.377Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/research/articles/dias-2019-picinguaba/index.html</loc>
+    <lastmod>2026-11-18T13:10:44.446Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/research/articles/moor-2026-AJAE/index.html</loc>
+    <lastmod>2026-11-18T13:10:44.454Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.adamsceballos.com/talks/2025/Aqua_America_NO25/index.html</loc>
+    <lastmod>2026-11-18T13:10:45.841Z</lastmod>
   </url>
 </urlset>

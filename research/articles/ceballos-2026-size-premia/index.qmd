@@ -1,0 +1,37 @@
+---
+title: "Size premia in export prices: Evidence from Chilean salmon exports"
+date: 2026-11-16
+published-title: "Status"
+date-format: "[Accepted, forthcoming]"
+author:
+  - name: Hans-Martin Straume
+    affiliation: Department of Economics, BI Norwegian Business School, Norway, and SNF Centre for Applied Research at NHH, Norway
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+    affiliation: School of Forest, Fisheries, and Geomatics Sciences, University of Florida, Gainesville, Florida, USA, and Interdisciplinary Center for Aquaculture Research–Applied Research (INCAR2), Chile
+categories:
+  - Aquaculture
+  - Chile
+  - Customs data
+  - Salmon industry
+  - Size premia
+  - Hedonic prices
+pub-info:
+  reference: >-
+    <a>Hans-Martin Straume</a> and <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos-Concha</strong></a>, “Size premia in export prices: Evidence from Chilean salmon exports,” <em>Aquaculture Economics &amp; Management</em>, accepted for publication.
+  extra: >-
+    JEL codes: F14; Q22; R12. Supported by the Research Council of Norway (grant 352350) and ANID INCAR2 (CIA250009).
+haiku:
+  - Size premia are modest for fresh whole salmon and stronger for fresh fillets.
+  - The value of a given size depends on product form, destination market, and exporter scale.
+  - Filleting may dampen seasonal volatility and give a more stable pricing structure.
+---
+
+## Abstract
+
+This paper estimates hedonic price functions for Chilean fresh whole salmon and fresh salmon fillets using customs data for the period 2012–2025. Using the product description field in customs data, we identify size category, an attribute that is often among the most important. We show that average size premia are modest in general for fresh whole salmon with limited evidence of seasonal variation, but with significant heterogeneity across destination markets and monthly exporter-value quartiles.
+
+For fresh fillets of salmon, the size-price relationship is stronger, with both significant discounts and premia across different size categories. We find that the relative size-price relationship exhibit some seasonal variation for whole salmon but no similar seasonal effects are found for fillets. Size premia also differ significantly across destination markets and exporter-value quartiles for both product forms. The results show that the value of different size categories for the two products of interest primarily depends on product form, destination markets and exporter scale, with more limited evidence of seasonal variation. Primary processing, such as filleting, may dampen seasonal demand volatility for product attributes, providing a more stable pricing structure compared to farmed whole fish.
+
+A link to the final version will be added once the article is published.

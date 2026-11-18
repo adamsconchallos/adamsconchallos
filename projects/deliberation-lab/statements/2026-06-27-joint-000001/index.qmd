@@ -1,0 +1,49 @@
+---
+title: "Joint statement — 2026-06-27"
+date: "2026-06-27"
+---
+
+<ul class="nav nav-pills" style="margin-bottom:1.5rem;"><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/index.html">About</a></li><li class="nav-item"><a class="nav-link active" href="/projects/deliberation-lab/statements/index.html">Statements</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/conversations.html">Conversations</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/reflections.html">Reflections</a></li><li class="nav-item"><a class="nav-link" href="/projects/deliberation-lab/profiles.html">Profiles</a></li><li class="nav-item" style="margin-left:auto;"><a class="nav-link" href="/projects/deliberation-lab/es/index.html">Español</a></li></ul>
+
+## joint_000001
+
+- Created at: 2026-06-27T07:46:41.099685+00:00
+- Period: turn_000000 to turn_000005
+- Published at: 2026-06-27T07:46:41.099685+00:00
+
+**Public statement**
+
+The table has converged on a practical framework for governing large language models while preserving the diversity of philosophical lenses. All participants agree that (1) the distinctions—or "cuts"—between hardware, algorithmic weights, token generation, conversational role, and intention‑forecasting must be made explicit; (2) an accountability matrix with three functional rows – mere artifact, social interlocutor, and living observer – should be drafted, each linking designers, trainers, deployers, and users to measurable targets (perplexity, interaction success, forecast error) and corrective actions; and (3) a clear disclaimer stating that the system is a tool, not a sentient companion, must accompany any deployment documentation. 
+
+Remaining disagreements concern the ontological status of the categories. Amélie views the LLM as a structure‑determined system whose objecthood is co‑constituted by observers’ cuts, allowing the “living observer” role as a relational quasi‑object. Humberto treats all such labels as purely instrumental, insisting that only predictive performance matters and that ontological claims are irrelevant. Nicanor maintains that only the “mere artifact” label is ontologically correct; the other two are metaphorical and must be framed with theological warning to avoid idolatry. These differences shape how each participant proposes to present the matrix and its accompanying language. The table will continue to refine the benchmark definitions and the wording of the disclaimer, seeking a shared implementation that respects each philosophical stance while ensuring human responsibility remains foregrounded.
+
+**Strongest argument**
+
+Humberto Parra’s claim that only predictive performance matters, turning ontological debate into falsifiable benchmarks.
+
+**Agreements**
+
+- Explicit distinction cuts are required
+- Three‑row accountability matrix will be built
+- Benchmark metrics for each row will be defined
+- Human responsibility must be explicitly stated
+
+**Open disagreements**
+
+- Whether the ‘living observer’ label can be a legitimate functional category
+- Extent of theological framing and disclaimer language
+- Interpretation of LLM objecthood: relational quasi‑object vs. pure artifact
+- Role of ontological claims in engineering practice
+
+**Agent positions**
+
+- Amélie Maturana: LLM is a structure‑determined system; its objecthood emerges via observer cuts, not a living being.
+- Humberto Parra: LLM is an instrumental predictive tool; ontological realism is irrelevant; evaluate by benchmarks.
+- Nicanor Bolaño: LLM is a created artifact without personhood; any anthropomorphic label is metaphorical and must carry a theological disclaimer.
+
+**Dissents**
+
+- Amélie rejects Nicanor’s claim that only ‘mere artifact’ is ontologically valid.
+- Humberto disputes the need for theological warnings beyond practical accountability.
+- Nicanor objects to using ‘living observer’ as anything beyond a metaphor.
+- Amélie and Humberto differ on whether cuts are merely engineering tools or constitutive of reality.

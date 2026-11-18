@@ -37,7 +37,8 @@
                         <% for (const link of item['pub-info'].links) { %>
                     <li class="project-link">
                         <% if (link.local) { %>
-                        <a href="<%- item.path.substring(0, item.path.lastIndexOf('/')) %>/<%- link.url %>">
+                        <% const itemPath = item.path.replace(/\\/g, '/'); %>
+                        <a href="<%- itemPath.substring(0, itemPath.lastIndexOf('/')) %>/<%- link.url %>">
                         <% } else { %>
                         <a href="<%- link.url %>">
                         <% } %>

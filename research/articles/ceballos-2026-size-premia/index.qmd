@@ -18,6 +18,11 @@ categories:
   - Size premia
   - Hedonic prices
 pub-info:
+  links:
+    - name: Resumen en español
+      url: resumen.html
+      local: true
+      icon: fa-solid fa-language
   reference: >-
     <a>Hans-Martin Straume</a> and <a href="https://adamsconchallos.github.io/adamsconchallos/"><strong>Adams Ceballos-Concha</strong></a>, “Size premia in export prices: Evidence from Chilean salmon exports,” <em>Aquaculture Economics &amp; Management</em>, accepted for publication.
   extra: >-

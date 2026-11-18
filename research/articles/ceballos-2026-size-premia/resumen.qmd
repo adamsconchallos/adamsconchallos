@@ -1,0 +1,112 @@
+---
+title: "¿Vale más un salmón más grande?"
+subtitle: "Lo que muestran los precios de exportación del salmón fresco chileno"
+description: "Resumen para tomadores de decisión del artículo *Size premia in export prices: Evidence from Chilean salmon exports*, de Hans-Martin Straume y Adams Ceballos-Concha, aceptado para publicación en *Aquaculture Economics & Management*."
+lang: es
+css: figs.css
+toc-title: Contenido
+back-link-url: index.html
+back-link-text: Volver al artículo
+author:
+  - name: Hans-Martin Straume
+  - name: Adams Ceballos-Concha
+    url: https://adamsconchallos.github.io/adamsconchallos/
+    orcid: 0000-0003-3822-8791
+---
+
+## La pregunta
+
+Chile es el segundo productor de salmón del mundo, después de Noruega.
+¿Cómo son estos salmones y qué precios tienen?
+Uno podría pensar que se paga más por un salmón más grande. Sin embargo, pensar en que el comprador solo piensa en kilos es, por decir lo menos, ingenuo. Los compradores buscan piezas que calcen con sus cortes, sus porciones y sus clientes.
+
+Entender esto importa para quienes producen y exportan.
+El peso al que se cosecha el salmón es una decisión productiva.
+Si el precio cambia con el tamaño, esa decisión tiene consecuencias económicas.
+También importa para quienes diseñan políticas de exportación y de valor agregado.
+
+## Qué hicimos
+
+Usamos los registros de aduanas de las exportaciones chilenas de salmón entero fresco y de filetes frescos entre 2012 y 2025.
+¡Son más de 900 mil envíos!
+
+Con estos datos comparamos envíos muy parecidos entre sí.
+Son envíos de una misma empresa, al mismo país y en el mismo mes, que difieren en el tamaño del pescado.
+Así, la diferencia de precio no refleja que una empresa venda más caro en general, ni que el mercado haya subido ese mes.
+Analizamos por separado el salmón entero y los filetes.
+También revisamos si las diferencias cambian según la época del año, el país de destino y la escala del exportador.
+
+{{< include _fig-valor-es.md >}}
+
+## Qué encontramos
+
+### En el salmón entero, el tamaño cambia poco el precio promedio
+
+Las diferencias promedio de precio entre tamaños de salmón entero son pequeñas.
+Los pescados de 2 a 3 kg se venden con un descuento de alrededor de 1,3% respecto de los de 5 a 6 kg.
+Los pescados de más de 6 kg obtienen un precio premium cercano a 1,5%.
+En los de más de 7 kg, ese premio baja a menos de 1% cuando se consideran el tamaño del envío y el medio de transporte.
+
+### En los filetes, el tamaño pesa más
+
+En los filetes, la relación entre tamaño y precio es más marcada.
+Hay descuentos y premios claros según el tamaño.
+Los filetes de 0,5 a 1 kg se venden con un descuento cercano a 7% respecto de los de 1 a 1,5 kg.
+Los de 1,5 a 2 kg obtienen un premio de alrededor de 2,5%.
+Los filetes de más de 2 kg obtienen un premio menor, cercano a 1%.
+Es decir, los filetes más grandes no son los mejor pagados.
+El mayor valor está en los tamaños intermedios.
+
+{{< include _fig-premios-es.md >}}
+
+### El fileteado se asocia con precios más estables durante el año
+
+¿Cambian estas diferencias según la época del año?
+En el salmón entero hay alguna variación estacional, aunque la evidencia es limitada.
+Se concentra en los pescados más pequeños, de 2 a 3 kg, y en los más grandes, de más de 7 kg.
+En los filetes no encontramos un patrón estacional.
+Los filetes pequeños tienen un descuento todo el año, y los de 1,5 a 2 kg un premio todo el año.
+Una explicación posible es que el fileteado transforma pescados de tamaños variables en productos más estandarizados.
+Eso daría una estructura de precios más estable a lo largo del año.
+
+### Cada mercado valora distinto los tamaños
+
+Los destinos están muy concentrados.
+Brasil recibe cerca de 62% del valor exportado de salmón entero fresco.
+Estados Unidos recibe 94% del valor de los filetes frescos.
+
+El valor de un tamaño depende también de dónde se vende.
+Las diferencias entre mercados son significativas para el salmón entero y para los filetes.
+Los mercados además reciben tamaños distintos.
+China pesa más entre los salmones enteros grandes y paga por ellos un premio cercano a 5%.
+En cambio, Estados Unidos paga cerca de 5% menos por los pescados de 2 a 3 kg.
+Argentina tiene su mayor participación entre los pescados pequeños, de 2 a 3 kg.
+
+{{< include _fig-mercados-es.md >}}
+
+### Quién exporta también importa
+
+Las exportaciones se concentran en pocas empresas.
+El cuarto de exportadores con mayor valor exportado en cada mes concentra cerca de dos tercios del valor total.
+Los premios por tamaño difieren según la escala del exportador, tanto en el salmón entero como en los filetes.
+En el salmón entero, los exportadores más pequeños tienden a obtener premios menores por los pescados grandes.
+Pero los más grandes no obtienen mejores precios relativos en todos los tamaños.
+Esto sugiere que las redes de compradores y la capacidad de procesamiento de cada empresa también influyen.
+
+## Qué significa para la política pública y la industria
+
+¿Qué puede hacer con estos resultados quien decide en el sector público o en la industria?
+Proponemos cuatro lecturas.
+
+1. **Un salmón más grande no garantiza un mejor precio.** La decisión de cuándo cosechar y a qué peso conviene evaluarla según el producto, el mercado de destino y la época del año.
+2. **Cada tamaño tiene su mercado.** Dirigir cada tamaño al mercado que más lo valora puede mejorar el precio obtenido. Esta información puede ser útil para la promoción de exportaciones y la apertura de mercados.
+3. **El procesamiento en Chile cumple un papel.** El fileteado se asocia con precios relativos más estables durante el año.
+4. **Las relaciones comerciales cuentan.** Las características del exportador y su vínculo con los compradores parecen influir en el precio de cada tamaño.
+
+
+
+## Referencia
+
+Straume, H.-M., & Ceballos-Concha, A. (en prensa). Size premia in export prices: Evidence from Chilean salmon exports. *Aquaculture Economics & Management*.
+
+Este trabajo recibió financiamiento del Research Council of Norway (proyecto 352350) y de ANID a través de INCAR2 (CIA250009).
